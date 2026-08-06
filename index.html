@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Szlaki Polski - MSB Planner</title>
-    <script type="module" crossorigin src="/Szlaki/assets/index-Dzjv2Rb9.js"></script>
-    <link rel="stylesheet" crossorigin href="/Szlaki/assets/index-CWnVbpuU.css">
+    <script type="module" crossorigin src="/Szlaki/assets/index-JiDP3mTI.js"></script>
+    <link rel="stylesheet" crossorigin href="/Szlaki/assets/index-C2cqiNP0.css">
   </head>
   <body>
     <div id="controls">
@@ -18,9 +18,14 @@
         <button class="day-btn" data-days="6">6 dni (Rekreacyjnie)</button>
       </div>
 
-      <div id="stages-summary">
-        <!-- Statystyki dni wygeneruje JavaScript -->
+      <div class="filter-section">
+        <p><strong>Warstwy na mapie:</strong></p>
+        <label><input type="checkbox" id="toggle-main-pois" checked /> Punkty etapowe (baza)</label>
+        <label><input type="checkbox" id="toggle-water" checked /> Źródła wody (OSM)</label>
+        <label><input type="checkbox" id="toggle-shelters" checked /> Wiaty i schrony (OSM)</label>
       </div>
+
+      <div id="stages-summary"></div>
     </div>
 
     <div id="map"></div>
