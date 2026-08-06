@@ -323,6 +323,22 @@ function updateDaysButtonsUI() {
 }
 
 function setupEvents() {
+  // Wysuwanie/zwijanie dolnego panelu na mobilce
+  const sidebar = document.getElementById('sidebar');
+  const sidebarToggle = document.getElementById('sidebar-toggle');
+
+  if (sidebarToggle && sidebar) {
+    sidebarToggle.addEventListener('click', () => {
+      // Tylko na mobilkach togglujemy klasę
+      if (window.innerWidth < 768) {
+        sidebar.classList.toggle('collapsed');
+        setTimeout(() => {
+          map.invalidateSize(); // Przelicz przerysowanie mapy Leaflet
+        }, 300);
+      }
+    });
+  }
+
   const profileButtons = document.querySelectorAll('.profile-btn');
   profileButtons.forEach(btn => {
     btn.addEventListener('click', (e) => {
@@ -341,6 +357,31 @@ function setupEvents() {
       renderVariant(currentDays);
     });
   });
+
+  const toggleMain = document.getElementById('toggle-main-pois');
+  if (toggleMain) {
+    toggleMain.addEventListener('change', (e) => {
+      if (e.target.checked) map.addLayer(mainPoisLayer);
+      else map.removeLayer(mainPoisLayer);
+    });
+  }
+
+  const toggleWater = document.getElementById('toggle-water');
+  if (toggleWater) {
+    toggleWater.addEventListener('change', (e) => {
+      if (e.target.checked) map.addLayer(waterPoisLayer);
+      else map.removeLayer(waterPoisLayer);
+    });
+  }
+
+  const toggleShelters = document.getElementById('toggle-shelters');
+  if (toggleShelters) {
+    toggleShelters.addEventListener('change', (e) => {
+      if (e.target.checked) map.addLayer(shelterPoisLayer);
+      else map.removeLayer(shelterPoisLayer);
+    });
+  }
+}
 
   const toggleMain = document.getElementById('toggle-main-pois');
   if (toggleMain) {
