@@ -1,0 +1,82 @@
+[
+  {
+    "id": "straconka",
+    "name": "Bielsko-Biała Straconka (Początek)",
+    "km": 0.0,
+    "type": "start",
+    "lat": 49.796956,
+    "lon": 19.094857
+  },
+  {
+    "id": "hrobacza",
+    "name": "Schronisko na Hrobaczej Łące",
+    "km": 11.5,
+    "type": "shelter",
+    "lat": 49.8229,
+    "lon": 19.1643
+  },
+  {
+    "id": "porabka",
+    "name": "Porąbka (Zapora)",
+    "km": 17.2,
+    "type": "town",
+    "lat": 49.8164,
+    "lon": 19.2223
+  },
+  {
+    "id": "potrojna",
+    "name": "Chatka pod Potrójną",
+    "km": 31.0,
+    "type": "shelter",
+    "lat": 49.7712,
+    "lon": 19.3789
+  },
+  {
+    "id": "leskowiec",
+    "name": "Schronisko PTTK na Leskowcu",
+    "km": 41.5,
+    "type": "shelter",
+    "lat": 49.7905,
+    "lon": 19.4939
+  },
+  {
+    "id": "zembrzyce",
+    "name": "Zembrzyce (PKP / Dolina Skawy)",
+    "km": 54.0,
+    "type": "town",
+    "lat": 49.7656,
+    "lon": 19.5938
+  },
+  {
+    "id": "chelm",
+    "name": "Góra Chełm / Myślenice (Zarabie)",
+    "km": 87.0,
+    "type": "town",
+    "lat": 49.8185,
+    "lon": 19.9482
+  },
+  {
+    "id": "kudlacze",
+    "name": "Schronisko PTTK na Kudłaczach",
+    "km": 97.5,
+    "type": "shelter",
+    "lat": 49.8052,
+    "lon": 20.0827
+  },
+  {
+    "id": "kasina",
+    "name": "Kasina Wielka (Przełęcz Gruszowiec)",
+    "km": 121.0,
+    "type": "town",
+    "lat": 49.7144,
+    "lon": 20.1558
+  },
+  {
+    "id": "lubon",
+    "name": "Schronisko PTTK na Luboniu Wielkim (Koniec)",
+    "km": 137.0,
+    "type": "finish",
+    "lat": 49.6552,
+    "lon": 19.9912
+  }
+]
