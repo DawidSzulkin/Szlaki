@@ -3,57 +3,57 @@
     "id": "straconka",
     "name": "Bielsko-Biała Straconka (Początek)",
     "km": 0.0,
-    "lat": 49.8023,
-    "lon": 19.0886
+    "lat": 49.8021,
+    "lon": 19.0884
   },
   {
     "id": "hrobacza",
     "name": "Schronisko na Hrobaczej Łące",
     "km": 11.5,
-    "lat": 49.8228,
-    "lon": 19.1656
+    "lat": 49.8219,
+    "lon": 19.1638
   },
   {
     "id": "porabka",
     "name": "Porąbka (Zapora)",
     "km": 17.5,
-    "lat": 49.8211,
-    "lon": 19.2241
+    "lat": 49.8183,
+    "lon": 19.2248
   },
   {
     "id": "potrojna",
     "name": "Chatka pod Potrójną",
     "km": 31.0,
-    "lat": 49.7719,
-    "lon": 19.3736
+    "lat": 49.7718,
+    "lon": 19.3735
   },
   {
     "id": "leskowiec",
     "name": "Schronisko PTTK pod Leskowcem",
     "km": 39.5,
-    "lat": 49.7891,
-    "lon": 19.4422
+    "lat": 49.7890,
+    "lon": 19.4420
   },
   {
     "id": "zembrzyce",
-    "name": "Zembrzyce (Przejście przez Skawę)",
+    "name": "Zembrzyce (Most na Skawie)",
     "km": 54.0,
     "lat": 49.7645,
     "lon": 19.5912
   },
   {
     "id": "chelm",
-    "name": "Myślenice Zarabie / Góra Chełm",
+    "name": "Myślenice Zarabie",
     "km": 87.0,
-    "lat": 49.8202,
-    "lon": 19.9388
+    "lat": 49.8038,
+    "lon": 19.9385
   },
   {
     "id": "kudlacze",
     "name": "Schronisko PTTK na Kudłaczach",
     "km": 97.0,
-    "lat": 49.8055,
-    "lon": 19.9982
+    "lat": 49.8054,
+    "lon": 19.9981
   },
   {
     "id": "kasina",
