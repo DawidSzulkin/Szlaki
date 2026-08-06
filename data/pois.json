@@ -3,80 +3,70 @@
     "id": "straconka",
     "name": "Bielsko-Biała Straconka (Początek)",
     "km": 0.0,
-    "type": "start",
-    "lat": 49.796956,
-    "lon": 19.094857
+    "lat": 49.8023,
+    "lon": 19.0886
   },
   {
     "id": "hrobacza",
     "name": "Schronisko na Hrobaczej Łące",
     "km": 11.5,
-    "type": "shelter",
-    "lat": 49.8229,
-    "lon": 19.1643
+    "lat": 49.8228,
+    "lon": 19.1656
   },
   {
     "id": "porabka",
     "name": "Porąbka (Zapora)",
-    "km": 17.2,
-    "type": "town",
-    "lat": 49.8164,
-    "lon": 19.2223
+    "km": 17.5,
+    "lat": 49.8211,
+    "lon": 19.2241
   },
   {
     "id": "potrojna",
     "name": "Chatka pod Potrójną",
     "km": 31.0,
-    "type": "shelter",
-    "lat": 49.7712,
-    "lon": 19.3789
+    "lat": 49.7719,
+    "lon": 19.3736
   },
   {
     "id": "leskowiec",
-    "name": "Schronisko PTTK na Leskowcu",
-    "km": 41.5,
-    "type": "shelter",
-    "lat": 49.7905,
-    "lon": 19.4939
+    "name": "Schronisko PTTK pod Leskowcem",
+    "km": 39.5,
+    "lat": 49.7891,
+    "lon": 19.4422
   },
   {
     "id": "zembrzyce",
-    "name": "Zembrzyce (PKP / Dolina Skawy)",
+    "name": "Zembrzyce (Przejście przez Skawę)",
     "km": 54.0,
-    "type": "town",
-    "lat": 49.7656,
-    "lon": 19.5938
+    "lat": 49.7645,
+    "lon": 19.5912
   },
   {
     "id": "chelm",
-    "name": "Góra Chełm / Myślenice (Zarabie)",
+    "name": "Myślenice Zarabie / Góra Chełm",
     "km": 87.0,
-    "type": "town",
-    "lat": 49.8185,
-    "lon": 19.9482
+    "lat": 49.8202,
+    "lon": 19.9388
   },
   {
     "id": "kudlacze",
     "name": "Schronisko PTTK na Kudłaczach",
-    "km": 97.5,
-    "type": "shelter",
-    "lat": 49.8052,
-    "lon": 20.0827
+    "km": 97.0,
+    "lat": 49.8055,
+    "lon": 19.9982
   },
   {
     "id": "kasina",
     "name": "Kasina Wielka (Przełęcz Gruszowiec)",
     "km": 121.0,
-    "type": "town",
-    "lat": 49.7144,
-    "lon": 20.1558
+    "lat": 49.6872,
+    "lon": 20.1444
   },
   {
     "id": "lubon",
     "name": "Schronisko PTTK na Luboniu Wielkim (Koniec)",
     "km": 137.0,
-    "type": "finish",
-    "lat": 49.6552,
+    "lat": 49.6586,
     "lon": 19.9912
   }
 ]
