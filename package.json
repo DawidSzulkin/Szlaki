@@ -1,14 +1,23 @@
 {
   "name": "szlaki-app",
-  "version": "0.0.0",
   "private": true,
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "vite build && gh-pages -d dist"
+  },
+  "dependencies": {
+    "geojson-path-finder": "^2.1.0",
+    "leaflet": "^1.9.4"
   },
   "devDependencies": {
-    "vite": "^8.2.0"
+    "@tmcw/togeojson": "^7.1.2",
+    "@turf/turf": "^7.4.0",
+    "@xmldom/xmldom": "^0.9.10",
+    "gh-pages": "^6.1.1",
+    "vite": "^5.0.0"
   }
 }
