@@ -1,33 +1,76 @@
 <!DOCTYPE html>
 <html lang="pl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Szlaki Polski - MSB Planner</title>
-    <script type="module" crossorigin src="/Szlaki/assets/index-DZoGedTH.js"></script>
-    <link rel="stylesheet" crossorigin href="/Szlaki/assets/index-C2cqiNP0.css">
-  </head>
-  <body>
-    <div id="controls">
-      <h2>Mały Szlak Beskidzki</h2>
-      <p>Wybierz czas przejścia (137 km):</p>
-      
-      <div class="day-selector">
-        <button class="day-btn" data-days="4">4 dni (Hardcore)</button>
-        <button class="day-btn active" data-days="5">5 dni (Optymalnie)</button>
-        <button class="day-btn" data-days="6">6 dni (Rekreacyjnie)</button>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>MSB Planner - Mały Szlak Beskidzki</title>
+  <script type="module" crossorigin src="/Szlaki/assets/index-LrBcMoRi.js"></script>
+  <link rel="stylesheet" crossorigin href="/Szlaki/assets/index-B7Oq-n0l.css">
+</head>
+<body>
+  <div id="app">
+    <aside id="sidebar" class="collapsed">
+      <button id="sidebar-toggle" aria-label="Przełącz panel sterowania">
+        <span class="handle-bar"></span>
+        <div class="sidebar-header-title">
+          <h1>Mały Szlak Beskidzki</h1>
+          <span class="toggle-icon">▲</span>
+        </div>
+      </button>
+
+      <div class="sidebar-content">
+        <p class="subtitle">137 km • Bielsko-Biała → Luboń Wielki</p>
+
+        <div class="control-section">
+          <label class="section-title">Profil trasy:</label>
+          <div class="profile-selector">
+            <button class="profile-btn active" data-profile="standard">Standard</button>
+            <button class="profile-btn" data-profile="fast_light">Fast & Light</button>
+            <button class="profile-btn" data-profile="wild">Namiot / Na dziko</button>
+          </div>
+        </div>
+
+        <div class="control-section">
+          <label class="section-title">Liczba dni:</label>
+          <div class="days-selector">
+            <button class="day-btn" data-days="3">3 dni</button>
+            <button class="day-btn" data-days="4">4 dni</button>
+            <button class="day-btn active" data-days="5">5 dni</button>
+            <button class="day-btn" data-days="6">6 dni</button>
+          </div>
+        </div>
+
+        <div class="control-section">
+          <label class="section-title">Warstwy i punkty:</label>
+          <div class="layer-toggles">
+            <label class="toggle-item">
+              <input type="checkbox" id="toggle-main-pois" checked />
+              Główne punkty / Noclegi
+            </label>
+            <label class="toggle-item">
+              <input type="checkbox" id="toggle-water" checked />
+              Źródła wody (OSM)
+            </label>
+            <label class="toggle-item">
+              <input type="checkbox" id="toggle-shelters" checked />
+              Wiaty i schrony (OSM)
+            </label>
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="control-section">
+          <label class="section-title">Podsumowanie etapów:</label>
+          <div id="stages-summary"></div>
+        </div>
       </div>
+    </aside>
 
-      <div class="filter-section">
-        <p><strong>Warstwy na mapie:</strong></p>
-        <label><input type="checkbox" id="toggle-main-pois" checked /> Punkty etapowe (baza)</label>
-        <label><input type="checkbox" id="toggle-water" checked /> Źródła wody (OSM)</label>
-        <label><input type="checkbox" id="toggle-shelters" checked /> Wiaty i schrony (OSM)</label>
-      </div>
+    <main id="map-container">
+      <div id="map"></div>
+    </main>
+  </div>
 
-      <div id="stages-summary"></div>
-    </div>
-
-    <div id="map"></div>
-  </body>
+</body>
 </html>
