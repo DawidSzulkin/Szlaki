@@ -1,0 +1,9042 @@
+[
+  {
+    "start_poi_id": "osm_31947027",
+    "start_name": "Szklary",
+    "start_coords": [
+      49.4716671,
+      21.8043271
+    ],
+    "end_poi_id": "osm_5254040841",
+    "end_name": "Białasowa Góra",
+    "end_coords": [
+      49.5924859,
+      21.920611
+    ],
+    "points_forward": 3,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_31947027",
+    "start_name": "Szklary",
+    "start_coords": [
+      49.4716671,
+      21.8043271
+    ],
+    "end_poi_id": "osm_1859447028",
+    "end_name": "Krempna",
+    "end_coords": [
+      49.5103475,
+      21.5031014
+    ],
+    "points_forward": 4,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_1859447028",
+    "start_name": "Krempna",
+    "start_coords": [
+      49.5103475,
+      21.5031014
+    ],
+    "end_poi_id": "osm_692613997",
+    "end_name": "Rymanów",
+    "end_coords": [
+      49.576131,
+      21.8676433
+    ],
+    "points_forward": 6,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_5254040841",
+    "start_name": "Białasowa Góra",
+    "start_coords": [
+      49.5924859,
+      21.920611
+    ],
+    "end_poi_id": "osm_562747538",
+    "end_name": "Niżna Łąka",
+    "end_coords": [
+      49.6277537,
+      21.731386
+    ],
+    "points_forward": 6,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_10052989667",
+    "start_name": "Wyżny Łazek",
+    "start_coords": [
+      49.4118009,
+      20.4219496
+    ],
+    "end_poi_id": "osm_509528889",
+    "end_name": "Repisko",
+    "end_coords": [
+      49.219015,
+      20.6509528
+    ],
+    "points_forward": 6,
+    "points_backward": 8
+  },
+  {
+    "start_poi_id": "osm_509528889",
+    "start_name": "Repisko",
+    "start_coords": [
+      49.219015,
+      20.6509528
+    ],
+    "end_poi_id": "osm_7781289005",
+    "end_name": "Torysa",
+    "end_coords": [
+      49.1655285,
+      20.8900401
+    ],
+    "points_forward": 9,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_4975767569",
+    "start_name": "Kotowiki Wyżne",
+    "start_coords": [
+      49.520454,
+      20.9140488
+    ],
+    "end_poi_id": "osm_2182693207",
+    "end_name": "Januszowa",
+    "end_coords": [
+      49.6456506,
+      20.7373724
+    ],
+    "points_forward": 6,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_3138120863",
+    "start_name": "Vysoká pec",
+    "start_coords": [
+      49.2065856,
+      20.6808874
+    ],
+    "end_poi_id": "osm_8525920872",
+    "end_name": "Czertezik",
+    "end_coords": [
+      49.4222507,
+      20.4342154
+    ],
+    "points_forward": 8,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_1903219340",
+    "start_name": "Krościenko nad Dunajcem",
+    "start_coords": [
+      49.4405519,
+      20.4277552
+    ],
+    "end_poi_id": "osm_441565942",
+    "end_name": "Sokolica",
+    "end_coords": [
+      49.4176509,
+      20.4403754
+    ],
+    "points_forward": 2,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_31947405",
+    "start_name": "Szczawnica",
+    "start_coords": [
+      49.4266299,
+      20.4761439
+    ],
+    "end_poi_id": "osm_269043643",
+    "end_name": "Przełęcz pod Szafranówką",
+    "end_coords": [
+      49.416032,
+      20.4644085
+    ],
+    "points_forward": 2,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_269043643",
+    "start_name": "Przełęcz pod Szafranówką",
+    "start_coords": [
+      49.416032,
+      20.4644085
+    ],
+    "end_poi_id": "osm_31947405",
+    "end_name": "Szczawnica",
+    "end_coords": [
+      49.4266299,
+      20.4761439
+    ],
+    "points_forward": 3,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_3725891463",
+    "start_name": "Jarmuta",
+    "start_coords": [
+      49.4109844,
+      20.505883
+    ],
+    "end_poi_id": "osm_31947405",
+    "end_name": "Szczawnica",
+    "end_coords": [
+      49.4266299,
+      20.4761439
+    ],
+    "points_forward": 6,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_3725891463",
+    "start_name": "Jarmuta",
+    "start_coords": [
+      49.4109844,
+      20.505883
+    ],
+    "end_poi_id": "osm_1405030518",
+    "end_name": "Szlachtowa",
+    "end_coords": [
+      49.4140433,
+      20.5261727
+    ],
+    "points_forward": 5,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_3725891463",
+    "start_name": "Jarmuta",
+    "start_coords": [
+      49.4109844,
+      20.505883
+    ],
+    "end_poi_id": "osm_269043643",
+    "end_name": "Przełęcz pod Szafranówką",
+    "end_coords": [
+      49.416032,
+      20.4644085
+    ],
+    "points_forward": 5,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_269043643",
+    "start_name": "Przełęcz pod Szafranówką",
+    "start_coords": [
+      49.416032,
+      20.4644085
+    ],
+    "end_poi_id": "osm_1405030518",
+    "end_name": "Szlachtowa",
+    "end_coords": [
+      49.4140433,
+      20.5261727
+    ],
+    "points_forward": 7,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_5060703492",
+    "start_name": "Durbaszka",
+    "start_coords": [
+      49.3869522,
+      20.5365867
+    ],
+    "end_poi_id": "osm_12250421169",
+    "end_name": "Jaworki",
+    "end_coords": [
+      49.4068988,
+      20.5536671
+    ],
+    "points_forward": 10,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_5060703492",
+    "start_name": "Durbaszka",
+    "start_coords": [
+      49.3869522,
+      20.5365867
+    ],
+    "end_poi_id": "osm_11048287484",
+    "end_name": "Przełęcz Rozdziela / Rozdiel",
+    "end_coords": [
+      49.3901653,
+      20.6014787
+    ],
+    "points_forward": 7,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_12250421169",
+    "start_name": "Jaworki",
+    "start_coords": [
+      49.4068988,
+      20.5536671
+    ],
+    "end_poi_id": "osm_1405030518",
+    "end_name": "Szlachtowa",
+    "end_coords": [
+      49.4140433,
+      20.5261727
+    ],
+    "points_forward": 2,
+    "points_backward": 1
+  },
+  {
+    "start_poi_id": "osm_12250421169",
+    "start_name": "Jaworki",
+    "start_coords": [
+      49.4068988,
+      20.5536671
+    ],
+    "end_poi_id": "osm_11048287484",
+    "end_name": "Przełęcz Rozdziela / Rozdiel",
+    "end_coords": [
+      49.3901653,
+      20.6014787
+    ],
+    "points_forward": 5,
+    "points_backward": 8
+  },
+  {
+    "start_poi_id": "osm_31947405",
+    "start_name": "Szczawnica",
+    "start_coords": [
+      49.4266299,
+      20.4761439
+    ],
+    "end_poi_id": "osm_1405030518",
+    "end_name": "Szlachtowa",
+    "end_coords": [
+      49.4140433,
+      20.5261727
+    ],
+    "points_forward": 2,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_3909167280",
+    "start_name": "Sobel Tylmanowski",
+    "start_coords": [
+      49.5085816,
+      20.4297375
+    ],
+    "end_poi_id": "osm_31941350",
+    "end_name": "Zabrzeż",
+    "end_coords": [
+      49.5464624,
+      20.4023601
+    ],
+    "points_forward": 12,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_3909167280",
+    "start_name": "Sobel Tylmanowski",
+    "start_coords": [
+      49.5085816,
+      20.4297375
+    ],
+    "end_poi_id": "osm_692609257",
+    "end_name": "Łącko",
+    "end_coords": [
+      49.5576697,
+      20.4349281
+    ],
+    "points_forward": 13,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_3909167280",
+    "start_name": "Sobel Tylmanowski",
+    "start_coords": [
+      49.5085816,
+      20.4297375
+    ],
+    "end_poi_id": "osm_692609259",
+    "end_name": "Jazowsko",
+    "end_coords": [
+      49.529779,
+      20.5171302
+    ],
+    "points_forward": 14,
+    "points_backward": 8
+  },
+  {
+    "start_poi_id": "osm_1903219340",
+    "start_name": "Krościenko nad Dunajcem",
+    "start_coords": [
+      49.4405519,
+      20.4277552
+    ],
+    "end_poi_id": "osm_13262890519",
+    "end_name": "Dolina Jaworzynki (850m npm)",
+    "end_coords": [
+      49.4739395,
+      20.5576221
+    ],
+    "points_forward": 6,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_1903219340",
+    "start_name": "Krościenko nad Dunajcem",
+    "start_coords": [
+      49.4405519,
+      20.4277552
+    ],
+    "end_poi_id": "osm_692609259",
+    "end_name": "Jazowsko",
+    "end_coords": [
+      49.529779,
+      20.5171302
+    ],
+    "points_forward": 15,
+    "points_backward": 9
+  },
+  {
+    "start_poi_id": "osm_3725887847",
+    "start_name": "Bryjarka",
+    "start_coords": [
+      49.4316982,
+      20.4810216
+    ],
+    "end_poi_id": "osm_31947405",
+    "end_name": "Szczawnica",
+    "end_coords": [
+      49.4266299,
+      20.4761439
+    ],
+    "points_forward": 5,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_31947405",
+    "start_name": "Szczawnica",
+    "start_coords": [
+      49.4266299,
+      20.4761439
+    ],
+    "end_poi_id": "osm_12250421168",
+    "end_name": "Szczawnica, ul. Główna",
+    "end_coords": [
+      49.4257409,
+      20.480951
+    ],
+    "points_forward": 1,
+    "points_backward": 1
+  },
+  {
+    "start_poi_id": "osm_11290366359",
+    "start_name": "Dzwonkówka",
+    "start_coords": [
+      49.4647224,
+      20.4816116
+    ],
+    "end_poi_id": "osm_13016361157",
+    "end_name": "Rytro PKP",
+    "end_coords": [
+      49.4868367,
+      20.6807763
+    ],
+    "points_forward": 18,
+    "points_backward": 10
+  },
+  {
+    "start_poi_id": "osm_11290366359",
+    "start_name": "Dzwonkówka",
+    "start_coords": [
+      49.4647224,
+      20.4816116
+    ],
+    "end_poi_id": "osm_692609259",
+    "end_name": "Jazowsko",
+    "end_coords": [
+      49.529779,
+      20.5171302
+    ],
+    "points_forward": 17,
+    "points_backward": 9
+  },
+  {
+    "start_poi_id": "osm_11290366359",
+    "start_name": "Dzwonkówka",
+    "start_coords": [
+      49.4647224,
+      20.4816116
+    ],
+    "end_poi_id": "osm_12250421169",
+    "end_name": "Jaworki",
+    "end_coords": [
+      49.4068988,
+      20.5536671
+    ],
+    "points_forward": 14,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_11290366359",
+    "start_name": "Dzwonkówka",
+    "start_coords": [
+      49.4647224,
+      20.4816116
+    ],
+    "end_poi_id": "osm_31949310",
+    "end_name": "Stary Sącz",
+    "end_coords": [
+      49.5640376,
+      20.6366038
+    ],
+    "points_forward": 21,
+    "points_backward": 12
+  },
+  {
+    "start_poi_id": "osm_11290366359",
+    "start_name": "Dzwonkówka",
+    "start_coords": [
+      49.4647224,
+      20.4816116
+    ],
+    "end_poi_id": "osm_666846538",
+    "end_name": "Barcice",
+    "end_coords": [
+      49.5250962,
+      20.6514646
+    ],
+    "points_forward": 19,
+    "points_backward": 11
+  },
+  {
+    "start_poi_id": "osm_11290366359",
+    "start_name": "Dzwonkówka",
+    "start_coords": [
+      49.4647224,
+      20.4816116
+    ],
+    "end_poi_id": "osm_7512280059",
+    "end_name": "Góra Konieczna (Groń)",
+    "end_coords": [
+      49.4707252,
+      20.5936412
+    ],
+    "points_forward": 4,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_11290366359",
+    "start_name": "Dzwonkówka",
+    "start_coords": [
+      49.4647224,
+      20.4816116
+    ],
+    "end_poi_id": "osm_1405030518",
+    "end_name": "Szlachtowa",
+    "end_coords": [
+      49.4140433,
+      20.5261727
+    ],
+    "points_forward": 15,
+    "points_backward": 8
+  },
+  {
+    "start_poi_id": "osm_11290366359",
+    "start_name": "Dzwonkówka",
+    "start_coords": [
+      49.4647224,
+      20.4816116
+    ],
+    "end_poi_id": "osm_31947405",
+    "end_name": "Szczawnica",
+    "end_coords": [
+      49.4266299,
+      20.4761439
+    ],
+    "points_forward": 15,
+    "points_backward": 8
+  },
+  {
+    "start_poi_id": "osm_1405030518",
+    "start_name": "Szlachtowa",
+    "start_coords": [
+      49.4140433,
+      20.5261727
+    ],
+    "end_poi_id": "osm_31947405",
+    "end_name": "Szczawnica",
+    "end_coords": [
+      49.4266299,
+      20.4761439
+    ],
+    "points_forward": 3,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_1405030518",
+    "start_name": "Szlachtowa",
+    "start_coords": [
+      49.4140433,
+      20.5261727
+    ],
+    "end_poi_id": "osm_12250421169",
+    "end_name": "Jaworki",
+    "end_coords": [
+      49.4068988,
+      20.5536671
+    ],
+    "points_forward": 1,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_12250421169",
+    "start_name": "Jaworki",
+    "start_coords": [
+      49.4068988,
+      20.5536671
+    ],
+    "end_poi_id": "osm_7131443172",
+    "end_name": "Niemcowa",
+    "end_coords": [
+      49.4495502,
+      20.6499209
+    ],
+    "points_forward": 5,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_12250421169",
+    "start_name": "Jaworki",
+    "start_coords": [
+      49.4068988,
+      20.5536671
+    ],
+    "end_poi_id": "osm_1500307261",
+    "end_name": "Polana Kosarzyska",
+    "end_coords": [
+      49.4170668,
+      20.4202071
+    ],
+    "points_forward": 5,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_1500307261",
+    "start_name": "Polana Kosarzyska",
+    "start_coords": [
+      49.4170668,
+      20.4202071
+    ],
+    "end_poi_id": "osm_7645784653",
+    "end_name": "Piwniczna-Zdrój",
+    "end_coords": [
+      49.4404673,
+      20.7173333
+    ],
+    "points_forward": 4,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_13016361157",
+    "start_name": "Rytro PKP",
+    "start_coords": [
+      49.4868367,
+      20.6807763
+    ],
+    "end_poi_id": "osm_692609338",
+    "end_name": "Młodów",
+    "end_coords": [
+      49.4687919,
+      20.6902427
+    ],
+    "points_forward": 11,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_13016361157",
+    "start_name": "Rytro PKP",
+    "start_coords": [
+      49.4868367,
+      20.6807763
+    ],
+    "end_poi_id": "osm_7645784653",
+    "end_name": "Piwniczna-Zdrój",
+    "end_coords": [
+      49.4404673,
+      20.7173333
+    ],
+    "points_forward": 12,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_13016361157",
+    "start_name": "Rytro PKP",
+    "start_coords": [
+      49.4868367,
+      20.6807763
+    ],
+    "end_poi_id": "osm_1500307261",
+    "end_name": "Polana Kosarzyska",
+    "end_coords": [
+      49.4170668,
+      20.4202071
+    ],
+    "points_forward": 9,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_12154124741",
+    "start_name": "Ostra",
+    "start_coords": [
+      49.6292493,
+      20.7985315
+    ],
+    "end_poi_id": "osm_666846538",
+    "end_name": "Barcice",
+    "end_coords": [
+      49.5250962,
+      20.6514646
+    ],
+    "points_forward": 14,
+    "points_backward": 9
+  },
+  {
+    "start_poi_id": "osm_12154124741",
+    "start_name": "Ostra",
+    "start_coords": [
+      49.6292493,
+      20.7985315
+    ],
+    "end_poi_id": "osm_31949310",
+    "end_name": "Stary Sącz",
+    "end_coords": [
+      49.5640376,
+      20.6366038
+    ],
+    "points_forward": 15,
+    "points_backward": 10
+  },
+  {
+    "start_poi_id": "osm_12154124741",
+    "start_name": "Ostra",
+    "start_coords": [
+      49.6292493,
+      20.7985315
+    ],
+    "end_poi_id": "osm_692609547",
+    "end_name": "Nowica",
+    "end_coords": [
+      49.5528014,
+      21.1836093
+    ],
+    "points_forward": 20,
+    "points_backward": 14
+  },
+  {
+    "start_poi_id": "osm_12154124741",
+    "start_name": "Ostra",
+    "start_coords": [
+      49.6292493,
+      20.7985315
+    ],
+    "end_poi_id": "osm_692609256",
+    "end_name": "Nawojowa",
+    "end_coords": [
+      49.55912,
+      20.74119
+    ],
+    "points_forward": 11,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_12154124741",
+    "start_name": "Ostra",
+    "start_coords": [
+      49.6292493,
+      20.7985315
+    ],
+    "end_poi_id": "osm_692609326",
+    "end_name": "Frycowa",
+    "end_coords": [
+      49.54653,
+      20.7679
+    ],
+    "points_forward": 10,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_13016361157",
+    "start_name": "Rytro PKP",
+    "start_coords": [
+      49.4868367,
+      20.6807763
+    ],
+    "end_poi_id": "osm_12154124741",
+    "end_name": "Ostra",
+    "end_coords": [
+      49.6292493,
+      20.7985315
+    ],
+    "points_forward": 5,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_13016361157",
+    "start_name": "Rytro PKP",
+    "start_coords": [
+      49.4868367,
+      20.6807763
+    ],
+    "end_poi_id": "osm_905195901",
+    "end_name": "Makowica",
+    "end_coords": [
+      49.4968779,
+      20.7129327
+    ],
+    "points_forward": 2,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_905195901",
+    "start_name": "Makowica",
+    "start_coords": [
+      49.4968779,
+      20.7129327
+    ],
+    "end_poi_id": "osm_692609326",
+    "end_name": "Frycowa",
+    "end_coords": [
+      49.54653,
+      20.7679
+    ],
+    "points_forward": 15,
+    "points_backward": 8
+  },
+  {
+    "start_poi_id": "osm_905195901",
+    "start_name": "Makowica",
+    "start_coords": [
+      49.4968779,
+      20.7129327
+    ],
+    "end_poi_id": "osm_692609421",
+    "end_name": "Łomnica-Zdrój",
+    "end_coords": [
+      49.4417544,
+      20.7466397
+    ],
+    "points_forward": 12,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_905195901",
+    "start_name": "Makowica",
+    "start_coords": [
+      49.4968779,
+      20.7129327
+    ],
+    "end_poi_id": "osm_7645784653",
+    "end_name": "Piwniczna-Zdrój",
+    "end_coords": [
+      49.4404673,
+      20.7173333
+    ],
+    "points_forward": 13,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_7645784653",
+    "start_name": "Piwniczna-Zdrój",
+    "start_coords": [
+      49.4404673,
+      20.7173333
+    ],
+    "end_poi_id": "osm_692609421",
+    "end_name": "Łomnica-Zdrój",
+    "end_coords": [
+      49.4417544,
+      20.7466397
+    ],
+    "points_forward": 3,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_1036619608",
+    "start_name": "Pisana Hala",
+    "start_coords": [
+      49.4801297,
+      20.7621346
+    ],
+    "end_poi_id": "osm_692609327",
+    "end_name": "Maciejowa",
+    "end_coords": [
+      49.5335476,
+      20.8258792
+    ],
+    "points_forward": 15,
+    "points_backward": 8
+  },
+  {
+    "start_poi_id": "osm_1036619608",
+    "start_name": "Pisana Hala",
+    "start_coords": [
+      49.4801297,
+      20.7621346
+    ],
+    "end_poi_id": "osm_11286197841",
+    "end_name": "Łabowa",
+    "end_coords": [
+      49.4828556,
+      20.7883866
+    ],
+    "points_forward": 14,
+    "points_backward": 8
+  },
+  {
+    "start_poi_id": "osm_1036619608",
+    "start_name": "Pisana Hala",
+    "start_coords": [
+      49.4801297,
+      20.7621346
+    ],
+    "end_poi_id": "osm_10998036294",
+    "end_name": "Wierchomla Wielka",
+    "end_coords": [
+      49.4320114,
+      20.8028399
+    ],
+    "points_forward": 10,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_4782539421",
+    "start_name": "Hala Łabowska Rozdroże",
+    "start_coords": [
+      49.4722639,
+      20.8121987
+    ],
+    "end_poi_id": "osm_11286197841",
+    "end_name": "Łabowa",
+    "end_coords": [
+      49.4828556,
+      20.7883866
+    ],
+    "points_forward": 18,
+    "points_backward": 12
+  },
+  {
+    "start_poi_id": "osm_4782539421",
+    "start_name": "Hala Łabowska Rozdroże",
+    "start_coords": [
+      49.4722639,
+      20.8121987
+    ],
+    "end_poi_id": "osm_4782395627",
+    "end_name": "Przysłop",
+    "end_coords": [
+      49.4408928,
+      20.9031283
+    ],
+    "points_forward": 4,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_4782539421",
+    "start_name": "Hala Łabowska Rozdroże",
+    "start_coords": [
+      49.4722639,
+      20.8121987
+    ],
+    "end_poi_id": "osm_692609382",
+    "end_name": "Muszynka",
+    "end_coords": [
+      49.38196,
+      21.07436
+    ],
+    "points_forward": 15,
+    "points_backward": 9
+  },
+  {
+    "start_poi_id": "osm_4782539421",
+    "start_name": "Hala Łabowska Rozdroże",
+    "start_coords": [
+      49.4722639,
+      20.8121987
+    ],
+    "end_poi_id": "osm_10990196982",
+    "end_name": "Bacówka nad Wierchomlą Schronisko PTTK",
+    "end_coords": [
+      49.4358851,
+      20.8484591
+    ],
+    "points_forward": 4,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_10990196982",
+    "start_name": "Bacówka nad Wierchomlą Schronisko PTTK",
+    "start_coords": [
+      49.4358851,
+      20.8484591
+    ],
+    "end_poi_id": "osm_692609342",
+    "end_name": "Milik",
+    "end_coords": [
+      49.3596667,
+      20.8544922
+    ],
+    "points_forward": 13,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_10990196982",
+    "start_name": "Bacówka nad Wierchomlą Schronisko PTTK",
+    "start_coords": [
+      49.4358851,
+      20.8484591
+    ],
+    "end_poi_id": "osm_31939803",
+    "end_name": "Żegiestów",
+    "end_coords": [
+      49.3769934,
+      20.7968185
+    ],
+    "points_forward": 13,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_10990196982",
+    "start_name": "Bacówka nad Wierchomlą Schronisko PTTK",
+    "start_coords": [
+      49.4358851,
+      20.8484591
+    ],
+    "end_poi_id": "osm_10998036294",
+    "end_name": "Wierchomla Wielka",
+    "end_coords": [
+      49.4320114,
+      20.8028399
+    ],
+    "points_forward": 9,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_31939803",
+    "start_name": "Żegiestów",
+    "start_coords": [
+      49.3769934,
+      20.7968185
+    ],
+    "end_poi_id": "osm_4343533170",
+    "end_name": "Pusta Wielka",
+    "end_coords": [
+      49.4062239,
+      20.82575
+    ],
+    "points_forward": 6,
+    "points_backward": 12
+  },
+  {
+    "start_poi_id": "osm_31943814",
+    "start_name": "Wierchomla Mała",
+    "start_coords": [
+      49.4294658,
+      20.8223074
+    ],
+    "end_poi_id": "osm_10998036294",
+    "end_name": "Wierchomla Wielka",
+    "end_coords": [
+      49.4320114,
+      20.8028399
+    ],
+    "points_forward": 5,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_10990270308",
+    "start_name": "Runek",
+    "start_coords": [
+      49.4422204,
+      20.8730794
+    ],
+    "end_poi_id": "osm_446634104",
+    "end_name": "Jastrzębik",
+    "end_coords": [
+      49.3865335,
+      20.9148043
+    ],
+    "points_forward": 11,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_10990270308",
+    "start_name": "Runek",
+    "start_coords": [
+      49.4422204,
+      20.8730794
+    ],
+    "end_poi_id": "osm_692609382",
+    "end_name": "Muszynka",
+    "end_coords": [
+      49.38196,
+      21.07436
+    ],
+    "points_forward": 14,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_31943317",
+    "start_name": "Wojkowa",
+    "start_coords": [
+      49.3475148,
+      20.9956843
+    ],
+    "end_poi_id": "osm_4225155153",
+    "end_name": "Dubne",
+    "end_coords": [
+      49.332152,
+      20.9560373
+    ],
+    "points_forward": 6,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_31943317",
+    "start_name": "Wojkowa",
+    "start_coords": [
+      49.3475148,
+      20.9956843
+    ],
+    "end_poi_id": "osm_298017892",
+    "end_name": "Leluchów",
+    "end_coords": [
+      49.3008768,
+      20.9365151
+    ],
+    "points_forward": 11,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_31943317",
+    "start_name": "Wojkowa",
+    "start_coords": [
+      49.3475148,
+      20.9956843
+    ],
+    "end_poi_id": "osm_298014658",
+    "end_name": "Muszyna",
+    "end_coords": [
+      49.3561684,
+      20.8967477
+    ],
+    "points_forward": 9,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_31943317",
+    "start_name": "Wojkowa",
+    "start_coords": [
+      49.3475148,
+      20.9956843
+    ],
+    "end_poi_id": "osm_692609266",
+    "end_name": "Powroźnik",
+    "end_coords": [
+      49.3706205,
+      20.9516912
+    ],
+    "points_forward": 10,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_4225433006",
+    "start_name": "Wysokie Bereście",
+    "start_coords": [
+      49.366256,
+      21.0263427
+    ],
+    "end_poi_id": "osm_31945387",
+    "end_name": "Tylicz",
+    "end_coords": [
+      49.3964757,
+      21.0236531
+    ],
+    "points_forward": 7,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_4225433006",
+    "start_name": "Wysokie Bereście",
+    "start_coords": [
+      49.366256,
+      21.0263427
+    ],
+    "end_poi_id": "osm_31943317",
+    "end_name": "Wojkowa",
+    "end_coords": [
+      49.3475148,
+      20.9956843
+    ],
+    "points_forward": 8,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_31945387",
+    "start_name": "Tylicz",
+    "start_coords": [
+      49.3964757,
+      21.0236531
+    ],
+    "end_poi_id": "osm_692609382",
+    "end_name": "Muszynka",
+    "end_coords": [
+      49.38196,
+      21.07436
+    ],
+    "points_forward": 3,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_31945387",
+    "start_name": "Tylicz",
+    "start_coords": [
+      49.3964757,
+      21.0236531
+    ],
+    "end_poi_id": "osm_692609266",
+    "end_name": "Powroźnik",
+    "end_coords": [
+      49.3706205,
+      20.9516912
+    ],
+    "points_forward": 9,
+    "points_backward": 8
+  },
+  {
+    "start_poi_id": "osm_4782395627",
+    "start_name": "Przysłop",
+    "start_coords": [
+      49.4408928,
+      20.9031283
+    ],
+    "end_poi_id": "osm_692609376",
+    "end_name": "Łosie",
+    "end_coords": [
+      49.472096,
+      20.9052166
+    ],
+    "points_forward": 9,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_4782395627",
+    "start_name": "Przysłop",
+    "start_coords": [
+      49.4408928,
+      20.9031283
+    ],
+    "end_poi_id": "osm_13262890519",
+    "end_name": "Dolina Jaworzynki (850m npm)",
+    "end_coords": [
+      49.4739395,
+      20.5576221
+    ],
+    "points_forward": 4,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_288825557",
+    "start_name": "Krynica-Zdrój",
+    "start_coords": [
+      49.4206138,
+      20.9594176
+    ],
+    "end_poi_id": "osm_692609381",
+    "end_name": "Mochnaczka Niżna",
+    "end_coords": [
+      49.4381927,
+      21.0103876
+    ],
+    "points_forward": 6,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_288825557",
+    "start_name": "Krynica-Zdrój",
+    "start_coords": [
+      49.4206138,
+      20.9594176
+    ],
+    "end_poi_id": "osm_692609380",
+    "end_name": "Mochnaczka Wyżna",
+    "end_coords": [
+      49.4513134,
+      20.9800871
+    ],
+    "points_forward": 7,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_288825557",
+    "start_name": "Krynica-Zdrój",
+    "start_coords": [
+      49.4206138,
+      20.9594176
+    ],
+    "end_poi_id": "osm_31945387",
+    "end_name": "Tylicz",
+    "end_coords": [
+      49.3964757,
+      21.0236531
+    ],
+    "points_forward": 7,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_288825557",
+    "start_name": "Krynica-Zdrój",
+    "start_coords": [
+      49.4206138,
+      20.9594176
+    ],
+    "end_poi_id": "osm_13767312151",
+    "end_name": "Dzielec",
+    "end_coords": [
+      49.4250675,
+      21.1747463
+    ],
+    "points_forward": 9,
+    "points_backward": 8
+  },
+  {
+    "start_poi_id": "osm_12144683010",
+    "start_name": "Góra Grabowa",
+    "start_coords": [
+      49.6408759,
+      20.7221457
+    ],
+    "end_poi_id": "osm_665675546",
+    "end_name": "Przydonica",
+    "end_coords": [
+      49.7291685,
+      20.7721946
+    ],
+    "points_forward": 6,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_1912006856",
+    "start_name": "Rajbrot",
+    "start_coords": [
+      49.8219848,
+      20.4878067
+    ],
+    "end_poi_id": "osm_1840925287",
+    "end_name": "Lipnica Murowana",
+    "end_coords": [
+      49.85894,
+      20.5274
+    ],
+    "points_forward": 4,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_1912006856",
+    "start_name": "Rajbrot",
+    "start_coords": [
+      49.8219848,
+      20.4878067
+    ],
+    "end_poi_id": "osm_5019771950",
+    "end_name": "Szpilówka",
+    "end_coords": [
+      49.8353298,
+      20.5620257
+    ],
+    "points_forward": 5,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_5019761170",
+    "start_name": "Dominiczna Góra",
+    "start_coords": [
+      49.8344161,
+      20.5054808
+    ],
+    "end_poi_id": "osm_1912006856",
+    "end_name": "Rajbrot",
+    "end_coords": [
+      49.8219848,
+      20.4878067
+    ],
+    "points_forward": 3,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_5019761170",
+    "start_name": "Dominiczna Góra",
+    "start_coords": [
+      49.8344161,
+      20.5054808
+    ],
+    "end_poi_id": "osm_1840925287",
+    "end_name": "Lipnica Murowana",
+    "end_coords": [
+      49.85894,
+      20.5274
+    ],
+    "points_forward": 8,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_5019761170",
+    "start_name": "Dominiczna Góra",
+    "start_coords": [
+      49.8344161,
+      20.5054808
+    ],
+    "end_poi_id": "osm_5019771950",
+    "end_name": "Szpilówka",
+    "end_coords": [
+      49.8353298,
+      20.5620257
+    ],
+    "points_forward": 4,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_5019761170",
+    "start_name": "Dominiczna Góra",
+    "start_coords": [
+      49.8344161,
+      20.5054808
+    ],
+    "end_poi_id": "osm_1912006235",
+    "end_name": "Iwkowa",
+    "end_coords": [
+      49.8171879,
+      20.5900198
+    ],
+    "points_forward": 5,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_5019761170",
+    "start_name": "Dominiczna Góra",
+    "start_coords": [
+      49.8344161,
+      20.5054808
+    ],
+    "end_poi_id": "osm_31943342",
+    "end_name": "Wojakowa",
+    "end_coords": [
+      49.8039741,
+      20.561666
+    ],
+    "points_forward": 6,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_5019761170",
+    "start_name": "Dominiczna Góra",
+    "start_coords": [
+      49.8344161,
+      20.5054808
+    ],
+    "end_poi_id": "osm_1912006831",
+    "end_name": "Porąbka Iwkowska",
+    "end_coords": [
+      49.79725,
+      20.59823
+    ],
+    "points_forward": 8,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_5019771950",
+    "start_name": "Szpilówka",
+    "start_coords": [
+      49.8353298,
+      20.5620257
+    ],
+    "end_poi_id": "osm_1840925287",
+    "end_name": "Lipnica Murowana",
+    "end_coords": [
+      49.85894,
+      20.5274
+    ],
+    "points_forward": 5,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_5019771950",
+    "start_name": "Szpilówka",
+    "start_coords": [
+      49.8353298,
+      20.5620257
+    ],
+    "end_poi_id": "osm_1912006235",
+    "end_name": "Iwkowa",
+    "end_coords": [
+      49.8171879,
+      20.5900198
+    ],
+    "points_forward": 3,
+    "points_backward": 1
+  },
+  {
+    "start_poi_id": "osm_1933057022",
+    "start_name": "Melsztyn",
+    "start_coords": [
+      49.8712712,
+      20.7707725
+    ],
+    "end_poi_id": "osm_1912006111",
+    "end_name": "Dębno",
+    "end_coords": [
+      49.9596622,
+      20.7172532
+    ],
+    "points_forward": 10,
+    "points_backward": 9
+  },
+  {
+    "start_poi_id": "osm_5119350196",
+    "start_name": "Panieńska Góra",
+    "start_coords": [
+      49.9264628,
+      20.8248246
+    ],
+    "end_poi_id": "osm_1912007081",
+    "end_name": "Wielka Wieś",
+    "end_coords": [
+      49.9380026,
+      20.8232925
+    ],
+    "points_forward": 3,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_5119350196",
+    "start_name": "Panieńska Góra",
+    "start_coords": [
+      49.9264628,
+      20.8248246
+    ],
+    "end_poi_id": "osm_31943251",
+    "end_name": "Wojnicz",
+    "end_coords": [
+      49.9573496,
+      20.8364048
+    ],
+    "points_forward": 6,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_13763563088",
+    "start_name": "Dział",
+    "start_coords": [
+      49.4553902,
+      21.1904133
+    ],
+    "end_poi_id": "osm_10981488401",
+    "end_name": "Rozdroże pod Kobylarką",
+    "end_coords": [
+      49.478263,
+      20.8291161
+    ],
+    "points_forward": 4,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_13763563088",
+    "start_name": "Dział",
+    "start_coords": [
+      49.4553902,
+      21.1904133
+    ],
+    "end_poi_id": "osm_6449371658",
+    "end_name": "Parkowa",
+    "end_coords": [
+      49.6572943,
+      21.1723025
+    ],
+    "points_forward": 3,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_11871647802",
+    "start_name": "Przełęcz Majdan",
+    "start_coords": [
+      49.5604636,
+      21.368534
+    ],
+    "end_poi_id": "osm_6449371658",
+    "end_name": "Parkowa",
+    "end_coords": [
+      49.6572943,
+      21.1723025
+    ],
+    "points_forward": 6,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_692609547",
+    "start_name": "Nowica",
+    "start_coords": [
+      49.5528014,
+      21.1836093
+    ],
+    "end_poi_id": "osm_1912006657",
+    "end_name": "Mogilno",
+    "end_coords": [
+      49.6541845,
+      20.8291757
+    ],
+    "points_forward": 5,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_4975107951",
+    "start_name": "Jodłowa Góra",
+    "start_coords": [
+      49.6347876,
+      20.8329169
+    ],
+    "end_poi_id": "osm_692609434",
+    "end_name": "Krużlowa Wyżna",
+    "end_coords": [
+      49.64457,
+      20.88869
+    ],
+    "points_forward": 9,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_4975107951",
+    "start_name": "Jodłowa Góra",
+    "start_coords": [
+      49.6347876,
+      20.8329169
+    ],
+    "end_poi_id": "osm_692609299",
+    "end_name": "Ptaszkowa",
+    "end_coords": [
+      49.6013865,
+      20.8865863
+    ],
+    "points_forward": 7,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_665675546",
+    "start_name": "Przydonica",
+    "start_coords": [
+      49.7291685,
+      20.7721946
+    ],
+    "end_poi_id": "osm_692609314",
+    "end_name": "Podole-Górowa",
+    "end_coords": [
+      49.7531424,
+      20.7994147
+    ],
+    "points_forward": 8,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_665675546",
+    "start_name": "Przydonica",
+    "start_coords": [
+      49.7291685,
+      20.7721946
+    ],
+    "end_poi_id": "osm_3235470501",
+    "end_name": "Przełęcz nad Bacówką",
+    "end_coords": [
+      49.5639731,
+      20.9106959
+    ],
+    "points_forward": 5,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_665675546",
+    "start_name": "Przydonica",
+    "start_coords": [
+      49.7291685,
+      20.7721946
+    ],
+    "end_poi_id": "osm_2668032831",
+    "end_name": "Siekierczyna",
+    "end_coords": [
+      49.7622713,
+      20.8942371
+    ],
+    "points_forward": 7,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_665675546",
+    "start_name": "Przydonica",
+    "start_coords": [
+      49.7291685,
+      20.7721946
+    ],
+    "end_poi_id": "osm_2484629598",
+    "end_name": "Falkowa",
+    "end_coords": [
+      49.7431624,
+      20.8850383
+    ],
+    "points_forward": 5,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_665675546",
+    "start_name": "Przydonica",
+    "start_coords": [
+      49.7291685,
+      20.7721946
+    ],
+    "end_poi_id": "osm_1912006247",
+    "end_name": "Jasienna",
+    "end_coords": [
+      49.718026,
+      20.8232766
+    ],
+    "points_forward": 6,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_2484629598",
+    "start_name": "Falkowa",
+    "start_coords": [
+      49.7431624,
+      20.8850383
+    ],
+    "end_poi_id": "osm_692609329",
+    "end_name": "Polany",
+    "end_coords": [
+      49.5211021,
+      20.9892943
+    ],
+    "points_forward": 5,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_2484629598",
+    "start_name": "Falkowa",
+    "start_coords": [
+      49.7431624,
+      20.8850383
+    ],
+    "end_poi_id": "osm_1855033871",
+    "end_name": "Ciężkowice",
+    "end_coords": [
+      49.786464,
+      20.9737542
+    ],
+    "points_forward": 8,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_2484629598",
+    "start_name": "Falkowa",
+    "start_coords": [
+      49.7431624,
+      20.8850383
+    ],
+    "end_poi_id": "osm_31949262",
+    "end_name": "Staszkówka",
+    "end_coords": [
+      49.7556168,
+      21.0238254
+    ],
+    "points_forward": 8,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_7887231371",
+    "start_name": "Olszowa",
+    "start_coords": [
+      49.8088448,
+      20.8364337
+    ],
+    "end_poi_id": "osm_12154124740",
+    "end_name": "Góry",
+    "end_coords": [
+      49.6267983,
+      20.8078356
+    ],
+    "points_forward": 8,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_7887231371",
+    "start_name": "Olszowa",
+    "start_coords": [
+      49.8088448,
+      20.8364337
+    ],
+    "end_poi_id": "osm_1912006254",
+    "end_name": "Jastrzębia",
+    "end_coords": [
+      49.8018732,
+      20.859122
+    ],
+    "points_forward": 8,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_7887231371",
+    "start_name": "Olszowa",
+    "start_coords": [
+      49.8088448,
+      20.8364337
+    ],
+    "end_poi_id": "osm_2668032831",
+    "end_name": "Siekierczyna",
+    "end_coords": [
+      49.7622713,
+      20.8942371
+    ],
+    "points_forward": 6,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_7204244833",
+    "start_name": "Palenica",
+    "start_coords": [
+      49.608046,
+      21.0843983
+    ],
+    "end_poi_id": "osm_7887231371",
+    "end_name": "Olszowa",
+    "end_coords": [
+      49.8088448,
+      20.8364337
+    ],
+    "points_forward": 2,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_7204244833",
+    "start_name": "Palenica",
+    "start_coords": [
+      49.608046,
+      21.0843983
+    ],
+    "end_poi_id": "osm_11871647802",
+    "end_name": "Przełęcz Majdan",
+    "end_coords": [
+      49.5604636,
+      21.368534
+    ],
+    "points_forward": 5,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_5255367760",
+    "start_name": "Mogiła",
+    "start_coords": [
+      49.6160467,
+      22.3141459
+    ],
+    "end_poi_id": "osm_5255772691",
+    "end_name": "Czechowa Góra",
+    "end_coords": [
+      49.4846627,
+      22.2313558
+    ],
+    "points_forward": 12,
+    "points_backward": 9
+  },
+  {
+    "start_poi_id": "osm_31941066",
+    "start_name": "Zakliczyn",
+    "start_coords": [
+      49.8564352,
+      20.8086652
+    ],
+    "end_poi_id": "osm_1912006254",
+    "end_name": "Jastrzębia",
+    "end_coords": [
+      49.8018732,
+      20.859122
+    ],
+    "points_forward": 4,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_13287963108",
+    "start_name": "Sucha Góra",
+    "start_coords": [
+      49.820252,
+      20.8412574
+    ],
+    "end_poi_id": "osm_1912006254",
+    "end_name": "Jastrzębia",
+    "end_coords": [
+      49.8018732,
+      20.859122
+    ],
+    "points_forward": 5,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_13287963108",
+    "start_name": "Sucha Góra",
+    "start_coords": [
+      49.820252,
+      20.8412574
+    ],
+    "end_poi_id": "osm_1854937123",
+    "end_name": "Siemiechów",
+    "end_coords": [
+      49.8534433,
+      20.9017161
+    ],
+    "points_forward": 8,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_13287963108",
+    "start_name": "Sucha Góra",
+    "start_coords": [
+      49.820252,
+      20.8412574
+    ],
+    "end_poi_id": "osm_1912006164",
+    "end_name": "Gromnik",
+    "end_coords": [
+      49.8381626,
+      20.9614301
+    ],
+    "points_forward": 11,
+    "points_backward": 9
+  },
+  {
+    "start_poi_id": "osm_13287963108",
+    "start_name": "Sucha Góra",
+    "start_coords": [
+      49.820252,
+      20.8412574
+    ],
+    "end_poi_id": "osm_1855033871",
+    "end_name": "Ciężkowice",
+    "end_coords": [
+      49.786464,
+      20.9737542
+    ],
+    "points_forward": 9,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_1854937123",
+    "start_name": "Siemiechów",
+    "start_coords": [
+      49.8534433,
+      20.9017161
+    ],
+    "end_poi_id": "osm_1912006626",
+    "end_name": "Lusławice",
+    "end_coords": [
+      49.8620765,
+      20.8232586
+    ],
+    "points_forward": 8,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_1854937123",
+    "start_name": "Siemiechów",
+    "start_coords": [
+      49.8534433,
+      20.9017161
+    ],
+    "end_poi_id": "osm_1933108023",
+    "end_name": "Janowice",
+    "end_coords": [
+      49.8911253,
+      20.8604372
+    ],
+    "points_forward": 6,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_1854937123",
+    "start_name": "Siemiechów",
+    "start_coords": [
+      49.8534433,
+      20.9017161
+    ],
+    "end_poi_id": "osm_692621124",
+    "end_name": "Błonie",
+    "end_coords": [
+      49.9566931,
+      20.9014848
+    ],
+    "points_forward": 18,
+    "points_backward": 14
+  },
+  {
+    "start_poi_id": "osm_1854937123",
+    "start_name": "Siemiechów",
+    "start_coords": [
+      49.8534433,
+      20.9017161
+    ],
+    "end_poi_id": "osm_1933108276",
+    "end_name": "Łowczówek",
+    "end_coords": [
+      49.9213872,
+      20.9560813
+    ],
+    "points_forward": 9,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_1854937123",
+    "start_name": "Siemiechów",
+    "start_coords": [
+      49.8534433,
+      20.9017161
+    ],
+    "end_poi_id": "osm_1933108274",
+    "end_name": "Łowczów",
+    "end_coords": [
+      49.9143956,
+      20.989083
+    ],
+    "points_forward": 12,
+    "points_backward": 10
+  },
+  {
+    "start_poi_id": "osm_1854937123",
+    "start_name": "Siemiechów",
+    "start_coords": [
+      49.8534433,
+      20.9017161
+    ],
+    "end_poi_id": "osm_1912006164",
+    "end_name": "Gromnik",
+    "end_coords": [
+      49.8381626,
+      20.9614301
+    ],
+    "points_forward": 11,
+    "points_backward": 8
+  },
+  {
+    "start_poi_id": "osm_5121510641",
+    "start_name": "Słona Góra",
+    "start_coords": [
+      49.9361478,
+      20.9904036
+    ],
+    "end_poi_id": "osm_1933108276",
+    "end_name": "Łowczówek",
+    "end_coords": [
+      49.9213872,
+      20.9560813
+    ],
+    "points_forward": 5,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_5121510641",
+    "start_name": "Słona Góra",
+    "start_coords": [
+      49.9361478,
+      20.9904036
+    ],
+    "end_poi_id": "osm_1933108123",
+    "end_name": "Piotrkowice",
+    "end_coords": [
+      49.924918,
+      21.0042564
+    ],
+    "points_forward": 3,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_5121514093",
+    "start_name": "Góra Świętego Marcina",
+    "start_coords": [
+      49.9847684,
+      21.0133467
+    ],
+    "end_poi_id": "osm_31940960",
+    "end_name": "Zalasowa",
+    "end_coords": [
+      49.9261898,
+      21.1265498
+    ],
+    "points_forward": 7,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_5335627376",
+    "start_name": "Kokocz",
+    "start_coords": [
+      49.9267627,
+      21.2073441
+    ],
+    "end_poi_id": "osm_31940960",
+    "end_name": "Zalasowa",
+    "end_coords": [
+      49.9261898,
+      21.1265498
+    ],
+    "points_forward": 8,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_5335627376",
+    "start_name": "Kokocz",
+    "start_coords": [
+      49.9267627,
+      21.2073441
+    ],
+    "end_poi_id": "osm_31939051",
+    "end_name": "Zwiernik",
+    "end_coords": [
+      49.9405087,
+      21.2082391
+    ],
+    "points_forward": 4,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_5335627376",
+    "start_name": "Kokocz",
+    "start_coords": [
+      49.9267627,
+      21.2073441
+    ],
+    "end_poi_id": "osm_1854937027",
+    "end_name": "Pilzno",
+    "end_coords": [
+      49.978578,
+      21.2908438
+    ],
+    "points_forward": 12,
+    "points_backward": 10
+  },
+  {
+    "start_poi_id": "osm_639338121",
+    "start_name": "Ostry Kamień (Pasia)",
+    "start_coords": [
+      49.84765,
+      21.13234
+    ],
+    "end_poi_id": "osm_5335627376",
+    "end_name": "Kokocz",
+    "end_coords": [
+      49.9267627,
+      21.2073441
+    ],
+    "points_forward": 11,
+    "points_backward": 10
+  },
+  {
+    "start_poi_id": "osm_639338850",
+    "start_name": "Gilowa Góra",
+    "start_coords": [
+      49.85379,
+      21.20228
+    ],
+    "end_poi_id": "osm_634625866",
+    "end_name": "Brzyska",
+    "end_coords": [
+      49.820283,
+      21.3907973
+    ],
+    "points_forward": 7,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_639338850",
+    "start_name": "Gilowa Góra",
+    "start_coords": [
+      49.85379,
+      21.20228
+    ],
+    "end_poi_id": "osm_602499181",
+    "end_name": "Kołaczyce",
+    "end_coords": [
+      49.8076605,
+      21.4340516
+    ],
+    "points_forward": 12,
+    "points_backward": 9
+  },
+  {
+    "start_poi_id": "osm_639338850",
+    "start_name": "Gilowa Góra",
+    "start_coords": [
+      49.85379,
+      21.20228
+    ],
+    "end_poi_id": "osm_634659950",
+    "end_name": "Jabłonica",
+    "end_coords": [
+      49.7911048,
+      21.3312985
+    ],
+    "points_forward": 8,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_1933108183",
+    "start_name": "Ryglice",
+    "start_coords": [
+      49.8783327,
+      21.1380371
+    ],
+    "end_poi_id": "osm_31939095",
+    "end_name": "Żurowa",
+    "end_coords": [
+      49.8259825,
+      21.1690449
+    ],
+    "points_forward": 6,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_1933108183",
+    "start_name": "Ryglice",
+    "start_coords": [
+      49.8783327,
+      21.1380371
+    ],
+    "end_poi_id": "osm_639332386",
+    "end_name": "Brzanka",
+    "end_coords": [
+      49.8446902,
+      21.0871971
+    ],
+    "points_forward": 5,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_31945638",
+    "start_name": "Tuchów",
+    "start_coords": [
+      49.895219,
+      21.0538362
+    ],
+    "end_poi_id": "osm_1933108183",
+    "end_name": "Ryglice",
+    "end_coords": [
+      49.8783327,
+      21.1380371
+    ],
+    "points_forward": 9,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_31945638",
+    "start_name": "Tuchów",
+    "start_coords": [
+      49.895219,
+      21.0538362
+    ],
+    "end_poi_id": "osm_639330163",
+    "end_name": "Rzepiennik Biskupi",
+    "end_coords": [
+      49.7934884,
+      21.0772081
+    ],
+    "points_forward": 8,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_31945638",
+    "start_name": "Tuchów",
+    "start_coords": [
+      49.895219,
+      21.0538362
+    ],
+    "end_poi_id": "osm_639330598",
+    "end_name": "Jodłówka Tuchowska",
+    "end_coords": [
+      49.8298132,
+      21.0717593
+    ],
+    "points_forward": 4,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_6466742895",
+    "start_name": "Morgi",
+    "start_coords": [
+      49.8471507,
+      21.048252
+    ],
+    "end_poi_id": "osm_1912006612",
+    "end_name": "Lubaszowa",
+    "end_coords": [
+      49.857411,
+      21.0356397
+    ],
+    "points_forward": 5,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_6466742895",
+    "start_name": "Morgi",
+    "start_coords": [
+      49.8471507,
+      21.048252
+    ],
+    "end_poi_id": "osm_639331811",
+    "end_name": "Nosalowa",
+    "end_coords": [
+      49.84159,
+      21.02375
+    ],
+    "points_forward": 4,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_639330163",
+    "start_name": "Rzepiennik Biskupi",
+    "start_coords": [
+      49.7934884,
+      21.0772081
+    ],
+    "end_poi_id": "osm_639335025",
+    "end_name": "Rzepiennik Suchy",
+    "end_coords": [
+      49.7790764,
+      21.1203238
+    ],
+    "points_forward": 6,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_31949262",
+    "start_name": "Staszkówka",
+    "start_coords": [
+      49.7556168,
+      21.0238254
+    ],
+    "end_poi_id": "osm_1855033871",
+    "end_name": "Ciężkowice",
+    "end_coords": [
+      49.786464,
+      20.9737542
+    ],
+    "points_forward": 6,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_31949262",
+    "start_name": "Staszkówka",
+    "start_coords": [
+      49.7556168,
+      21.0238254
+    ],
+    "end_poi_id": "osm_1912006851",
+    "end_name": "Pławna",
+    "end_coords": [
+      49.7541187,
+      20.9403832
+    ],
+    "points_forward": 8,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_31949262",
+    "start_name": "Staszkówka",
+    "start_coords": [
+      49.7556168,
+      21.0238254
+    ],
+    "end_poi_id": "osm_7963655859",
+    "end_name": "Pustki",
+    "end_coords": [
+      49.7195846,
+      21.0647629
+    ],
+    "points_forward": 6,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_7963655859",
+    "start_name": "Pustki",
+    "start_coords": [
+      49.7195846,
+      21.0647629
+    ],
+    "end_poi_id": "osm_2182693561",
+    "end_name": "Łużna",
+    "end_coords": [
+      49.712434,
+      21.0534773
+    ],
+    "points_forward": 3,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_7963655859",
+    "start_name": "Pustki",
+    "start_coords": [
+      49.7195846,
+      21.0647629
+    ],
+    "end_poi_id": "osm_31947499",
+    "end_name": "Szalowa",
+    "end_coords": [
+      49.6820756,
+      21.022621
+    ],
+    "points_forward": 6,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_7963655859",
+    "start_name": "Pustki",
+    "start_coords": [
+      49.7195846,
+      21.0647629
+    ],
+    "end_poi_id": "osm_31942819",
+    "end_name": "Wola Łużańska",
+    "end_coords": [
+      49.6912757,
+      21.0667426
+    ],
+    "points_forward": 4,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_1763537486",
+    "start_name": "Gorlice",
+    "start_coords": [
+      49.65829,
+      21.1593832
+    ],
+    "end_poi_id": "osm_31942819",
+    "end_name": "Wola Łużańska",
+    "end_coords": [
+      49.6912757,
+      21.0667426
+    ],
+    "points_forward": 7,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_31948787",
+    "start_name": "Stróżna",
+    "start_coords": [
+      49.6965382,
+      20.9815917
+    ],
+    "end_poi_id": "osm_31947499",
+    "end_name": "Szalowa",
+    "end_coords": [
+      49.6820756,
+      21.022621
+    ],
+    "points_forward": 10,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_31948787",
+    "start_name": "Stróżna",
+    "start_coords": [
+      49.6965382,
+      20.9815917
+    ],
+    "end_poi_id": "osm_692609321",
+    "end_name": "Szymbark",
+    "end_coords": [
+      49.6277444,
+      21.1084196
+    ],
+    "points_forward": 9,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_692609403",
+    "start_name": "Jamnica",
+    "start_coords": [
+      49.58637,
+      20.7461
+    ],
+    "end_poi_id": "osm_692609256",
+    "end_name": "Nawojowa",
+    "end_coords": [
+      49.55912,
+      20.74119
+    ],
+    "points_forward": 10,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_692609403",
+    "start_name": "Jamnica",
+    "start_coords": [
+      49.58637,
+      20.7461
+    ],
+    "end_poi_id": "osm_526101918",
+    "end_name": "Kamionka Wielka",
+    "end_coords": [
+      49.5786884,
+      20.790033
+    ],
+    "points_forward": 9,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_692609403",
+    "start_name": "Jamnica",
+    "start_coords": [
+      49.58637,
+      20.7461
+    ],
+    "end_poi_id": "osm_692609326",
+    "end_name": "Frycowa",
+    "end_coords": [
+      49.54653,
+      20.7679
+    ],
+    "points_forward": 8,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_692609299",
+    "start_name": "Ptaszkowa",
+    "start_coords": [
+      49.6013865,
+      20.8865863
+    ],
+    "end_poi_id": "osm_692609249",
+    "end_name": "Kąclowa",
+    "end_coords": [
+      49.5907001,
+      20.9632042
+    ],
+    "points_forward": 11,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_692609299",
+    "start_name": "Ptaszkowa",
+    "start_coords": [
+      49.6013865,
+      20.8865863
+    ],
+    "end_poi_id": "osm_692609203",
+    "end_name": "Grybów",
+    "end_coords": [
+      49.6250919,
+      20.9446455
+    ],
+    "points_forward": 14,
+    "points_backward": 8
+  },
+  {
+    "start_poi_id": "osm_692609299",
+    "start_name": "Ptaszkowa",
+    "start_coords": [
+      49.6013865,
+      20.8865863
+    ],
+    "end_poi_id": "osm_692609365",
+    "end_name": "Binczarowa",
+    "end_coords": [
+      49.5642807,
+      20.9519365
+    ],
+    "points_forward": 8,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_692609299",
+    "start_name": "Ptaszkowa",
+    "start_coords": [
+      49.6013865,
+      20.8865863
+    ],
+    "end_poi_id": "osm_692609404",
+    "end_name": "Bogusza",
+    "end_coords": [
+      49.5678391,
+      20.8847932
+    ],
+    "points_forward": 7,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_3867441066",
+    "start_name": "Hłocza",
+    "start_coords": [
+      49.5125927,
+      20.9656279
+    ],
+    "end_poi_id": "osm_692609329",
+    "end_name": "Polany",
+    "end_coords": [
+      49.5211021,
+      20.9892943
+    ],
+    "points_forward": 5,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_3867441066",
+    "start_name": "Hłocza",
+    "start_coords": [
+      49.5125927,
+      20.9656279
+    ],
+    "end_poi_id": "osm_692609370",
+    "end_name": "Kamianna",
+    "end_coords": [
+      49.524357,
+      20.9354361
+    ],
+    "points_forward": 6,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_3867441066",
+    "start_name": "Hłocza",
+    "start_coords": [
+      49.5125927,
+      20.9656279
+    ],
+    "end_poi_id": "osm_1036619723",
+    "end_name": "Jaworynki",
+    "end_coords": [
+      49.5035445,
+      20.9214214
+    ],
+    "points_forward": 6,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_7204225203",
+    "start_name": "Kiczera Wielka",
+    "start_coords": [
+      49.5350584,
+      21.0022358
+    ],
+    "end_poi_id": "osm_692609324",
+    "end_name": "Florynka",
+    "end_coords": [
+      49.5479,
+      20.98453
+    ],
+    "points_forward": 6,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_7204225203",
+    "start_name": "Kiczera Wielka",
+    "start_coords": [
+      49.5350584,
+      21.0022358
+    ],
+    "end_poi_id": "osm_3009691265",
+    "end_name": "Brunary",
+    "end_coords": [
+      49.5343134,
+      21.0321577
+    ],
+    "points_forward": 5,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_7204225203",
+    "start_name": "Kiczera Wielka",
+    "start_coords": [
+      49.5350584,
+      21.0022358
+    ],
+    "end_poi_id": "osm_1036620981",
+    "end_name": "Chlopski Wierch",
+    "end_coords": [
+      49.5011808,
+      21.0123914
+    ],
+    "points_forward": 5,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_7204225203",
+    "start_name": "Kiczera Wielka",
+    "start_coords": [
+      49.5350584,
+      21.0022358
+    ],
+    "end_poi_id": "osm_692609329",
+    "end_name": "Polany",
+    "end_coords": [
+      49.5211021,
+      20.9892943
+    ],
+    "points_forward": 5,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_1036620981",
+    "start_name": "Chlopski Wierch",
+    "start_coords": [
+      49.5011808,
+      21.0123914
+    ],
+    "end_poi_id": "osm_692609329",
+    "end_name": "Polany",
+    "end_coords": [
+      49.5211021,
+      20.9892943
+    ],
+    "points_forward": 4,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_1036620981",
+    "start_name": "Chlopski Wierch",
+    "start_coords": [
+      49.5011808,
+      21.0123914
+    ],
+    "end_poi_id": "osm_3009691265",
+    "end_name": "Brunary",
+    "end_coords": [
+      49.5343134,
+      21.0321577
+    ],
+    "points_forward": 8,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_1036620981",
+    "start_name": "Chlopski Wierch",
+    "start_coords": [
+      49.5011808,
+      21.0123914
+    ],
+    "end_poi_id": "osm_692609371",
+    "end_name": "Śnietnica",
+    "end_coords": [
+      49.5106408,
+      21.0545051
+    ],
+    "points_forward": 7,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_7204200072",
+    "start_name": "Harniaków Wierch",
+    "start_coords": [
+      49.468466,
+      20.9862779
+    ],
+    "end_poi_id": "osm_1036620981",
+    "end_name": "Chlopski Wierch",
+    "end_coords": [
+      49.5011808,
+      21.0123914
+    ],
+    "points_forward": 8,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_7204200072",
+    "start_name": "Harniaków Wierch",
+    "start_coords": [
+      49.468466,
+      20.9862779
+    ],
+    "end_poi_id": "osm_5474157571",
+    "end_name": "Huta",
+    "end_coords": [
+      49.4639075,
+      20.9551542
+    ],
+    "points_forward": 4,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_7204200072",
+    "start_name": "Harniaków Wierch",
+    "start_coords": [
+      49.468466,
+      20.9862779
+    ],
+    "end_poi_id": "osm_692609381",
+    "end_name": "Mochnaczka Niżna",
+    "end_coords": [
+      49.4381927,
+      21.0103876
+    ],
+    "points_forward": 7,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_7204200072",
+    "start_name": "Harniaków Wierch",
+    "start_coords": [
+      49.468466,
+      20.9862779
+    ],
+    "end_poi_id": "osm_692609371",
+    "end_name": "Śnietnica",
+    "end_coords": [
+      49.5106408,
+      21.0545051
+    ],
+    "points_forward": 10,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_7204200072",
+    "start_name": "Harniaków Wierch",
+    "start_coords": [
+      49.468466,
+      20.9862779
+    ],
+    "end_poi_id": "osm_692609542",
+    "end_name": "Banica",
+    "end_coords": [
+      49.4672187,
+      21.0494665
+    ],
+    "points_forward": 6,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_692609381",
+    "start_name": "Mochnaczka Niżna",
+    "start_coords": [
+      49.4381927,
+      21.0103876
+    ],
+    "end_poi_id": "osm_692609380",
+    "end_name": "Mochnaczka Wyżna",
+    "end_coords": [
+      49.4513134,
+      20.9800871
+    ],
+    "points_forward": 5,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_692609381",
+    "start_name": "Mochnaczka Niżna",
+    "start_coords": [
+      49.4381927,
+      21.0103876
+    ],
+    "end_poi_id": "osm_7221044259",
+    "end_name": "Czertyżne",
+    "end_coords": [
+      49.4754632,
+      21.0940897
+    ],
+    "points_forward": 3,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_692609381",
+    "start_name": "Mochnaczka Niżna",
+    "start_coords": [
+      49.4381927,
+      21.0103876
+    ],
+    "end_poi_id": "osm_692609543",
+    "end_name": "Izby",
+    "end_coords": [
+      49.4477571,
+      21.0657052
+    ],
+    "points_forward": 2,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_692609543",
+    "start_name": "Izby",
+    "start_coords": [
+      49.4477571,
+      21.0657052
+    ],
+    "end_poi_id": "osm_692609371",
+    "end_name": "Śnietnica",
+    "end_coords": [
+      49.5106408,
+      21.0545051
+    ],
+    "points_forward": 9,
+    "points_backward": 8
+  },
+  {
+    "start_poi_id": "osm_692609543",
+    "start_name": "Izby",
+    "start_coords": [
+      49.4477571,
+      21.0657052
+    ],
+    "end_poi_id": "osm_692609381",
+    "end_name": "Mochnaczka Niżna",
+    "end_coords": [
+      49.4381927,
+      21.0103876
+    ],
+    "points_forward": 6,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_13767312151",
+    "start_name": "Dzielec",
+    "start_coords": [
+      49.4250675,
+      21.1747463
+    ],
+    "end_poi_id": "osm_692609381",
+    "end_name": "Mochnaczka Niżna",
+    "end_coords": [
+      49.4381927,
+      21.0103876
+    ],
+    "points_forward": 5,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_13767312151",
+    "start_name": "Dzielec",
+    "start_coords": [
+      49.4250675,
+      21.1747463
+    ],
+    "end_poi_id": "osm_31945387",
+    "end_name": "Tylicz",
+    "end_coords": [
+      49.3964757,
+      21.0236531
+    ],
+    "points_forward": 6,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_13767312151",
+    "start_name": "Dzielec",
+    "start_coords": [
+      49.4250675,
+      21.1747463
+    ],
+    "end_poi_id": "osm_692609543",
+    "end_name": "Izby",
+    "end_coords": [
+      49.4477571,
+      21.0657052
+    ],
+    "points_forward": 8,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_13767312151",
+    "start_name": "Dzielec",
+    "start_coords": [
+      49.4250675,
+      21.1747463
+    ],
+    "end_poi_id": "osm_3803160607",
+    "end_name": "Huzary",
+    "end_coords": [
+      49.4142842,
+      20.9923569
+    ],
+    "points_forward": 8,
+    "points_backward": 9
+  },
+  {
+    "start_poi_id": "osm_692609382",
+    "start_name": "Muszynka",
+    "start_coords": [
+      49.38196,
+      21.07436
+    ],
+    "end_poi_id": "osm_31945387",
+    "end_name": "Tylicz",
+    "end_coords": [
+      49.3964757,
+      21.0236531
+    ],
+    "points_forward": 5,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_13767312151",
+    "start_name": "Dzielec",
+    "start_coords": [
+      49.4250675,
+      21.1747463
+    ],
+    "end_poi_id": "osm_7154884411",
+    "end_name": "Ostry Wierch",
+    "end_coords": [
+      49.4567612,
+      20.9075591
+    ],
+    "points_forward": 6,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_7154884411",
+    "start_name": "Ostry Wierch",
+    "start_coords": [
+      49.4567612,
+      20.9075591
+    ],
+    "end_poi_id": "osm_692609543",
+    "end_name": "Izby",
+    "end_coords": [
+      49.4477571,
+      21.0657052
+    ],
+    "points_forward": 9,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_7154884411",
+    "start_name": "Ostry Wierch",
+    "start_coords": [
+      49.4567612,
+      20.9075591
+    ],
+    "end_poi_id": "osm_1837889239",
+    "end_name": "Cigeľka",
+    "end_coords": [
+      49.408648,
+      21.1472388
+    ],
+    "points_forward": 3,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_692609541",
+    "start_name": "Ropki",
+    "start_coords": [
+      49.4591769,
+      21.1220971
+    ],
+    "end_poi_id": "osm_692609543",
+    "end_name": "Izby",
+    "end_coords": [
+      49.4477571,
+      21.0657052
+    ],
+    "points_forward": 7,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_692609541",
+    "start_name": "Ropki",
+    "start_coords": [
+      49.4591769,
+      21.1220971
+    ],
+    "end_poi_id": "osm_692609552",
+    "end_name": "Hańczowa",
+    "end_coords": [
+      49.4709376,
+      21.160939
+    ],
+    "points_forward": 5,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_692609541",
+    "start_name": "Ropki",
+    "start_coords": [
+      49.4591769,
+      21.1220971
+    ],
+    "end_poi_id": "osm_31941686",
+    "end_name": "Wysowa-Zdrój",
+    "end_coords": [
+      49.4354584,
+      21.1781165
+    ],
+    "points_forward": 7,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_692609541",
+    "start_name": "Ropki",
+    "start_coords": [
+      49.4591769,
+      21.1220971
+    ],
+    "end_poi_id": "osm_692609542",
+    "end_name": "Banica",
+    "end_coords": [
+      49.4672187,
+      21.0494665
+    ],
+    "points_forward": 8,
+    "points_backward": 8
+  },
+  {
+    "start_poi_id": "osm_692609541",
+    "start_name": "Ropki",
+    "start_coords": [
+      49.4591769,
+      21.1220971
+    ],
+    "end_poi_id": "osm_7221044259",
+    "end_name": "Czertyżne",
+    "end_coords": [
+      49.4754632,
+      21.0940897
+    ],
+    "points_forward": 3,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_692609541",
+    "start_name": "Ropki",
+    "start_coords": [
+      49.4591769,
+      21.1220971
+    ],
+    "end_poi_id": "osm_692609371",
+    "end_name": "Śnietnica",
+    "end_coords": [
+      49.5106408,
+      21.0545051
+    ],
+    "points_forward": 9,
+    "points_backward": 8
+  },
+  {
+    "start_poi_id": "osm_692609552",
+    "start_name": "Hańczowa",
+    "start_coords": [
+      49.4709376,
+      21.160939
+    ],
+    "end_poi_id": "osm_692609371",
+    "end_name": "Śnietnica",
+    "end_coords": [
+      49.5106408,
+      21.0545051
+    ],
+    "points_forward": 7,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_692609552",
+    "start_name": "Hańczowa",
+    "start_coords": [
+      49.4709376,
+      21.160939
+    ],
+    "end_poi_id": "osm_3009691265",
+    "end_name": "Brunary",
+    "end_coords": [
+      49.5343134,
+      21.0321577
+    ],
+    "points_forward": 11,
+    "points_backward": 8
+  },
+  {
+    "start_poi_id": "osm_692609552",
+    "start_name": "Hańczowa",
+    "start_coords": [
+      49.4709376,
+      21.160939
+    ],
+    "end_poi_id": "osm_31944770",
+    "end_name": "Uście Gorlickie",
+    "end_coords": [
+      49.5220361,
+      21.1388995
+    ],
+    "points_forward": 10,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_692609552",
+    "start_name": "Hańczowa",
+    "start_coords": [
+      49.4709376,
+      21.160939
+    ],
+    "end_poi_id": "osm_31949253",
+    "end_name": "Stawisza",
+    "end_coords": [
+      49.4923647,
+      21.0841045
+    ],
+    "points_forward": 5,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_692609552",
+    "start_name": "Hańczowa",
+    "start_coords": [
+      49.4709376,
+      21.160939
+    ],
+    "end_poi_id": "osm_692609541",
+    "end_name": "Ropki",
+    "end_coords": [
+      49.4591769,
+      21.1220971
+    ],
+    "points_forward": 8,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_31944770",
+    "start_name": "Uście Gorlickie",
+    "start_coords": [
+      49.5220361,
+      21.1388995
+    ],
+    "end_poi_id": "osm_3009691265",
+    "end_name": "Brunary",
+    "end_coords": [
+      49.5343134,
+      21.0321577
+    ],
+    "points_forward": 8,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_31944770",
+    "start_name": "Uście Gorlickie",
+    "start_coords": [
+      49.5220361,
+      21.1388995
+    ],
+    "end_poi_id": "osm_7204234206",
+    "end_name": "Flasza",
+    "end_coords": [
+      49.5433508,
+      21.0647682
+    ],
+    "points_forward": 3,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_4989924219",
+    "start_name": "Klimkówka",
+    "start_coords": [
+      49.6779344,
+      20.7223199
+    ],
+    "end_poi_id": "osm_692609532",
+    "end_name": "Wawrzka",
+    "end_coords": [
+      49.57164,
+      21.00381
+    ],
+    "points_forward": 7,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_3801408829",
+    "start_name": "Wysota",
+    "start_coords": [
+      49.4284498,
+      21.2059532
+    ],
+    "end_poi_id": "osm_31941686",
+    "end_name": "Wysowa-Zdrój",
+    "end_coords": [
+      49.4354584,
+      21.1781165
+    ],
+    "points_forward": 6,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_4225433006",
+    "start_name": "Wysokie Bereście",
+    "start_coords": [
+      49.366256,
+      21.0263427
+    ],
+    "end_poi_id": "osm_4217009498",
+    "end_name": "Margoń Wyżna",
+    "end_coords": [
+      49.5474474,
+      20.8231205
+    ],
+    "points_forward": 6,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_4225433006",
+    "start_name": "Wysokie Bereście",
+    "start_coords": [
+      49.366256,
+      21.0263427
+    ],
+    "end_poi_id": "osm_2469202668",
+    "end_name": "Przełęcz Regetowska",
+    "end_coords": [
+      49.4397969,
+      21.2482593
+    ],
+    "points_forward": 3,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_13262890519",
+    "start_name": "Dolina Jaworzynki (850m npm)",
+    "start_coords": [
+      49.4739395,
+      20.5576221
+    ],
+    "end_poi_id": "osm_4217009498",
+    "end_name": "Margoń Wyżna",
+    "end_coords": [
+      49.5474474,
+      20.8231205
+    ],
+    "points_forward": 6,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_31941686",
+    "start_name": "Wysowa-Zdrój",
+    "start_coords": [
+      49.4354584,
+      21.1781165
+    ],
+    "end_poi_id": "osm_692609552",
+    "end_name": "Hańczowa",
+    "end_coords": [
+      49.4709376,
+      21.160939
+    ],
+    "points_forward": 8,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_31941686",
+    "start_name": "Wysowa-Zdrój",
+    "start_coords": [
+      49.4354584,
+      21.1781165
+    ],
+    "end_poi_id": "osm_31944770",
+    "end_name": "Uście Gorlickie",
+    "end_coords": [
+      49.5220361,
+      21.1388995
+    ],
+    "points_forward": 14,
+    "points_backward": 10
+  },
+  {
+    "start_poi_id": "osm_31941686",
+    "start_name": "Wysowa-Zdrój",
+    "start_coords": [
+      49.4354584,
+      21.1781165
+    ],
+    "end_poi_id": "osm_2469202668",
+    "end_name": "Przełęcz Regetowska",
+    "end_coords": [
+      49.4397969,
+      21.2482593
+    ],
+    "points_forward": 7,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_9349163965",
+    "start_name": "Przełęcz Długie",
+    "start_coords": [
+      49.4590328,
+      21.400729
+    ],
+    "end_poi_id": "osm_692609553",
+    "end_name": "Gładyszów",
+    "end_coords": [
+      49.5209442,
+      21.264295
+    ],
+    "points_forward": 7,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_2469202668",
+    "start_name": "Przełęcz Regetowska",
+    "start_coords": [
+      49.4397969,
+      21.2482593
+    ],
+    "end_poi_id": "osm_9349163965",
+    "end_name": "Przełęcz Długie",
+    "end_coords": [
+      49.4590328,
+      21.400729
+    ],
+    "points_forward": 6,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_2469202668",
+    "start_name": "Przełęcz Regetowska",
+    "start_coords": [
+      49.4397969,
+      21.2482593
+    ],
+    "end_poi_id": "osm_31939826",
+    "end_name": "Zdynia",
+    "end_coords": [
+      49.4816491,
+      21.2791184
+    ],
+    "points_forward": 5,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_3800642602",
+    "start_name": "Rotunda",
+    "start_coords": [
+      49.4745601,
+      21.2357714
+    ],
+    "end_poi_id": "osm_288547312",
+    "end_name": "Regietów",
+    "end_coords": [
+      49.4655115,
+      21.2205878
+    ],
+    "points_forward": 4,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_3800642602",
+    "start_name": "Rotunda",
+    "start_coords": [
+      49.4745601,
+      21.2357714
+    ],
+    "end_poi_id": "osm_9349163965",
+    "end_name": "Przełęcz Długie",
+    "end_coords": [
+      49.4590328,
+      21.400729
+    ],
+    "points_forward": 6,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_3800642602",
+    "start_name": "Rotunda",
+    "start_coords": [
+      49.4745601,
+      21.2357714
+    ],
+    "end_poi_id": "osm_31939826",
+    "end_name": "Zdynia",
+    "end_coords": [
+      49.4816491,
+      21.2791184
+    ],
+    "points_forward": 7,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_692609321",
+    "start_name": "Szymbark",
+    "start_coords": [
+      49.6277444,
+      21.1084196
+    ],
+    "end_poi_id": "osm_692609534",
+    "end_name": "Bielanka",
+    "end_coords": [
+      49.5910684,
+      21.1169212
+    ],
+    "points_forward": 4,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_692609321",
+    "start_name": "Szymbark",
+    "start_coords": [
+      49.6277444,
+      21.1084196
+    ],
+    "end_poi_id": "osm_1763537486",
+    "end_name": "Gorlice",
+    "end_coords": [
+      49.65829,
+      21.1593832
+    ],
+    "points_forward": 10,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_692609321",
+    "start_name": "Szymbark",
+    "start_coords": [
+      49.6277444,
+      21.1084196
+    ],
+    "end_poi_id": "osm_3300262450",
+    "end_name": "Bartnia Góra",
+    "end_coords": [
+      49.609215,
+      21.130685
+    ],
+    "points_forward": 1,
+    "points_backward": 1
+  },
+  {
+    "start_poi_id": "osm_31943589",
+    "start_name": "Dziamera",
+    "start_coords": [
+      49.5528375,
+      21.3026117
+    ],
+    "end_poi_id": "osm_692609539",
+    "end_name": "Ropica Górna",
+    "end_coords": [
+      49.5979618,
+      21.232614
+    ],
+    "points_forward": 12,
+    "points_backward": 8
+  },
+  {
+    "start_poi_id": "osm_31943589",
+    "start_name": "Dziamera",
+    "start_coords": [
+      49.5528375,
+      21.3026117
+    ],
+    "end_poi_id": "osm_692609560",
+    "end_name": "Małastów",
+    "end_coords": [
+      49.5698331,
+      21.2420504
+    ],
+    "points_forward": 9,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_31943589",
+    "start_name": "Dziamera",
+    "start_coords": [
+      49.5528375,
+      21.3026117
+    ],
+    "end_poi_id": "osm_692609542",
+    "end_name": "Banica",
+    "end_coords": [
+      49.4672187,
+      21.0494665
+    ],
+    "points_forward": 3,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_31943589",
+    "start_name": "Dziamera",
+    "start_coords": [
+      49.5528375,
+      21.3026117
+    ],
+    "end_poi_id": "osm_692609364",
+    "end_name": "Bartne",
+    "end_coords": [
+      49.5655786,
+      21.3273005
+    ],
+    "points_forward": 4,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_31943589",
+    "start_name": "Dziamera",
+    "start_coords": [
+      49.5528375,
+      21.3026117
+    ],
+    "end_poi_id": "osm_692609561",
+    "end_name": "Bodaki",
+    "end_coords": [
+      49.5908923,
+      21.2895638
+    ],
+    "points_forward": 9,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_1763537486",
+    "start_name": "Gorlice",
+    "start_coords": [
+      49.65829,
+      21.1593832
+    ],
+    "end_poi_id": "osm_692609296",
+    "end_name": "Sękowa",
+    "end_coords": [
+      49.6128184,
+      21.2065054
+    ],
+    "points_forward": 5,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_1763537486",
+    "start_name": "Gorlice",
+    "start_coords": [
+      49.65829,
+      21.1593832
+    ],
+    "end_poi_id": "osm_31944379",
+    "end_name": "Wapienne",
+    "end_coords": [
+      49.6225986,
+      21.2917852
+    ],
+    "points_forward": 7,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_7209037092",
+    "start_name": "Męcińska Góra",
+    "start_coords": [
+      49.6031262,
+      21.2772253
+    ],
+    "end_poi_id": "osm_692609539",
+    "end_name": "Ropica Górna",
+    "end_coords": [
+      49.5979618,
+      21.232614
+    ],
+    "points_forward": 6,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_7209037092",
+    "start_name": "Męcińska Góra",
+    "start_coords": [
+      49.6031262,
+      21.2772253
+    ],
+    "end_poi_id": "osm_692609296",
+    "end_name": "Sękowa",
+    "end_coords": [
+      49.6128184,
+      21.2065054
+    ],
+    "points_forward": 11,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_7209037092",
+    "start_name": "Męcińska Góra",
+    "start_coords": [
+      49.6031262,
+      21.2772253
+    ],
+    "end_poi_id": "osm_692609571",
+    "end_name": "Męcina Mała",
+    "end_coords": [
+      49.6223381,
+      21.2384771
+    ],
+    "points_forward": 8,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_7209037092",
+    "start_name": "Męcińska Góra",
+    "start_coords": [
+      49.6031262,
+      21.2772253
+    ],
+    "end_poi_id": "osm_692609572",
+    "end_name": "Męcina Wielka",
+    "end_coords": [
+      49.6228331,
+      21.2653152
+    ],
+    "points_forward": 7,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_7209037092",
+    "start_name": "Męcińska Góra",
+    "start_coords": [
+      49.6031262,
+      21.2772253
+    ],
+    "end_poi_id": "osm_7209011206",
+    "end_name": "Ferdel",
+    "end_coords": [
+      49.6230881,
+      21.313608
+    ],
+    "points_forward": 8,
+    "points_backward": 8
+  },
+  {
+    "start_poi_id": "osm_7209037092",
+    "start_name": "Męcińska Góra",
+    "start_coords": [
+      49.6031262,
+      21.2772253
+    ],
+    "end_poi_id": "osm_692609561",
+    "end_name": "Bodaki",
+    "end_coords": [
+      49.5908923,
+      21.2895638
+    ],
+    "points_forward": 4,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_7209011206",
+    "start_name": "Ferdel",
+    "start_coords": [
+      49.6230881,
+      21.313608
+    ],
+    "end_poi_id": "osm_692609561",
+    "end_name": "Bodaki",
+    "end_coords": [
+      49.5908923,
+      21.2895638
+    ],
+    "points_forward": 6,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_7209011206",
+    "start_name": "Ferdel",
+    "start_coords": [
+      49.6230881,
+      21.313608
+    ],
+    "end_poi_id": "osm_7209037092",
+    "end_name": "Męcińska Góra",
+    "end_coords": [
+      49.6031262,
+      21.2772253
+    ],
+    "points_forward": 10,
+    "points_backward": 9
+  },
+  {
+    "start_poi_id": "osm_7209011206",
+    "start_name": "Ferdel",
+    "start_coords": [
+      49.6230881,
+      21.313608
+    ],
+    "end_poi_id": "osm_35180618",
+    "end_name": "Folusz",
+    "end_coords": [
+      49.6154171,
+      21.3790755
+    ],
+    "points_forward": 12,
+    "points_backward": 8
+  },
+  {
+    "start_poi_id": "osm_7209011206",
+    "start_name": "Ferdel",
+    "start_coords": [
+      49.6230881,
+      21.313608
+    ],
+    "end_poi_id": "osm_692609364",
+    "end_name": "Bartne",
+    "end_coords": [
+      49.5655786,
+      21.3273005
+    ],
+    "points_forward": 7,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_7209053602",
+    "start_name": "Kornuta",
+    "start_coords": [
+      49.5728222,
+      21.2578755
+    ],
+    "end_poi_id": "osm_692609364",
+    "end_name": "Bartne",
+    "end_coords": [
+      49.5655786,
+      21.3273005
+    ],
+    "points_forward": 6,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_7209053602",
+    "start_name": "Kornuta",
+    "start_coords": [
+      49.5728222,
+      21.2578755
+    ],
+    "end_poi_id": "osm_5448380147",
+    "end_name": "Wątkowa",
+    "end_coords": [
+      49.575417,
+      21.3662348
+    ],
+    "points_forward": 11,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_692609542",
+    "start_name": "Banica",
+    "start_coords": [
+      49.4672187,
+      21.0494665
+    ],
+    "end_poi_id": "osm_692609364",
+    "end_name": "Bartne",
+    "end_coords": [
+      49.5655786,
+      21.3273005
+    ],
+    "points_forward": 3,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_692609542",
+    "start_name": "Banica",
+    "start_coords": [
+      49.4672187,
+      21.0494665
+    ],
+    "end_poi_id": "osm_5448380147",
+    "end_name": "Wątkowa",
+    "end_coords": [
+      49.575417,
+      21.3662348
+    ],
+    "points_forward": 10,
+    "points_backward": 8
+  },
+  {
+    "start_poi_id": "osm_288770269",
+    "start_name": "Przełęcz Małastowska",
+    "start_coords": [
+      49.5441074,
+      21.2424824
+    ],
+    "end_poi_id": "osm_7231310165",
+    "end_name": "Pętna Góra",
+    "end_coords": [
+      49.5444685,
+      21.3035928
+    ],
+    "points_forward": 2,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_288770269",
+    "start_name": "Przełęcz Małastowska",
+    "start_coords": [
+      49.5441074,
+      21.2424824
+    ],
+    "end_poi_id": "osm_692609553",
+    "end_name": "Gładyszów",
+    "end_coords": [
+      49.5209442,
+      21.264295
+    ],
+    "points_forward": 6,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_288770269",
+    "start_name": "Przełęcz Małastowska",
+    "start_coords": [
+      49.5441074,
+      21.2424824
+    ],
+    "end_poi_id": "osm_692609364",
+    "end_name": "Bartne",
+    "end_coords": [
+      49.5655786,
+      21.3273005
+    ],
+    "points_forward": 6,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_288770269",
+    "start_name": "Przełęcz Małastowska",
+    "start_coords": [
+      49.5441074,
+      21.2424824
+    ],
+    "end_poi_id": "osm_692609562",
+    "end_name": "Krzywa",
+    "end_coords": [
+      49.5162983,
+      21.3117523
+    ],
+    "points_forward": 5,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_9349163965",
+    "start_name": "Przełęcz Długie",
+    "start_coords": [
+      49.4590328,
+      21.400729
+    ],
+    "end_poi_id": "osm_692614014",
+    "end_name": "Jasionka",
+    "end_coords": [
+      49.5496875,
+      21.7260321
+    ],
+    "points_forward": 4,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_9349163965",
+    "start_name": "Przełęcz Długie",
+    "start_coords": [
+      49.4590328,
+      21.400729
+    ],
+    "end_poi_id": "osm_692609562",
+    "end_name": "Krzywa",
+    "end_coords": [
+      49.5162983,
+      21.3117523
+    ],
+    "points_forward": 6,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_9349163965",
+    "start_name": "Przełęcz Długie",
+    "start_coords": [
+      49.4590328,
+      21.400729
+    ],
+    "end_poi_id": "osm_31939826",
+    "end_name": "Zdynia",
+    "end_coords": [
+      49.4816491,
+      21.2791184
+    ],
+    "points_forward": 5,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_7223465623",
+    "start_name": "Dębi Wierch",
+    "start_coords": [
+      49.4399159,
+      21.395529
+    ],
+    "end_poi_id": "osm_3300277092",
+    "end_name": "Beskidek",
+    "end_coords": [
+      49.4585772,
+      21.2833784
+    ],
+    "points_forward": 9,
+    "points_backward": 8
+  },
+  {
+    "start_poi_id": "osm_7223465623",
+    "start_name": "Dębi Wierch",
+    "start_coords": [
+      49.4399159,
+      21.395529
+    ],
+    "end_poi_id": "osm_692609379",
+    "end_name": "Radocyna",
+    "end_coords": [
+      49.4470543,
+      21.3727062
+    ],
+    "points_forward": 4,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_7223465623",
+    "start_name": "Dębi Wierch",
+    "start_coords": [
+      49.4399159,
+      21.395529
+    ],
+    "end_poi_id": "osm_1859446998",
+    "end_name": "Grab",
+    "end_coords": [
+      49.4412162,
+      21.4387747
+    ],
+    "points_forward": 6,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_692609379",
+    "start_name": "Radocyna",
+    "start_coords": [
+      49.4470543,
+      21.3727062
+    ],
+    "end_poi_id": "osm_692614014",
+    "end_name": "Jasionka",
+    "end_coords": [
+      49.5496875,
+      21.7260321
+    ],
+    "points_forward": 10,
+    "points_backward": 10
+  },
+  {
+    "start_poi_id": "osm_1859446998",
+    "start_name": "Grab",
+    "start_coords": [
+      49.4412162,
+      21.4387747
+    ],
+    "end_poi_id": "osm_692614014",
+    "end_name": "Jasionka",
+    "end_coords": [
+      49.5496875,
+      21.7260321
+    ],
+    "points_forward": 13,
+    "points_backward": 12
+  },
+  {
+    "start_poi_id": "osm_1859446998",
+    "start_name": "Grab",
+    "start_coords": [
+      49.4412162,
+      21.4387747
+    ],
+    "end_poi_id": "osm_2867321439",
+    "end_name": "Ożenna",
+    "end_coords": [
+      49.4305193,
+      21.4521538
+    ],
+    "points_forward": 2,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_7814615159",
+    "start_name": "Wołowiec",
+    "start_coords": [
+      49.5173867,
+      21.3528829
+    ],
+    "end_poi_id": "osm_5448380147",
+    "end_name": "Wątkowa",
+    "end_coords": [
+      49.575417,
+      21.3662348
+    ],
+    "points_forward": 7,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_7814615159",
+    "start_name": "Wołowiec",
+    "start_coords": [
+      49.5173867,
+      21.3528829
+    ],
+    "end_poi_id": "osm_692609562",
+    "end_name": "Krzywa",
+    "end_coords": [
+      49.5162983,
+      21.3117523
+    ],
+    "points_forward": 4,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_3296639884",
+    "start_name": "Mareszka",
+    "start_coords": [
+      49.5426309,
+      21.3645873
+    ],
+    "end_poi_id": "osm_5255366943",
+    "end_name": "Wołowa",
+    "end_coords": [
+      49.4930023,
+      21.7276456
+    ],
+    "points_forward": 5,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_7237407813",
+    "start_name": "Uherec",
+    "start_coords": [
+      49.5123754,
+      21.3924879
+    ],
+    "end_poi_id": "osm_5255366943",
+    "end_name": "Wołowa",
+    "end_coords": [
+      49.4930023,
+      21.7276456
+    ],
+    "points_forward": 5,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_7237407813",
+    "start_name": "Uherec",
+    "start_coords": [
+      49.5123754,
+      21.3924879
+    ],
+    "end_poi_id": "osm_5448380147",
+    "end_name": "Wątkowa",
+    "end_coords": [
+      49.575417,
+      21.3662348
+    ],
+    "points_forward": 6,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_5263680094",
+    "start_name": "Nad Tysowym",
+    "start_coords": [
+      49.4370087,
+      21.49905
+    ],
+    "end_poi_id": "osm_2867321439",
+    "end_name": "Ożenna",
+    "end_coords": [
+      49.4305193,
+      21.4521538
+    ],
+    "points_forward": 6,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_5263680094",
+    "start_name": "Nad Tysowym",
+    "start_coords": [
+      49.4370087,
+      21.49905
+    ],
+    "end_poi_id": "osm_13749147386",
+    "end_name": "Czerszla",
+    "end_coords": [
+      49.5652203,
+      21.1920368
+    ],
+    "points_forward": 9,
+    "points_backward": 9
+  },
+  {
+    "start_poi_id": "osm_7781497084",
+    "start_name": "Ciechania",
+    "start_coords": [
+      49.4420497,
+      21.5105638
+    ],
+    "end_poi_id": "osm_1859446998",
+    "end_name": "Grab",
+    "end_coords": [
+      49.4412162,
+      21.4387747
+    ],
+    "points_forward": 6,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_1859447073",
+    "start_name": "Mrukowa",
+    "start_coords": [
+      49.5911207,
+      21.4521641
+    ],
+    "end_poi_id": "osm_9333581989",
+    "end_name": "Magura Małastowska",
+    "end_coords": [
+      49.5534505,
+      21.2195123
+    ],
+    "points_forward": 8,
+    "points_backward": 9
+  },
+  {
+    "start_poi_id": "osm_1859447073",
+    "start_name": "Mrukowa",
+    "start_coords": [
+      49.5911207,
+      21.4521641
+    ],
+    "end_poi_id": "osm_1859446973",
+    "end_name": "Desznica",
+    "end_coords": [
+      49.5541126,
+      21.4895638
+    ],
+    "points_forward": 5,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_1859447073",
+    "start_name": "Mrukowa",
+    "start_coords": [
+      49.5911207,
+      21.4521641
+    ],
+    "end_poi_id": "osm_1859447028",
+    "end_name": "Krempna",
+    "end_coords": [
+      49.5103475,
+      21.5031014
+    ],
+    "points_forward": 14,
+    "points_backward": 11
+  },
+  {
+    "start_poi_id": "osm_1859447073",
+    "start_name": "Mrukowa",
+    "start_coords": [
+      49.5911207,
+      21.4521641
+    ],
+    "end_poi_id": "osm_5448380147",
+    "end_name": "Wątkowa",
+    "end_coords": [
+      49.575417,
+      21.3662348
+    ],
+    "points_forward": 7,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_35180618",
+    "start_name": "Folusz",
+    "start_coords": [
+      49.6154171,
+      21.3790755
+    ],
+    "end_poi_id": "osm_1859447073",
+    "end_name": "Mrukowa",
+    "end_coords": [
+      49.5911207,
+      21.4521641
+    ],
+    "points_forward": 4,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_35513995",
+    "start_name": "Myscowa",
+    "start_coords": [
+      49.5300118,
+      21.5549966
+    ],
+    "end_poi_id": "osm_3325132258",
+    "end_name": "Chyrowa",
+    "end_coords": [
+      49.529688,
+      21.6489484
+    ],
+    "points_forward": 7,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_33804677",
+    "start_name": "Tylawa",
+    "start_coords": [
+      49.4604069,
+      21.694059
+    ],
+    "end_poi_id": "osm_5255771778",
+    "end_name": "Zimny Wierch",
+    "end_coords": [
+      49.4351029,
+      21.6540276
+    ],
+    "points_forward": 7,
+    "points_backward": 9
+  },
+  {
+    "start_poi_id": "osm_1859447010",
+    "start_name": "Huta Polańska",
+    "start_coords": [
+      49.4511367,
+      21.5387652
+    ],
+    "end_poi_id": "osm_13749147386",
+    "end_name": "Czerszla",
+    "end_coords": [
+      49.5652203,
+      21.1920368
+    ],
+    "points_forward": 3,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_996419058",
+    "start_name": "Baranie",
+    "start_coords": [
+      49.1724536,
+      21.1475833
+    ],
+    "end_poi_id": "osm_4225155151",
+    "end_name": "Barwinek",
+    "end_coords": [
+      49.3333338,
+      20.9988933
+    ],
+    "points_forward": 14,
+    "points_backward": 11
+  },
+  {
+    "start_poi_id": "osm_3325132258",
+    "start_name": "Chyrowa",
+    "start_coords": [
+      49.529688,
+      21.6489484
+    ],
+    "end_poi_id": "osm_40641710",
+    "end_name": "Dukla",
+    "end_coords": [
+      49.55636,
+      21.6847523
+    ],
+    "points_forward": 9,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_3325132258",
+    "start_name": "Chyrowa",
+    "start_coords": [
+      49.529688,
+      21.6489484
+    ],
+    "end_poi_id": "osm_33804678",
+    "end_name": "Mszana",
+    "end_coords": [
+      49.4946469,
+      21.6484707
+    ],
+    "points_forward": 6,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_3325132258",
+    "start_name": "Chyrowa",
+    "start_coords": [
+      49.529688,
+      21.6489484
+    ],
+    "end_poi_id": "osm_31946010",
+    "end_name": "Trzciana",
+    "end_coords": [
+      49.5026463,
+      21.6985591
+    ],
+    "points_forward": 5,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_33804678",
+    "start_name": "Mszana",
+    "start_coords": [
+      49.4946469,
+      21.6484707
+    ],
+    "end_poi_id": "osm_3325132258",
+    "end_name": "Chyrowa",
+    "end_coords": [
+      49.529688,
+      21.6489484
+    ],
+    "points_forward": 6,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_33804678",
+    "start_name": "Mszana",
+    "start_coords": [
+      49.4946469,
+      21.6484707
+    ],
+    "end_poi_id": "osm_33804677",
+    "end_name": "Tylawa",
+    "end_coords": [
+      49.4604069,
+      21.694059
+    ],
+    "points_forward": 5,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_33804678",
+    "start_name": "Mszana",
+    "start_coords": [
+      49.4946469,
+      21.6484707
+    ],
+    "end_poi_id": "osm_3799250392",
+    "end_name": "Olchowiec",
+    "end_coords": [
+      49.4724218,
+      21.603299
+    ],
+    "points_forward": 6,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_692614003",
+    "start_name": "Cergowa",
+    "start_coords": [
+      49.5544627,
+      21.6904901
+    ],
+    "end_poi_id": "osm_40641710",
+    "end_name": "Dukla",
+    "end_coords": [
+      49.55636,
+      21.6847523
+    ],
+    "points_forward": 8,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_692614003",
+    "start_name": "Cergowa",
+    "start_coords": [
+      49.5544627,
+      21.6904901
+    ],
+    "end_poi_id": "osm_692614016",
+    "end_name": "Lubatowa",
+    "end_coords": [
+      49.5460448,
+      21.7594891
+    ],
+    "points_forward": 8,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_692614003",
+    "start_name": "Cergowa",
+    "start_coords": [
+      49.5544627,
+      21.6904901
+    ],
+    "end_poi_id": "osm_692614014",
+    "end_name": "Jasionka",
+    "end_coords": [
+      49.5496875,
+      21.7260321
+    ],
+    "points_forward": 6,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_692614003",
+    "start_name": "Cergowa",
+    "start_coords": [
+      49.5544627,
+      21.6904901
+    ],
+    "end_poi_id": "osm_31946010",
+    "end_name": "Trzciana",
+    "end_coords": [
+      49.5026463,
+      21.6985591
+    ],
+    "points_forward": 7,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_692614003",
+    "start_name": "Cergowa",
+    "start_coords": [
+      49.5544627,
+      21.6904901
+    ],
+    "end_poi_id": "osm_31940297",
+    "end_name": "Zawadka Rymanowska",
+    "end_coords": [
+      49.5056498,
+      21.7248717
+    ],
+    "points_forward": 7,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_692614003",
+    "start_name": "Cergowa",
+    "start_coords": [
+      49.5544627,
+      21.6904901
+    ],
+    "end_poi_id": "osm_8166271290",
+    "end_name": "Osiecznik",
+    "end_coords": [
+      49.5110668,
+      21.7810768
+    ],
+    "points_forward": 8,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_8166271290",
+    "start_name": "Osiecznik",
+    "start_coords": [
+      49.5110668,
+      21.7810768
+    ],
+    "end_poi_id": "osm_692614016",
+    "end_name": "Lubatowa",
+    "end_coords": [
+      49.5460448,
+      21.7594891
+    ],
+    "points_forward": 6,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_8166271290",
+    "start_name": "Osiecznik",
+    "start_coords": [
+      49.5110668,
+      21.7810768
+    ],
+    "end_poi_id": "osm_31940297",
+    "end_name": "Zawadka Rymanowska",
+    "end_coords": [
+      49.5056498,
+      21.7248717
+    ],
+    "points_forward": 7,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_8166271290",
+    "start_name": "Osiecznik",
+    "start_coords": [
+      49.5110668,
+      21.7810768
+    ],
+    "end_poi_id": "osm_692614037",
+    "end_name": "Królik Polski",
+    "end_coords": [
+      49.5129622,
+      21.8183816
+    ],
+    "points_forward": 5,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_8166271290",
+    "start_name": "Osiecznik",
+    "start_coords": [
+      49.5110668,
+      21.7810768
+    ],
+    "end_poi_id": "osm_31947027",
+    "end_name": "Szklary",
+    "end_coords": [
+      49.4716671,
+      21.8043271
+    ],
+    "points_forward": 7,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_12292393656",
+    "start_name": "Przymiarki",
+    "start_coords": [
+      49.5410521,
+      21.8059405
+    ],
+    "end_poi_id": "osm_692614173",
+    "end_name": "Rymanów-Zdrój",
+    "end_coords": [
+      49.54975,
+      21.85129
+    ],
+    "points_forward": 8,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_12292393656",
+    "start_name": "Przymiarki",
+    "start_coords": [
+      49.5410521,
+      21.8059405
+    ],
+    "end_poi_id": "osm_1859446973",
+    "end_name": "Desznica",
+    "end_coords": [
+      49.5541126,
+      21.4895638
+    ],
+    "points_forward": 4,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_12292393656",
+    "start_name": "Przymiarki",
+    "start_coords": [
+      49.5410521,
+      21.8059405
+    ],
+    "end_poi_id": "osm_635561654",
+    "end_name": "Iwonicz-Zdrój",
+    "end_coords": [
+      49.5696688,
+      21.7932328
+    ],
+    "points_forward": 7,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_12292393656",
+    "start_name": "Przymiarki",
+    "start_coords": [
+      49.5410521,
+      21.8059405
+    ],
+    "end_poi_id": "osm_692614016",
+    "end_name": "Lubatowa",
+    "end_coords": [
+      49.5460448,
+      21.7594891
+    ],
+    "points_forward": 6,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_12292393656",
+    "start_name": "Przymiarki",
+    "start_coords": [
+      49.5410521,
+      21.8059405
+    ],
+    "end_poi_id": "osm_692614037",
+    "end_name": "Królik Polski",
+    "end_coords": [
+      49.5129622,
+      21.8183816
+    ],
+    "points_forward": 6,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_12292393656",
+    "start_name": "Przymiarki",
+    "start_coords": [
+      49.5410521,
+      21.8059405
+    ],
+    "end_poi_id": "osm_8166271290",
+    "end_name": "Osiecznik",
+    "end_coords": [
+      49.5110668,
+      21.7810768
+    ],
+    "points_forward": 7,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_692614173",
+    "start_name": "Rymanów-Zdrój",
+    "start_coords": [
+      49.54975,
+      21.85129
+    ],
+    "end_poi_id": "osm_635561654",
+    "end_name": "Iwonicz-Zdrój",
+    "end_coords": [
+      49.5696688,
+      21.7932328
+    ],
+    "points_forward": 4,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_692614173",
+    "start_name": "Rymanów-Zdrój",
+    "start_coords": [
+      49.54975,
+      21.85129
+    ],
+    "end_poi_id": "osm_12292393656",
+    "end_name": "Przymiarki",
+    "end_coords": [
+      49.5410521,
+      21.8059405
+    ],
+    "points_forward": 2,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_35344674",
+    "start_name": "Piotruś",
+    "start_coords": [
+      49.4765803,
+      21.7495671
+    ],
+    "end_poi_id": "osm_33804677",
+    "end_name": "Tylawa",
+    "end_coords": [
+      49.4604069,
+      21.694059
+    ],
+    "points_forward": 8,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_35344674",
+    "start_name": "Piotruś",
+    "start_coords": [
+      49.4765803,
+      21.7495671
+    ],
+    "end_poi_id": "osm_31940297",
+    "end_name": "Zawadka Rymanowska",
+    "end_coords": [
+      49.5056498,
+      21.7248717
+    ],
+    "points_forward": 9,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_35344674",
+    "start_name": "Piotruś",
+    "start_coords": [
+      49.4765803,
+      21.7495671
+    ],
+    "end_poi_id": "osm_8166271290",
+    "end_name": "Osiecznik",
+    "end_coords": [
+      49.5110668,
+      21.7810768
+    ],
+    "points_forward": 8,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_35344674",
+    "start_name": "Piotruś",
+    "start_coords": [
+      49.4765803,
+      21.7495671
+    ],
+    "end_poi_id": "osm_692614044",
+    "end_name": "Jaśliska",
+    "end_coords": [
+      49.4416532,
+      21.8023473
+    ],
+    "points_forward": 10,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_35344674",
+    "start_name": "Piotruś",
+    "start_coords": [
+      49.4765803,
+      21.7495671
+    ],
+    "end_poi_id": "osm_31947027",
+    "end_name": "Szklary",
+    "end_coords": [
+      49.4716671,
+      21.8043271
+    ],
+    "points_forward": 9,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_4225155151",
+    "start_name": "Barwinek",
+    "start_coords": [
+      49.3333338,
+      20.9988933
+    ],
+    "end_poi_id": "osm_7237425303",
+    "end_name": "Mały Beskid",
+    "end_coords": [
+      49.4622542,
+      21.3561625
+    ],
+    "points_forward": 10,
+    "points_backward": 10
+  },
+  {
+    "start_poi_id": "osm_692614044",
+    "start_name": "Jaśliska",
+    "start_coords": [
+      49.4416532,
+      21.8023473
+    ],
+    "end_poi_id": "osm_13812874208",
+    "end_name": "Czeremcha (rázc.)",
+    "end_coords": [
+      49.3795177,
+      21.7823536
+    ],
+    "points_forward": 2,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_634168000",
+    "start_name": "Łęki Dukielskie",
+    "start_coords": [
+      49.6050744,
+      21.6672015
+    ],
+    "end_poi_id": "osm_31938883",
+    "end_name": "Zyndranowa",
+    "end_coords": [
+      49.4248135,
+      21.7195099
+    ],
+    "points_forward": 3,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_634168000",
+    "start_name": "Łęki Dukielskie",
+    "start_coords": [
+      49.6050744,
+      21.6672015
+    ],
+    "end_poi_id": "osm_5255771778",
+    "end_name": "Zimny Wierch",
+    "end_coords": [
+      49.4351029,
+      21.6540276
+    ],
+    "points_forward": 5,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_5255771803",
+    "start_name": "Przełęcz Dukielska",
+    "start_coords": [
+      49.4170111,
+      21.6948029
+    ],
+    "end_poi_id": "osm_5255771778",
+    "end_name": "Zimny Wierch",
+    "end_coords": [
+      49.4351029,
+      21.6540276
+    ],
+    "points_forward": 7,
+    "points_backward": 9
+  },
+  {
+    "start_poi_id": "osm_5255771803",
+    "start_name": "Przełęcz Dukielska",
+    "start_coords": [
+      49.4170111,
+      21.6948029
+    ],
+    "end_poi_id": "osm_31938883",
+    "end_name": "Zyndranowa",
+    "end_coords": [
+      49.4248135,
+      21.7195099
+    ],
+    "points_forward": 3,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_13812874208",
+    "start_name": "Czeremcha (rázc.)",
+    "start_coords": [
+      49.3795177,
+      21.7823536
+    ],
+    "end_poi_id": "osm_636136154",
+    "end_name": "Lipowica",
+    "end_coords": [
+      49.5398973,
+      21.6933587
+    ],
+    "points_forward": 8,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_13812874208",
+    "start_name": "Czeremcha (rázc.)",
+    "start_coords": [
+      49.3795177,
+      21.7823536
+    ],
+    "end_poi_id": "osm_692614044",
+    "end_name": "Jaśliska",
+    "end_coords": [
+      49.4416532,
+      21.8023473
+    ],
+    "points_forward": 11,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_4452390814",
+    "start_name": "Kanasiówka",
+    "start_coords": [
+      49.3501129,
+      21.9523898
+    ],
+    "end_poi_id": "osm_692614063",
+    "end_name": "Czystogarb",
+    "end_coords": [
+      49.35923,
+      22.02345
+    ],
+    "points_forward": 8,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_4452390814",
+    "start_name": "Kanasiówka",
+    "start_coords": [
+      49.3501129,
+      21.9523898
+    ],
+    "end_poi_id": "osm_5252075073",
+    "end_name": "Danowa",
+    "end_coords": [
+      49.4411531,
+      22.3172299
+    ],
+    "points_forward": 2,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_692614303",
+    "start_name": "Dołżyca",
+    "start_coords": [
+      49.3286799,
+      22.0256717
+    ],
+    "end_poi_id": "osm_692614072",
+    "end_name": "Radoszyce",
+    "end_coords": [
+      49.3063493,
+      22.0493339
+    ],
+    "points_forward": 9,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_692614067",
+    "start_name": "Komańcza",
+    "start_coords": [
+      49.336141,
+      22.0697551
+    ],
+    "end_poi_id": "osm_692614072",
+    "end_name": "Radoszyce",
+    "end_coords": [
+      49.3063493,
+      22.0493339
+    ],
+    "points_forward": 4,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_692614067",
+    "start_name": "Komańcza",
+    "start_coords": [
+      49.336141,
+      22.0697551
+    ],
+    "end_poi_id": "osm_692614063",
+    "end_name": "Czystogarb",
+    "end_coords": [
+      49.35923,
+      22.02345
+    ],
+    "points_forward": 5,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_8852294617",
+    "start_name": "Nowy Łupków",
+    "start_coords": [
+      49.2522211,
+      22.0840047
+    ],
+    "end_poi_id": "osm_5244161149",
+    "end_name": "Przełęcz Łupkowska",
+    "end_coords": [
+      49.2513282,
+      22.0402056
+    ],
+    "points_forward": 6,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_8852294617",
+    "start_name": "Nowy Łupków",
+    "start_coords": [
+      49.2522211,
+      22.0840047
+    ],
+    "end_poi_id": "osm_692614072",
+    "end_name": "Radoszyce",
+    "end_coords": [
+      49.3063493,
+      22.0493339
+    ],
+    "points_forward": 8,
+    "points_backward": 8
+  },
+  {
+    "start_poi_id": "osm_513454702",
+    "start_name": "Terpiak",
+    "start_coords": [
+      49.26874,
+      22.06252
+    ],
+    "end_poi_id": "osm_5244161149",
+    "end_name": "Przełęcz Łupkowska",
+    "end_coords": [
+      49.2513282,
+      22.0402056
+    ],
+    "points_forward": 6,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_513454702",
+    "start_name": "Terpiak",
+    "start_coords": [
+      49.26874,
+      22.06252
+    ],
+    "end_poi_id": "osm_4452481487",
+    "end_name": "Siwakowska dolina",
+    "end_coords": [
+      49.2624509,
+      22.0305214
+    ],
+    "points_forward": 4,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_513454702",
+    "start_name": "Terpiak",
+    "start_coords": [
+      49.26874,
+      22.06252
+    ],
+    "end_poi_id": "osm_692614072",
+    "end_name": "Radoszyce",
+    "end_coords": [
+      49.3063493,
+      22.0493339
+    ],
+    "points_forward": 7,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_513454702",
+    "start_name": "Terpiak",
+    "start_coords": [
+      49.26874,
+      22.06252
+    ],
+    "end_poi_id": "osm_8852294617",
+    "end_name": "Nowy Łupków",
+    "end_coords": [
+      49.2522211,
+      22.0840047
+    ],
+    "points_forward": 5,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_5244161149",
+    "start_name": "Przełęcz Łupkowska",
+    "start_coords": [
+      49.2513282,
+      22.0402056
+    ],
+    "end_poi_id": "osm_513454702",
+    "end_name": "Terpiak",
+    "end_coords": [
+      49.26874,
+      22.06252
+    ],
+    "points_forward": 4,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_5244161149",
+    "start_name": "Przełęcz Łupkowska",
+    "start_coords": [
+      49.2513282,
+      22.0402056
+    ],
+    "end_poi_id": "osm_4452481487",
+    "end_name": "Siwakowska dolina",
+    "end_coords": [
+      49.2624509,
+      22.0305214
+    ],
+    "points_forward": 6,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_692614072",
+    "start_name": "Radoszyce",
+    "start_coords": [
+      49.3063493,
+      22.0493339
+    ],
+    "end_poi_id": "osm_513454713",
+    "end_name": "Dyszowa",
+    "end_coords": [
+      49.3136453,
+      22.0829899
+    ],
+    "points_forward": 3,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_13763563088",
+    "start_name": "Dział",
+    "start_coords": [
+      49.4553902,
+      21.1904133
+    ],
+    "end_poi_id": "osm_1859446973",
+    "end_name": "Desznica",
+    "end_coords": [
+      49.5541126,
+      21.4895638
+    ],
+    "points_forward": 5,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_692614163",
+    "start_name": "Sieniawa",
+    "start_coords": [
+      49.5587216,
+      21.9294542
+    ],
+    "end_poi_id": "osm_2725155621",
+    "end_name": "Beska Góra",
+    "end_coords": [
+      49.5811156,
+      21.8936053
+    ],
+    "points_forward": 5,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_692614163",
+    "start_name": "Sieniawa",
+    "start_coords": [
+      49.5587216,
+      21.9294542
+    ],
+    "end_poi_id": "osm_31940688",
+    "end_name": "Zarszyn",
+    "end_coords": [
+      49.5831586,
+      22.0150158
+    ],
+    "points_forward": 7,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_692614163",
+    "start_name": "Sieniawa",
+    "start_coords": [
+      49.5587216,
+      21.9294542
+    ],
+    "end_poi_id": "osm_692614603",
+    "end_name": "Puławy",
+    "end_coords": [
+      49.49543,
+      21.90824
+    ],
+    "points_forward": 10,
+    "points_backward": 11
+  },
+  {
+    "start_poi_id": "osm_31946651",
+    "start_name": "Tarnawka",
+    "start_coords": [
+      49.5098856,
+      21.9091052
+    ],
+    "end_poi_id": "osm_692614603",
+    "end_name": "Puławy",
+    "end_coords": [
+      49.49543,
+      21.90824
+    ],
+    "points_forward": 2,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_5860324245",
+    "start_name": "Jawornik",
+    "start_coords": [
+      49.1351771,
+      22.4558791
+    ],
+    "end_poi_id": "osm_692614340",
+    "end_name": "Dwernik",
+    "end_coords": [
+      49.2064638,
+      22.6254389
+    ],
+    "points_forward": 9,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_692614603",
+    "start_name": "Puławy",
+    "start_coords": [
+      49.49543,
+      21.90824
+    ],
+    "end_poi_id": "osm_31942554",
+    "end_name": "Wola Sękowa",
+    "end_coords": [
+      49.5063584,
+      22.0042013
+    ],
+    "points_forward": 8,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_5255367660",
+    "start_name": "Fajtyska",
+    "start_coords": [
+      49.3865018,
+      22.0499133
+    ],
+    "end_poi_id": "osm_692614010",
+    "end_name": "Rzepedź",
+    "end_coords": [
+      49.384966,
+      22.1118034
+    ],
+    "points_forward": 9,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_5255367660",
+    "start_name": "Fajtyska",
+    "start_coords": [
+      49.3865018,
+      22.0499133
+    ],
+    "end_poi_id": "osm_1745897511",
+    "end_name": "Jasienina",
+    "end_coords": [
+      49.3867818,
+      22.0213736
+    ],
+    "points_forward": 4,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_5255367660",
+    "start_name": "Fajtyska",
+    "start_coords": [
+      49.3865018,
+      22.0499133
+    ],
+    "end_poi_id": "osm_692614047",
+    "end_name": "Karlików",
+    "end_coords": [
+      49.4360288,
+      22.0669538
+    ],
+    "points_forward": 8,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_5255367660",
+    "start_name": "Fajtyska",
+    "start_coords": [
+      49.3865018,
+      22.0499133
+    ],
+    "end_poi_id": "osm_692614067",
+    "end_name": "Komańcza",
+    "end_coords": [
+      49.336141,
+      22.0697551
+    ],
+    "points_forward": 1,
+    "points_backward": 1
+  },
+  {
+    "start_poi_id": "osm_1745897511",
+    "start_name": "Jasienina",
+    "start_coords": [
+      49.3867818,
+      22.0213736
+    ],
+    "end_poi_id": "osm_5255367660",
+    "end_name": "Fajtyska",
+    "end_coords": [
+      49.3865018,
+      22.0499133
+    ],
+    "points_forward": 1,
+    "points_backward": 1
+  },
+  {
+    "start_poi_id": "osm_1745897511",
+    "start_name": "Jasienina",
+    "start_coords": [
+      49.3867818,
+      22.0213736
+    ],
+    "end_poi_id": "osm_692614063",
+    "end_name": "Czystogarb",
+    "end_coords": [
+      49.35923,
+      22.02345
+    ],
+    "points_forward": 5,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_1745897511",
+    "start_name": "Jasienina",
+    "start_coords": [
+      49.3867818,
+      22.0213736
+    ],
+    "end_poi_id": "osm_5208053584",
+    "end_name": "Góry Wysokie",
+    "end_coords": [
+      49.5588664,
+      22.0491433
+    ],
+    "points_forward": 3,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_1745897511",
+    "start_name": "Jasienina",
+    "start_coords": [
+      49.3867818,
+      22.0213736
+    ],
+    "end_poi_id": "osm_31943512",
+    "end_name": "Wisłok Wielki",
+    "end_coords": [
+      49.41019,
+      21.9795
+    ],
+    "points_forward": 7,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_2727466108",
+    "start_name": "Wiecha",
+    "start_coords": [
+      49.5275491,
+      22.1531016
+    ],
+    "end_poi_id": "osm_39392569",
+    "end_name": "Sanok",
+    "end_coords": [
+      49.5609053,
+      22.207028
+    ],
+    "points_forward": 8,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_2727466108",
+    "start_name": "Wiecha",
+    "start_coords": [
+      49.5275491,
+      22.1531016
+    ],
+    "end_poi_id": "osm_31941081",
+    "end_name": "Zahutyń",
+    "end_coords": [
+      49.5214752,
+      22.2395931
+    ],
+    "points_forward": 11,
+    "points_backward": 9
+  },
+  {
+    "start_poi_id": "osm_2727466108",
+    "start_name": "Wiecha",
+    "start_coords": [
+      49.5275491,
+      22.1531016
+    ],
+    "end_poi_id": "osm_31941266",
+    "end_name": "Zagórz",
+    "end_coords": [
+      49.5098822,
+      22.2632894
+    ],
+    "points_forward": 12,
+    "points_backward": 10
+  },
+  {
+    "start_poi_id": "osm_2727466108",
+    "start_name": "Wiecha",
+    "start_coords": [
+      49.5275491,
+      22.1531016
+    ],
+    "end_poi_id": "osm_692614968",
+    "end_name": "Niebieszczany",
+    "end_coords": [
+      49.5071046,
+      22.1545726
+    ],
+    "points_forward": 3,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_2727466108",
+    "start_name": "Wiecha",
+    "start_coords": [
+      49.5275491,
+      22.1531016
+    ],
+    "end_poi_id": "osm_692614982",
+    "end_name": "Sanoczek",
+    "end_coords": [
+      49.552758,
+      22.144322
+    ],
+    "points_forward": 6,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_513454713",
+    "start_name": "Dyszowa",
+    "start_coords": [
+      49.3136453,
+      22.0829899
+    ],
+    "end_poi_id": "osm_692614067",
+    "end_name": "Komańcza",
+    "end_coords": [
+      49.336141,
+      22.0697551
+    ],
+    "points_forward": 6,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_513454713",
+    "start_name": "Dyszowa",
+    "start_coords": [
+      49.3136453,
+      22.0829899
+    ],
+    "end_poi_id": "osm_692614010",
+    "end_name": "Rzepedź",
+    "end_coords": [
+      49.384966,
+      22.1118034
+    ],
+    "points_forward": 13,
+    "points_backward": 10
+  },
+  {
+    "start_poi_id": "osm_513454713",
+    "start_name": "Dyszowa",
+    "start_coords": [
+      49.3136453,
+      22.0829899
+    ],
+    "end_poi_id": "osm_3723602622",
+    "end_name": "Jasieniowa",
+    "end_coords": [
+      49.3341686,
+      22.2141283
+    ],
+    "points_forward": 2,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_513454713",
+    "start_name": "Dyszowa",
+    "start_coords": [
+      49.3136453,
+      22.0829899
+    ],
+    "end_poi_id": "osm_692614072",
+    "end_name": "Radoszyce",
+    "end_coords": [
+      49.3063493,
+      22.0493339
+    ],
+    "points_forward": 5,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_4223484689",
+    "start_name": "Mikowa",
+    "start_coords": [
+      49.3541778,
+      20.8793218
+    ],
+    "end_poi_id": "osm_298014658",
+    "end_name": "Muszyna",
+    "end_coords": [
+      49.3561684,
+      20.8967477
+    ],
+    "points_forward": 3,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_8852294617",
+    "start_name": "Nowy Łupków",
+    "start_coords": [
+      49.2522211,
+      22.0840047
+    ],
+    "end_poi_id": "osm_513454702",
+    "end_name": "Terpiak",
+    "end_coords": [
+      49.26874,
+      22.06252
+    ],
+    "points_forward": 3,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_8852294617",
+    "start_name": "Nowy Łupków",
+    "start_coords": [
+      49.2522211,
+      22.0840047
+    ],
+    "end_poi_id": "osm_4452481487",
+    "end_name": "Siwakowska dolina",
+    "end_coords": [
+      49.2624509,
+      22.0305214
+    ],
+    "points_forward": 4,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_7488561363",
+    "start_name": "Wysoki Groń",
+    "start_coords": [
+      49.5177688,
+      20.6970266
+    ],
+    "end_poi_id": "osm_692609542",
+    "end_name": "Banica",
+    "end_coords": [
+      49.4672187,
+      21.0494665
+    ],
+    "points_forward": 3,
+    "points_backward": 1
+  },
+  {
+    "start_poi_id": "osm_5254040107",
+    "start_name": "Maguryczne",
+    "start_coords": [
+      49.2764618,
+      22.1533729
+    ],
+    "end_poi_id": "osm_692614331",
+    "end_name": "Smolnik",
+    "end_coords": [
+      49.26521,
+      22.1235
+    ],
+    "points_forward": 7,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_11037217189",
+    "start_name": "Przełęcz Żebrak",
+    "start_coords": [
+      49.2682906,
+      22.1946352
+    ],
+    "end_poi_id": "osm_692614331",
+    "end_name": "Smolnik",
+    "end_coords": [
+      49.26521,
+      22.1235
+    ],
+    "points_forward": 7,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_11037217189",
+    "start_name": "Przełęcz Żebrak",
+    "start_coords": [
+      49.2682906,
+      22.1946352
+    ],
+    "end_poi_id": "osm_1506926675",
+    "end_name": "Rabe",
+    "end_coords": [
+      49.2908819,
+      22.2156631
+    ],
+    "points_forward": 8,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_11037217189",
+    "start_name": "Przełęcz Żebrak",
+    "start_coords": [
+      49.2682906,
+      22.1946352
+    ],
+    "end_poi_id": "osm_31942748",
+    "end_name": "Wola Michowa",
+    "end_coords": [
+      49.23097,
+      22.16436
+    ],
+    "points_forward": 9,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_13763563088",
+    "start_name": "Dział",
+    "start_coords": [
+      49.4553902,
+      21.1904133
+    ],
+    "end_poi_id": "osm_298014658",
+    "end_name": "Muszyna",
+    "end_coords": [
+      49.3561684,
+      20.8967477
+    ],
+    "points_forward": 8,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_513454746",
+    "start_name": "Suliła",
+    "start_coords": [
+      49.3627903,
+      22.1679734
+    ],
+    "end_poi_id": "osm_692614010",
+    "end_name": "Rzepedź",
+    "end_coords": [
+      49.384966,
+      22.1118034
+    ],
+    "points_forward": 8,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_513454746",
+    "start_name": "Suliła",
+    "start_coords": [
+      49.3627903,
+      22.1679734
+    ],
+    "end_poi_id": "osm_5244161193",
+    "end_name": "Wierch Seredni",
+    "end_coords": [
+      49.2218064,
+      22.1158992
+    ],
+    "points_forward": 8,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_513454746",
+    "start_name": "Suliła",
+    "start_coords": [
+      49.3627903,
+      22.1679734
+    ],
+    "end_poi_id": "osm_692614264",
+    "end_name": "Kalnica",
+    "end_coords": [
+      49.36186,
+      22.2027462
+    ],
+    "points_forward": 6,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_513454746",
+    "start_name": "Suliła",
+    "start_coords": [
+      49.3627903,
+      22.1679734
+    ],
+    "end_poi_id": "osm_1161744907",
+    "end_name": "Morochów",
+    "end_coords": [
+      49.4660588,
+      22.1844618
+    ],
+    "points_forward": 7,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_513454727",
+    "start_name": "Chryszczata",
+    "start_coords": [
+      49.30565,
+      22.18796
+    ],
+    "end_poi_id": "osm_692614264",
+    "end_name": "Kalnica",
+    "end_coords": [
+      49.36186,
+      22.2027462
+    ],
+    "points_forward": 12,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_513454727",
+    "start_name": "Chryszczata",
+    "start_coords": [
+      49.30565,
+      22.18796
+    ],
+    "end_poi_id": "osm_513454746",
+    "end_name": "Suliła",
+    "end_coords": [
+      49.3627903,
+      22.1679734
+    ],
+    "points_forward": 12,
+    "points_backward": 10
+  },
+  {
+    "start_poi_id": "osm_513454727",
+    "start_name": "Chryszczata",
+    "start_coords": [
+      49.30565,
+      22.18796
+    ],
+    "end_poi_id": "osm_1506926675",
+    "end_name": "Rabe",
+    "end_coords": [
+      49.2908819,
+      22.2156631
+    ],
+    "points_forward": 8,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_5255772209",
+    "start_name": "Gabrów Wierch",
+    "start_coords": [
+      49.3350901,
+      22.2384503
+    ],
+    "end_poi_id": "osm_692614264",
+    "end_name": "Kalnica",
+    "end_coords": [
+      49.36186,
+      22.2027462
+    ],
+    "points_forward": 5,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_5255772209",
+    "start_name": "Gabrów Wierch",
+    "start_coords": [
+      49.3350901,
+      22.2384503
+    ],
+    "end_poi_id": "osm_5244161193",
+    "end_name": "Wierch Seredni",
+    "end_coords": [
+      49.2218064,
+      22.1158992
+    ],
+    "points_forward": 7,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_5255772209",
+    "start_name": "Gabrów Wierch",
+    "start_coords": [
+      49.3350901,
+      22.2384503
+    ],
+    "end_poi_id": "osm_1506928462",
+    "end_name": "Gruszka",
+    "end_coords": [
+      49.4504637,
+      22.2960542
+    ],
+    "points_forward": 16,
+    "points_backward": 14
+  },
+  {
+    "start_poi_id": "osm_5255772209",
+    "start_name": "Gabrów Wierch",
+    "start_coords": [
+      49.3350901,
+      22.2384503
+    ],
+    "end_poi_id": "osm_31941095",
+    "end_name": "Zahoczewie",
+    "end_coords": [
+      49.3896275,
+      22.2757179
+    ],
+    "points_forward": 9,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_5255772209",
+    "start_name": "Gabrów Wierch",
+    "start_coords": [
+      49.3350901,
+      22.2384503
+    ],
+    "end_poi_id": "osm_692614011",
+    "end_name": "Baligród",
+    "end_coords": [
+      49.3367963,
+      22.2866341
+    ],
+    "points_forward": 10,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_5255772209",
+    "start_name": "Gabrów Wierch",
+    "start_coords": [
+      49.3350901,
+      22.2384503
+    ],
+    "end_poi_id": "osm_1506926675",
+    "end_name": "Rabe",
+    "end_coords": [
+      49.2908819,
+      22.2156631
+    ],
+    "points_forward": 14,
+    "points_backward": 12
+  },
+  {
+    "start_poi_id": "osm_1506928462",
+    "start_name": "Gruszka",
+    "start_coords": [
+      49.4504637,
+      22.2960542
+    ],
+    "end_poi_id": "osm_692614009",
+    "end_name": "Czaszyn",
+    "end_coords": [
+      49.4494102,
+      22.2170959
+    ],
+    "points_forward": 8,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_1506928462",
+    "start_name": "Gruszka",
+    "start_coords": [
+      49.4504637,
+      22.2960542
+    ],
+    "end_poi_id": "osm_31941266",
+    "end_name": "Zagórz",
+    "end_coords": [
+      49.5098822,
+      22.2632894
+    ],
+    "points_forward": 13,
+    "points_backward": 10
+  },
+  {
+    "start_poi_id": "osm_1506928462",
+    "start_name": "Gruszka",
+    "start_coords": [
+      49.4504637,
+      22.2960542
+    ],
+    "end_poi_id": "osm_31946709",
+    "end_name": "Tarnawa Górna",
+    "end_coords": [
+      49.46117,
+      22.25373
+    ],
+    "points_forward": 7,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_1506928462",
+    "start_name": "Gruszka",
+    "start_coords": [
+      49.4504637,
+      22.2960542
+    ],
+    "end_poi_id": "osm_39393534",
+    "end_name": "Lesko",
+    "end_coords": [
+      49.4689014,
+      22.3303816
+    ],
+    "points_forward": 7,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_1506928462",
+    "start_name": "Gruszka",
+    "start_coords": [
+      49.4504637,
+      22.2960542
+    ],
+    "end_poi_id": "osm_31941095",
+    "end_name": "Zahoczewie",
+    "end_coords": [
+      49.3896275,
+      22.2757179
+    ],
+    "points_forward": 11,
+    "points_backward": 9
+  },
+  {
+    "start_poi_id": "osm_692614051",
+    "start_name": "Hoczew",
+    "start_coords": [
+      49.42651,
+      22.3227
+    ],
+    "end_poi_id": "osm_1506928462",
+    "end_name": "Gruszka",
+    "end_coords": [
+      49.4504637,
+      22.2960542
+    ],
+    "points_forward": 9,
+    "points_backward": 11
+  },
+  {
+    "start_poi_id": "osm_5255772646",
+    "start_name": "Biały Wierch",
+    "start_coords": [
+      49.4203945,
+      22.1631038
+    ],
+    "end_poi_id": "osm_31941095",
+    "end_name": "Zahoczewie",
+    "end_coords": [
+      49.3896275,
+      22.2757179
+    ],
+    "points_forward": 10,
+    "points_backward": 8
+  },
+  {
+    "start_poi_id": "osm_5255772646",
+    "start_name": "Biały Wierch",
+    "start_coords": [
+      49.4203945,
+      22.1631038
+    ],
+    "end_poi_id": "osm_692614051",
+    "end_name": "Hoczew",
+    "end_coords": [
+      49.42651,
+      22.3227
+    ],
+    "points_forward": 9,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_5255772646",
+    "start_name": "Biały Wierch",
+    "start_coords": [
+      49.4203945,
+      22.1631038
+    ],
+    "end_poi_id": "osm_1502823552",
+    "end_name": "Średnia Wieś",
+    "end_coords": [
+      49.4180726,
+      22.353732
+    ],
+    "points_forward": 9,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_5255772646",
+    "start_name": "Biały Wierch",
+    "start_coords": [
+      49.4203945,
+      22.1631038
+    ],
+    "end_poi_id": "osm_692614061",
+    "end_name": "Myczków",
+    "end_coords": [
+      49.3791528,
+      22.4102222
+    ],
+    "points_forward": 6,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_5255772646",
+    "start_name": "Biały Wierch",
+    "start_coords": [
+      49.4203945,
+      22.1631038
+    ],
+    "end_poi_id": "osm_31942765",
+    "end_name": "Wola Matiaszowa",
+    "end_coords": [
+      49.3718401,
+      22.3758112
+    ],
+    "points_forward": 2,
+    "points_backward": 1
+  },
+  {
+    "start_poi_id": "osm_5255772646",
+    "start_name": "Biały Wierch",
+    "start_coords": [
+      49.4203945,
+      22.1631038
+    ],
+    "end_poi_id": "osm_5643769777",
+    "end_name": "Polańczyk",
+    "end_coords": [
+      49.3720864,
+      22.4298087
+    ],
+    "points_forward": 8,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_5255772646",
+    "start_name": "Biały Wierch",
+    "start_coords": [
+      49.4203945,
+      22.1631038
+    ],
+    "end_poi_id": "osm_5255367758",
+    "end_name": "Wołkowyja",
+    "end_coords": [
+      49.6215461,
+      22.2950202
+    ],
+    "points_forward": 10,
+    "points_backward": 8
+  },
+  {
+    "start_poi_id": "osm_692614061",
+    "start_name": "Myczków",
+    "start_coords": [
+      49.3791528,
+      22.4102222
+    ],
+    "end_poi_id": "osm_692614616",
+    "end_name": "Bereżnica Wyżna",
+    "end_coords": [
+      49.3521555,
+      22.3599046
+    ],
+    "points_forward": 4,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_692614061",
+    "start_name": "Myczków",
+    "start_coords": [
+      49.3791528,
+      22.4102222
+    ],
+    "end_poi_id": "osm_5255367758",
+    "end_name": "Wołkowyja",
+    "end_coords": [
+      49.6215461,
+      22.2950202
+    ],
+    "points_forward": 5,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_12206654858",
+    "start_name": "Berdo",
+    "start_coords": [
+      49.2872982,
+      22.3205409
+    ],
+    "end_poi_id": "osm_692614011",
+    "end_name": "Baligród",
+    "end_coords": [
+      49.3367963,
+      22.2866341
+    ],
+    "points_forward": 10,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_12206654858",
+    "start_name": "Berdo",
+    "start_coords": [
+      49.2872982,
+      22.3205409
+    ],
+    "end_poi_id": "osm_1365567919",
+    "end_name": "Radziejowa",
+    "end_coords": [
+      49.2982454,
+      22.3381627
+    ],
+    "points_forward": 5,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_1365567919",
+    "start_name": "Radziejowa",
+    "start_coords": [
+      49.2982454,
+      22.3381627
+    ],
+    "end_poi_id": "osm_31949169",
+    "end_name": "Stężnica",
+    "end_coords": [
+      49.32069,
+      22.31012
+    ],
+    "points_forward": 4,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_1365567919",
+    "start_name": "Radziejowa",
+    "start_coords": [
+      49.2982454,
+      22.3381627
+    ],
+    "end_poi_id": "osm_513454757",
+    "end_name": "Korbania",
+    "end_coords": [
+      49.2843271,
+      22.3706586
+    ],
+    "points_forward": 2,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_12206654858",
+    "start_name": "Berdo",
+    "start_coords": [
+      49.2872982,
+      22.3205409
+    ],
+    "end_poi_id": "osm_513454757",
+    "end_name": "Korbania",
+    "end_coords": [
+      49.2843271,
+      22.3706586
+    ],
+    "points_forward": 7,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_12206654858",
+    "start_name": "Berdo",
+    "start_coords": [
+      49.2872982,
+      22.3205409
+    ],
+    "end_poi_id": "osm_692614306",
+    "end_name": "Górzanka",
+    "end_coords": [
+      49.3299389,
+      22.383039
+    ],
+    "points_forward": 11,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_513454757",
+    "start_name": "Korbania",
+    "start_coords": [
+      49.2843271,
+      22.3706586
+    ],
+    "end_poi_id": "osm_12206654858",
+    "end_name": "Berdo",
+    "end_coords": [
+      49.2872982,
+      22.3205409
+    ],
+    "points_forward": 10,
+    "points_backward": 8
+  },
+  {
+    "start_poi_id": "osm_513454757",
+    "start_name": "Korbania",
+    "start_coords": [
+      49.2843271,
+      22.3706586
+    ],
+    "end_poi_id": "osm_31946334",
+    "end_name": "Terka",
+    "end_coords": [
+      49.29716,
+      22.42641
+    ],
+    "points_forward": 10,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_5255367758",
+    "start_name": "Wołkowyja",
+    "start_coords": [
+      49.6215461,
+      22.2950202
+    ],
+    "end_poi_id": "osm_5254040377",
+    "end_name": "Bukowica",
+    "end_coords": [
+      49.4518238,
+      21.9936487
+    ],
+    "points_forward": 3,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_1349150741",
+    "start_name": "Tołsta",
+    "start_coords": [
+      49.3002246,
+      22.4519937
+    ],
+    "end_poi_id": "osm_31946334",
+    "end_name": "Terka",
+    "end_coords": [
+      49.29716,
+      22.42641
+    ],
+    "points_forward": 6,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_1349150741",
+    "start_name": "Tołsta",
+    "start_coords": [
+      49.3002246,
+      22.4519937
+    ],
+    "end_poi_id": "osm_2483962489",
+    "end_name": "Hoszowczyk",
+    "end_coords": [
+      49.388729,
+      22.6144769
+    ],
+    "points_forward": 5,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_31946334",
+    "start_name": "Terka",
+    "start_coords": [
+      49.29716,
+      22.42641
+    ],
+    "end_poi_id": "osm_513454762",
+    "end_name": "Żołobina",
+    "end_coords": [
+      49.2466044,
+      22.4680095
+    ],
+    "points_forward": 6,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_31946334",
+    "start_name": "Terka",
+    "start_coords": [
+      49.29716,
+      22.42641
+    ],
+    "end_poi_id": "osm_5244160964",
+    "end_name": "Zawój",
+    "end_coords": [
+      49.4122241,
+      22.5081257
+    ],
+    "points_forward": 5,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_513454759",
+    "start_name": "Durna",
+    "start_coords": [
+      49.27544,
+      22.32512
+    ],
+    "end_poi_id": "osm_513454757",
+    "end_name": "Korbania",
+    "end_coords": [
+      49.2843271,
+      22.3706586
+    ],
+    "points_forward": 11,
+    "points_backward": 9
+  },
+  {
+    "start_poi_id": "osm_513454759",
+    "start_name": "Durna",
+    "start_coords": [
+      49.27544,
+      22.32512
+    ],
+    "end_poi_id": "osm_692614334",
+    "end_name": "Buk",
+    "end_coords": [
+      49.2449064,
+      22.3910151
+    ],
+    "points_forward": 10,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_513454759",
+    "start_name": "Durna",
+    "start_coords": [
+      49.27544,
+      22.32512
+    ],
+    "end_poi_id": "osm_692614303",
+    "end_name": "Dołżyca",
+    "end_coords": [
+      49.3286799,
+      22.0256717
+    ],
+    "points_forward": 9,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_513454725",
+    "start_name": "Krąglica",
+    "start_coords": [
+      49.25295,
+      22.19668
+    ],
+    "end_poi_id": "osm_31942748",
+    "end_name": "Wola Michowa",
+    "end_coords": [
+      49.23097,
+      22.16436
+    ],
+    "points_forward": 7,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_513454725",
+    "start_name": "Krąglica",
+    "start_coords": [
+      49.25295,
+      22.19668
+    ],
+    "end_poi_id": "osm_1365389944",
+    "end_name": "Daniowa",
+    "end_coords": [
+      49.2349662,
+      22.3342904
+    ],
+    "points_forward": 7,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_513454660",
+    "start_name": "Matragona",
+    "start_coords": [
+      49.20013,
+      22.2353
+    ],
+    "end_poi_id": "osm_31939175",
+    "end_name": "Żubracze",
+    "end_coords": [
+      49.2091141,
+      22.270645
+    ],
+    "points_forward": 6,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_513454660",
+    "start_name": "Matragona",
+    "start_coords": [
+      49.20013,
+      22.2353
+    ],
+    "end_poi_id": "osm_1349859032",
+    "end_name": "Solinka",
+    "end_coords": [
+      49.1701286,
+      22.2406189
+    ],
+    "points_forward": 5,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_513454660",
+    "start_name": "Matragona",
+    "start_coords": [
+      49.20013,
+      22.2353
+    ],
+    "end_poi_id": "osm_1365389944",
+    "end_name": "Daniowa",
+    "end_coords": [
+      49.2349662,
+      22.3342904
+    ],
+    "points_forward": 9,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_1365389944",
+    "start_name": "Daniowa",
+    "start_coords": [
+      49.2349662,
+      22.3342904
+    ],
+    "end_poi_id": "osm_1349859032",
+    "end_name": "Solinka",
+    "end_coords": [
+      49.1701286,
+      22.2406189
+    ],
+    "points_forward": 2,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_12206654858",
+    "start_name": "Berdo",
+    "start_coords": [
+      49.2872982,
+      22.3205409
+    ],
+    "end_poi_id": "osm_31939175",
+    "end_name": "Żubracze",
+    "end_coords": [
+      49.2091141,
+      22.270645
+    ],
+    "points_forward": 7,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_12206654858",
+    "start_name": "Berdo",
+    "start_coords": [
+      49.2872982,
+      22.3205409
+    ],
+    "end_poi_id": "osm_513454672",
+    "end_name": "Hyrlata",
+    "end_coords": [
+      49.1801088,
+      22.2821876
+    ],
+    "points_forward": 1,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_513454672",
+    "start_name": "Hyrlata",
+    "start_coords": [
+      49.1801088,
+      22.2821876
+    ],
+    "end_poi_id": "osm_4455663097",
+    "end_name": "Przełęcz nad Roztokami",
+    "end_coords": [
+      49.144265,
+      22.3301617
+    ],
+    "points_forward": 9,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_513454672",
+    "start_name": "Hyrlata",
+    "start_coords": [
+      49.1801088,
+      22.2821876
+    ],
+    "end_poi_id": "osm_1349859032",
+    "end_name": "Solinka",
+    "end_coords": [
+      49.1701286,
+      22.2406189
+    ],
+    "points_forward": 8,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_13072007640",
+    "start_name": "Stryb",
+    "start_coords": [
+      49.1428833,
+      22.2805248
+    ],
+    "end_poi_id": "osm_4455663097",
+    "end_name": "Przełęcz nad Roztokami",
+    "end_coords": [
+      49.144265,
+      22.3301617
+    ],
+    "points_forward": 6,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_13072007640",
+    "start_name": "Stryb",
+    "start_coords": [
+      49.1428833,
+      22.2805248
+    ],
+    "end_poi_id": "osm_1349859032",
+    "end_name": "Solinka",
+    "end_coords": [
+      49.1701286,
+      22.2406189
+    ],
+    "points_forward": 9,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_13072007640",
+    "start_name": "Stryb",
+    "start_coords": [
+      49.1428833,
+      22.2805248
+    ],
+    "end_poi_id": "osm_513454654",
+    "end_name": "Czerenin / Černiny",
+    "end_coords": [
+      49.1530784,
+      22.2246642
+    ],
+    "points_forward": 11,
+    "points_backward": 8
+  },
+  {
+    "start_poi_id": "osm_4455663097",
+    "start_name": "Przełęcz nad Roztokami",
+    "start_coords": [
+      49.144265,
+      22.3301617
+    ],
+    "end_poi_id": "osm_1163315743",
+    "end_name": "Duży Skaleniec",
+    "end_coords": [
+      49.1527994,
+      22.3430837
+    ],
+    "points_forward": 4,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_692614303",
+    "start_name": "Dołżyca",
+    "start_coords": [
+      49.3286799,
+      22.0256717
+    ],
+    "end_poi_id": "osm_692614334",
+    "end_name": "Buk",
+    "end_coords": [
+      49.2449064,
+      22.3910151
+    ],
+    "points_forward": 8,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_692614303",
+    "start_name": "Dołżyca",
+    "start_coords": [
+      49.3286799,
+      22.0256717
+    ],
+    "end_poi_id": "osm_692614264",
+    "end_name": "Kalnica",
+    "end_coords": [
+      49.36186,
+      22.2027462
+    ],
+    "points_forward": 8,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_1365389967",
+    "start_name": "Jaworzec",
+    "start_coords": [
+      49.2229257,
+      22.4406044
+    ],
+    "end_poi_id": "osm_692614264",
+    "end_name": "Kalnica",
+    "end_coords": [
+      49.36186,
+      22.2027462
+    ],
+    "points_forward": 4,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_6864798873",
+    "start_name": "Krysowa",
+    "start_coords": [
+      49.216262,
+      22.467478
+    ],
+    "end_poi_id": "osm_31943979",
+    "end_name": "Wetlina",
+    "end_coords": [
+      49.1551784,
+      22.4690026
+    ],
+    "points_forward": 12,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_6864798873",
+    "start_name": "Krysowa",
+    "start_coords": [
+      49.216262,
+      22.467478
+    ],
+    "end_poi_id": "osm_4435077769",
+    "end_name": "Przelecz Orlowicza",
+    "end_coords": [
+      49.1807583,
+      22.491933
+    ],
+    "points_forward": 3,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_6864798873",
+    "start_name": "Krysowa",
+    "start_coords": [
+      49.216262,
+      22.467478
+    ],
+    "end_poi_id": "osm_692614264",
+    "end_name": "Kalnica",
+    "end_coords": [
+      49.36186,
+      22.2027462
+    ],
+    "points_forward": 12,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_13073118503",
+    "start_name": "Okrąglik",
+    "start_coords": [
+      49.1469258,
+      22.3661886
+    ],
+    "end_poi_id": "osm_5860324671",
+    "end_name": "Rabia Skala",
+    "end_coords": [
+      49.102975,
+      22.4408493
+    ],
+    "points_forward": 5,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_13073118503",
+    "start_name": "Okrąglik",
+    "start_coords": [
+      49.1469258,
+      22.3661886
+    ],
+    "end_poi_id": "osm_5255367643",
+    "end_name": "Smerekowiec",
+    "end_coords": [
+      49.3411658,
+      22.0870483
+    ],
+    "points_forward": 14,
+    "points_backward": 8
+  },
+  {
+    "start_poi_id": "osm_5860324671",
+    "start_name": "Rabia Skala",
+    "start_coords": [
+      49.102975,
+      22.4408493
+    ],
+    "end_poi_id": "osm_5244161571",
+    "end_name": "Przełęcz pod Borsukiem",
+    "end_coords": [
+      49.0927067,
+      22.479579
+    ],
+    "points_forward": 6,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_1365389967",
+    "start_name": "Jaworzec",
+    "start_coords": [
+      49.2229257,
+      22.4406044
+    ],
+    "end_poi_id": "osm_513454762",
+    "end_name": "Żołobina",
+    "end_coords": [
+      49.2466044,
+      22.4680095
+    ],
+    "points_forward": 5,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_1365389967",
+    "start_name": "Jaworzec",
+    "start_coords": [
+      49.2229257,
+      22.4406044
+    ],
+    "end_poi_id": "osm_4435077769",
+    "end_name": "Przelecz Orlowicza",
+    "end_coords": [
+      49.1807583,
+      22.491933
+    ],
+    "points_forward": 5,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_1365389967",
+    "start_name": "Jaworzec",
+    "start_coords": [
+      49.2229257,
+      22.4406044
+    ],
+    "end_poi_id": "osm_5255367643",
+    "end_name": "Smerekowiec",
+    "end_coords": [
+      49.3411658,
+      22.0870483
+    ],
+    "points_forward": 2,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_513454762",
+    "start_name": "Żołobina",
+    "start_coords": [
+      49.2466044,
+      22.4680095
+    ],
+    "end_poi_id": "osm_5254040109",
+    "end_name": "Jaworyny",
+    "end_coords": [
+      49.3334852,
+      22.123842
+    ],
+    "points_forward": 8,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_7467582246",
+    "start_name": "Połonina Wetlińska Schronisko PTTK - Przełęcz Wyżna",
+    "start_coords": [
+      49.157918,
+      22.5460598
+    ],
+    "end_poi_id": "osm_31943979",
+    "end_name": "Wetlina",
+    "end_coords": [
+      49.1551784,
+      22.4690026
+    ],
+    "points_forward": 10,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_7467582246",
+    "start_name": "Połonina Wetlińska Schronisko PTTK - Przełęcz Wyżna",
+    "start_coords": [
+      49.157918,
+      22.5460598
+    ],
+    "end_poi_id": "osm_4435077769",
+    "end_name": "Przelecz Orlowicza",
+    "end_coords": [
+      49.1807583,
+      22.491933
+    ],
+    "points_forward": 5,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_7467582246",
+    "start_name": "Połonina Wetlińska Schronisko PTTK - Przełęcz Wyżna",
+    "start_coords": [
+      49.157918,
+      22.5460598
+    ],
+    "end_poi_id": "osm_4435077774",
+    "end_name": "Połonina Wetlińska Schronisko PTTK - Camping BdPN",
+    "end_coords": [
+      49.150373,
+      22.5238425
+    ],
+    "points_forward": 3,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_7467582246",
+    "start_name": "Połonina Wetlińska Schronisko PTTK - Przełęcz Wyżna",
+    "start_coords": [
+      49.157918,
+      22.5460598
+    ],
+    "end_poi_id": "osm_31940551",
+    "end_name": "Zatwarnica",
+    "end_coords": [
+      49.2246733,
+      22.552374
+    ],
+    "points_forward": 17,
+    "points_backward": 10
+  },
+  {
+    "start_poi_id": "osm_7467582246",
+    "start_name": "Połonina Wetlińska Schronisko PTTK - Przełęcz Wyżna",
+    "start_coords": [
+      49.157918,
+      22.5460598
+    ],
+    "end_poi_id": "osm_5860324245",
+    "end_name": "Jawornik",
+    "end_coords": [
+      49.1351771,
+      22.4558791
+    ],
+    "points_forward": 9,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_7467582246",
+    "start_name": "Połonina Wetlińska Schronisko PTTK - Przełęcz Wyżna",
+    "start_coords": [
+      49.157918,
+      22.5460598
+    ],
+    "end_poi_id": "osm_692614124",
+    "end_name": "Brzegi Górne",
+    "end_coords": [
+      49.1407853,
+      22.5683283
+    ],
+    "points_forward": 8,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_513454895",
+    "start_name": "Mała Rawka",
+    "start_coords": [
+      49.1096595,
+      22.5738439
+    ],
+    "end_poi_id": "osm_692614124",
+    "end_name": "Brzegi Górne",
+    "end_coords": [
+      49.1407853,
+      22.5683283
+    ],
+    "points_forward": 11,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_513454895",
+    "start_name": "Mała Rawka",
+    "start_coords": [
+      49.1096595,
+      22.5738439
+    ],
+    "end_poi_id": "osm_31944639",
+    "end_name": "Ustrzyki Górne",
+    "end_coords": [
+      49.1051649,
+      22.6492262
+    ],
+    "points_forward": 13,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_692614124",
+    "start_name": "Brzegi Górne",
+    "start_coords": [
+      49.1407853,
+      22.5683283
+    ],
+    "end_poi_id": "osm_1347109114",
+    "end_name": "Wierch Wyżniański",
+    "end_coords": [
+      49.1221706,
+      22.585759
+    ],
+    "points_forward": 6,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_692614124",
+    "start_name": "Brzegi Górne",
+    "start_coords": [
+      49.1407853,
+      22.5683283
+    ],
+    "end_poi_id": "osm_31944639",
+    "end_name": "Ustrzyki Górne",
+    "end_coords": [
+      49.1051649,
+      22.6492262
+    ],
+    "points_forward": 12,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_692614124",
+    "start_name": "Brzegi Górne",
+    "start_coords": [
+      49.1407853,
+      22.5683283
+    ],
+    "end_poi_id": "osm_1347109111",
+    "end_name": "Przysłup Caryński",
+    "end_coords": [
+      49.1510252,
+      22.6431516
+    ],
+    "points_forward": 10,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_1347109111",
+    "start_name": "Przysłup Caryński",
+    "start_coords": [
+      49.1510252,
+      22.6431516
+    ],
+    "end_poi_id": "osm_692614340",
+    "end_name": "Dwernik",
+    "end_coords": [
+      49.2064638,
+      22.6254389
+    ],
+    "points_forward": 9,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_1347109111",
+    "start_name": "Przysłup Caryński",
+    "start_coords": [
+      49.1510252,
+      22.6431516
+    ],
+    "end_poi_id": "osm_692614125",
+    "end_name": "Bereżki",
+    "end_coords": [
+      49.1375351,
+      22.6676603
+    ],
+    "points_forward": 5,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_1347109111",
+    "start_name": "Przysłup Caryński",
+    "start_coords": [
+      49.1510252,
+      22.6431516
+    ],
+    "end_poi_id": "osm_692614123",
+    "end_name": "Pszczeliny",
+    "end_coords": [
+      49.1660716,
+      22.6908186
+    ],
+    "points_forward": 10,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_513454991",
+    "start_name": "Widełki",
+    "start_coords": [
+      49.12597,
+      22.69497
+    ],
+    "end_poi_id": "osm_692614123",
+    "end_name": "Pszczeliny",
+    "end_coords": [
+      49.1660716,
+      22.6908186
+    ],
+    "points_forward": 8,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_513454991",
+    "start_name": "Widełki",
+    "start_coords": [
+      49.12597,
+      22.69497
+    ],
+    "end_poi_id": "osm_31948498",
+    "end_name": "Stuposiany",
+    "end_coords": [
+      49.1894189,
+      22.6824768
+    ],
+    "points_forward": 8,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_5245415471",
+    "start_name": "Jeleniowaty",
+    "start_coords": [
+      49.1357473,
+      22.7500651
+    ],
+    "end_poi_id": "osm_692614123",
+    "end_name": "Pszczeliny",
+    "end_coords": [
+      49.1660716,
+      22.6908186
+    ],
+    "points_forward": 10,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_5245415471",
+    "start_name": "Jeleniowaty",
+    "start_coords": [
+      49.1357473,
+      22.7500651
+    ],
+    "end_poi_id": "osm_692614355",
+    "end_name": "Muczne",
+    "end_coords": [
+      49.1292749,
+      22.7441025
+    ],
+    "points_forward": 2,
+    "points_backward": 1
+  },
+  {
+    "start_poi_id": "osm_1424329157",
+    "start_name": "Przelecz Goprowska",
+    "start_coords": [
+      49.0822693,
+      22.7330223
+    ],
+    "end_poi_id": "osm_692614355",
+    "end_name": "Muczne",
+    "end_coords": [
+      49.1292749,
+      22.7441025
+    ],
+    "points_forward": 12,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_1424329157",
+    "start_name": "Przelecz Goprowska",
+    "start_coords": [
+      49.0822693,
+      22.7330223
+    ],
+    "end_poi_id": "osm_513454991",
+    "end_name": "Widełki",
+    "end_coords": [
+      49.12597,
+      22.69497
+    ],
+    "points_forward": 7,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_31946651",
+    "start_name": "Tarnawka",
+    "start_coords": [
+      49.5098856,
+      21.9091052
+    ],
+    "end_poi_id": "osm_5254040377",
+    "end_name": "Bukowica",
+    "end_coords": [
+      49.4518238,
+      21.9936487
+    ],
+    "points_forward": 5,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_31944639",
+    "start_name": "Ustrzyki Górne",
+    "start_coords": [
+      49.1051649,
+      22.6492262
+    ],
+    "end_poi_id": "osm_31942369",
+    "end_name": "Wołosate",
+    "end_coords": [
+      49.0640834,
+      22.6840206
+    ],
+    "points_forward": 9,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_31942369",
+    "start_name": "Wołosate",
+    "start_coords": [
+      49.0640834,
+      22.6840206
+    ],
+    "end_poi_id": "osm_1424329157",
+    "end_name": "Przelecz Goprowska",
+    "end_coords": [
+      49.0822693,
+      22.7330223
+    ],
+    "points_forward": 2,
+    "points_backward": 1
+  },
+  {
+    "start_poi_id": "osm_31942369",
+    "start_name": "Wołosate",
+    "start_coords": [
+      49.0640834,
+      22.6840206
+    ],
+    "end_poi_id": "osm_1347929065",
+    "end_name": "Tarnica",
+    "end_coords": [
+      49.0747705,
+      22.726323
+    ],
+    "points_forward": 1,
+    "points_backward": 1
+  },
+  {
+    "start_poi_id": "osm_2996928454",
+    "start_name": "Przełęcz Bukowska",
+    "start_coords": [
+      49.052699,
+      22.7704552
+    ],
+    "end_poi_id": "osm_31942369",
+    "end_name": "Wołosate",
+    "end_coords": [
+      49.0640834,
+      22.6840206
+    ],
+    "points_forward": 12,
+    "points_backward": 8
+  },
+  {
+    "start_poi_id": "osm_2996928454",
+    "start_name": "Przełęcz Bukowska",
+    "start_coords": [
+      49.052699,
+      22.7704552
+    ],
+    "end_poi_id": "osm_31944639",
+    "end_name": "Ustrzyki Górne",
+    "end_coords": [
+      49.1051649,
+      22.6492262
+    ],
+    "points_forward": 7,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_513454928",
+    "start_name": "Dwernik Kamień",
+    "start_coords": [
+      49.1916677,
+      22.5839564
+    ],
+    "end_poi_id": "osm_5860324245",
+    "end_name": "Jawornik",
+    "end_coords": [
+      49.1351771,
+      22.4558791
+    ],
+    "points_forward": 2,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_513454928",
+    "start_name": "Dwernik Kamień",
+    "start_coords": [
+      49.1916677,
+      22.5839564
+    ],
+    "end_poi_id": "osm_692614340",
+    "end_name": "Dwernik",
+    "end_coords": [
+      49.2064638,
+      22.6254389
+    ],
+    "points_forward": 8,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_513454928",
+    "start_name": "Dwernik Kamień",
+    "start_coords": [
+      49.1916677,
+      22.5839564
+    ],
+    "end_poi_id": "osm_31940551",
+    "end_name": "Zatwarnica",
+    "end_coords": [
+      49.2246733,
+      22.552374
+    ],
+    "points_forward": 10,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_513455046",
+    "start_name": "Hulskie",
+    "start_coords": [
+      49.2660769,
+      22.5487833
+    ],
+    "end_poi_id": "osm_5244161255",
+    "end_name": "Krywy",
+    "end_coords": [
+      49.2490151,
+      22.1399466
+    ],
+    "points_forward": 2,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_692614337",
+    "start_name": "Chmiel",
+    "start_coords": [
+      49.2210105,
+      22.602315
+    ],
+    "end_poi_id": "osm_513455051",
+    "end_name": "Trohaniec",
+    "end_coords": [
+      49.23308,
+      22.6578
+    ],
+    "points_forward": 6,
+    "points_backward": 10
+  },
+  {
+    "start_poi_id": "osm_513455051",
+    "start_name": "Trohaniec",
+    "start_coords": [
+      49.23308,
+      22.6578
+    ],
+    "end_poi_id": "osm_692614340",
+    "end_name": "Dwernik",
+    "end_coords": [
+      49.2064638,
+      22.6254389
+    ],
+    "points_forward": 7,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_513455051",
+    "start_name": "Trohaniec",
+    "start_coords": [
+      49.23308,
+      22.6578
+    ],
+    "end_poi_id": "osm_692614328",
+    "end_name": "Skorodne",
+    "end_coords": [
+      49.2751345,
+      22.6336112
+    ],
+    "points_forward": 10,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_513455051",
+    "start_name": "Trohaniec",
+    "start_coords": [
+      49.23308,
+      22.6578
+    ],
+    "end_poi_id": "osm_692614087",
+    "end_name": "Lutowiska",
+    "end_coords": [
+      49.2506891,
+      22.6954882
+    ],
+    "points_forward": 7,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_5242393293",
+    "start_name": "Ostre",
+    "start_coords": [
+      49.2779734,
+      22.6756442
+    ],
+    "end_poi_id": "osm_692614087",
+    "end_name": "Lutowiska",
+    "end_coords": [
+      49.2506891,
+      22.6954882
+    ],
+    "points_forward": 5,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_5242393293",
+    "start_name": "Ostre",
+    "start_coords": [
+      49.2779734,
+      22.6756442
+    ],
+    "end_poi_id": "osm_692614328",
+    "end_name": "Skorodne",
+    "end_coords": [
+      49.2751345,
+      22.6336112
+    ],
+    "points_forward": 8,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_5242393293",
+    "start_name": "Ostre",
+    "start_coords": [
+      49.2779734,
+      22.6756442
+    ],
+    "end_poi_id": "osm_1420511719",
+    "end_name": "Czarna Górna",
+    "end_coords": [
+      49.323566,
+      22.6699025
+    ],
+    "points_forward": 9,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_692614328",
+    "start_name": "Skorodne",
+    "start_coords": [
+      49.2751345,
+      22.6336112
+    ],
+    "end_poi_id": "osm_692614087",
+    "end_name": "Lutowiska",
+    "end_coords": [
+      49.2506891,
+      22.6954882
+    ],
+    "points_forward": 6,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_513455046",
+    "start_name": "Hulskie",
+    "start_coords": [
+      49.2660769,
+      22.5487833
+    ],
+    "end_poi_id": "osm_513454761",
+    "end_name": "Tworylczyk",
+    "end_coords": [
+      49.2550117,
+      22.479916
+    ],
+    "points_forward": 11,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_513455046",
+    "start_name": "Hulskie",
+    "start_coords": [
+      49.2660769,
+      22.5487833
+    ],
+    "end_poi_id": "osm_39395437",
+    "end_name": "Chrewt",
+    "end_coords": [
+      49.3089007,
+      22.5310278
+    ],
+    "points_forward": 12,
+    "points_backward": 8
+  },
+  {
+    "start_poi_id": "osm_513454761",
+    "start_name": "Tworylczyk",
+    "start_coords": [
+      49.2550117,
+      22.479916
+    ],
+    "end_poi_id": "osm_5244161255",
+    "end_name": "Krywy",
+    "end_coords": [
+      49.2490151,
+      22.1399466
+    ],
+    "points_forward": 2,
+    "points_backward": 1
+  },
+  {
+    "start_poi_id": "osm_513454761",
+    "start_name": "Tworylczyk",
+    "start_coords": [
+      49.2550117,
+      22.479916
+    ],
+    "end_poi_id": "osm_5254040109",
+    "end_name": "Jaworyny",
+    "end_coords": [
+      49.3334852,
+      22.123842
+    ],
+    "points_forward": 2,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_513454761",
+    "start_name": "Tworylczyk",
+    "start_coords": [
+      49.2550117,
+      22.479916
+    ],
+    "end_poi_id": "osm_31943017",
+    "end_name": "Wola Górzańska",
+    "end_coords": [
+      49.3156022,
+      22.3718378
+    ],
+    "points_forward": 4,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_1365567917",
+    "start_name": "Moklik",
+    "start_coords": [
+      49.3260289,
+      22.5795302
+    ],
+    "end_poi_id": "osm_692614280",
+    "end_name": "Czarna Dolna",
+    "end_coords": [
+      49.3316115,
+      22.6329893
+    ],
+    "points_forward": 6,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_1365567917",
+    "start_name": "Moklik",
+    "start_coords": [
+      49.3260289,
+      22.5795302
+    ],
+    "end_poi_id": "osm_39395437",
+    "end_name": "Chrewt",
+    "end_coords": [
+      49.3089007,
+      22.5310278
+    ],
+    "points_forward": 8,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_1365567917",
+    "start_name": "Moklik",
+    "start_coords": [
+      49.3260289,
+      22.5795302
+    ],
+    "end_poi_id": "osm_692614184",
+    "end_name": "Paszowa",
+    "end_coords": [
+      49.5387043,
+      22.4207433
+    ],
+    "points_forward": 4,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_5242604130",
+    "start_name": "Kiczera Paniszczowska",
+    "start_coords": [
+      49.3248102,
+      22.536459
+    ],
+    "end_poi_id": "osm_692614184",
+    "end_name": "Paszowa",
+    "end_coords": [
+      49.5387043,
+      22.4207433
+    ],
+    "points_forward": 2,
+    "points_backward": 1
+  },
+  {
+    "start_poi_id": "osm_5242604130",
+    "start_name": "Kiczera Paniszczowska",
+    "start_coords": [
+      49.3248102,
+      22.536459
+    ],
+    "end_poi_id": "osm_39395437",
+    "end_name": "Chrewt",
+    "end_coords": [
+      49.3089007,
+      22.5310278
+    ],
+    "points_forward": 6,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_5242604130",
+    "start_name": "Kiczera Paniszczowska",
+    "start_coords": [
+      49.3248102,
+      22.536459
+    ],
+    "end_poi_id": "osm_513455110",
+    "end_name": "Łabiska",
+    "end_coords": [
+      49.358242,
+      22.5544161
+    ],
+    "points_forward": 4,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_31946448",
+    "start_name": "Teleśnica Oszwarowa",
+    "start_coords": [
+      49.3777204,
+      22.5404641
+    ],
+    "end_poi_id": "osm_692614262",
+    "end_name": "Daszówka",
+    "end_coords": [
+      49.3727349,
+      22.5682653
+    ],
+    "points_forward": 4,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_5860324245",
+    "start_name": "Jawornik",
+    "start_coords": [
+      49.1351771,
+      22.4558791
+    ],
+    "end_poi_id": "osm_1420511719",
+    "end_name": "Czarna Górna",
+    "end_coords": [
+      49.323566,
+      22.6699025
+    ],
+    "points_forward": 8,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_5860324245",
+    "start_name": "Jawornik",
+    "start_coords": [
+      49.1351771,
+      22.4558791
+    ],
+    "end_poi_id": "osm_1506926675",
+    "end_name": "Rabe",
+    "end_coords": [
+      49.2908819,
+      22.2156631
+    ],
+    "points_forward": 8,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_5241145230",
+    "start_name": "Żuków",
+    "start_coords": [
+      49.3428356,
+      22.7279609
+    ],
+    "end_poi_id": "osm_692614280",
+    "end_name": "Czarna Dolna",
+    "end_coords": [
+      49.3316115,
+      22.6329893
+    ],
+    "points_forward": 8,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_5241145230",
+    "start_name": "Żuków",
+    "start_coords": [
+      49.3428356,
+      22.7279609
+    ],
+    "end_poi_id": "osm_692614262",
+    "end_name": "Daszówka",
+    "end_coords": [
+      49.3727349,
+      22.5682653
+    ],
+    "points_forward": 4,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_5241145230",
+    "start_name": "Żuków",
+    "start_coords": [
+      49.3428356,
+      22.7279609
+    ],
+    "end_poi_id": "osm_31946448",
+    "end_name": "Teleśnica Oszwarowa",
+    "end_coords": [
+      49.3777204,
+      22.5404641
+    ],
+    "points_forward": 1,
+    "points_backward": 1
+  },
+  {
+    "start_poi_id": "osm_5241145230",
+    "start_name": "Żuków",
+    "start_coords": [
+      49.3428356,
+      22.7279609
+    ],
+    "end_poi_id": "osm_692614240",
+    "end_name": "Równia",
+    "end_coords": [
+      49.4043374,
+      22.5896137
+    ],
+    "points_forward": 7,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_5241145230",
+    "start_name": "Żuków",
+    "start_coords": [
+      49.3428356,
+      22.7279609
+    ],
+    "end_poi_id": "osm_692614059",
+    "end_name": "Hoszów",
+    "end_coords": [
+      49.397163,
+      22.6473387
+    ],
+    "points_forward": 7,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_5242603948",
+    "start_name": "Holica",
+    "start_coords": [
+      49.4063398,
+      22.541887
+    ],
+    "end_poi_id": "osm_692614246",
+    "end_name": "Łobozew Górny",
+    "end_coords": [
+      49.3999971,
+      22.5145691
+    ],
+    "points_forward": 4,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_5242603948",
+    "start_name": "Holica",
+    "start_coords": [
+      49.4063398,
+      22.541887
+    ],
+    "end_poi_id": "osm_692613998",
+    "end_name": "Olszanica",
+    "end_coords": [
+      49.4786565,
+      22.4441897
+    ],
+    "points_forward": 16,
+    "points_backward": 12
+  },
+  {
+    "start_poi_id": "osm_5242603948",
+    "start_name": "Holica",
+    "start_coords": [
+      49.4063398,
+      22.541887
+    ],
+    "end_poi_id": "osm_692614050",
+    "end_name": "Ustjanowa Górna",
+    "end_coords": [
+      49.425939,
+      22.5468905
+    ],
+    "points_forward": 8,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_5242603948",
+    "start_name": "Holica",
+    "start_coords": [
+      49.4063398,
+      22.541887
+    ],
+    "end_poi_id": "osm_692614262",
+    "end_name": "Daszówka",
+    "end_coords": [
+      49.3727349,
+      22.5682653
+    ],
+    "points_forward": 3,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_692614240",
+    "start_name": "Równia",
+    "start_coords": [
+      49.4043374,
+      22.5896137
+    ],
+    "end_poi_id": "osm_2498740002",
+    "end_name": "Ustrzyki Dolne",
+    "end_coords": [
+      49.4301874,
+      22.5877003
+    ],
+    "points_forward": 3,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_634638151",
+    "start_name": "Huta Gogołowska",
+    "start_coords": [
+      49.8699893,
+      21.5332941
+    ],
+    "end_poi_id": "osm_602499181",
+    "end_name": "Kołaczyce",
+    "end_coords": [
+      49.8076605,
+      21.4340516
+    ],
+    "points_forward": 11,
+    "points_backward": 10
+  },
+  {
+    "start_poi_id": "osm_634638151",
+    "start_name": "Huta Gogołowska",
+    "start_coords": [
+      49.8699893,
+      21.5332941
+    ],
+    "end_poi_id": "osm_1860293034",
+    "end_name": "Lublica",
+    "end_coords": [
+      49.8027479,
+      21.5120684
+    ],
+    "points_forward": 5,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_634638151",
+    "start_name": "Huta Gogołowska",
+    "start_coords": [
+      49.8699893,
+      21.5332941
+    ],
+    "end_poi_id": "osm_1860292969",
+    "end_name": "Gogołów",
+    "end_coords": [
+      49.8528044,
+      21.5030294
+    ],
+    "points_forward": 3,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_634638151",
+    "start_name": "Huta Gogołowska",
+    "start_coords": [
+      49.8699893,
+      21.5332941
+    ],
+    "end_poi_id": "osm_1888338455",
+    "end_name": "Kamienica Górna",
+    "end_coords": [
+      49.8964761,
+      21.487285
+    ],
+    "points_forward": 7,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_634638151",
+    "start_name": "Huta Gogołowska",
+    "start_coords": [
+      49.8699893,
+      21.5332941
+    ],
+    "end_poi_id": "osm_9037921343",
+    "end_name": "Brzeziny",
+    "end_coords": [
+      49.6722273,
+      21.3793481
+    ],
+    "points_forward": 11,
+    "points_backward": 9
+  },
+  {
+    "start_poi_id": "osm_634638151",
+    "start_name": "Huta Gogołowska",
+    "start_coords": [
+      49.8699893,
+      21.5332941
+    ],
+    "end_poi_id": "osm_31946877",
+    "end_name": "Szufnarowa",
+    "end_coords": [
+      49.9031953,
+      21.626969
+    ],
+    "points_forward": 14,
+    "points_backward": 12
+  },
+  {
+    "start_poi_id": "osm_634638151",
+    "start_name": "Huta Gogołowska",
+    "start_coords": [
+      49.8699893,
+      21.5332941
+    ],
+    "end_poi_id": "osm_38404570",
+    "end_name": "Frysztak",
+    "end_coords": [
+      49.8393809,
+      21.6073264
+    ],
+    "points_forward": 13,
+    "points_backward": 11
+  },
+  {
+    "start_poi_id": "osm_5245675384",
+    "start_name": "Czarnówka",
+    "start_coords": [
+      49.820593,
+      21.6984943
+    ],
+    "end_poi_id": "osm_1923349742",
+    "end_name": "Oparówka",
+    "end_coords": [
+      49.8323619,
+      21.7114048
+    ],
+    "points_forward": 3,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_5245675384",
+    "start_name": "Czarnówka",
+    "start_coords": [
+      49.820593,
+      21.6984943
+    ],
+    "end_poi_id": "osm_1859447165",
+    "end_name": "Łęki Strzyżowskie",
+    "end_coords": [
+      49.8043346,
+      21.6650699
+    ],
+    "points_forward": 4,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_5245675384",
+    "start_name": "Czarnówka",
+    "start_coords": [
+      49.820593,
+      21.6984943
+    ],
+    "end_poi_id": "osm_31944185",
+    "end_name": "Węglówka",
+    "end_coords": [
+      49.7771746,
+      21.7766252
+    ],
+    "points_forward": 5,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_5245675384",
+    "start_name": "Czarnówka",
+    "start_coords": [
+      49.820593,
+      21.6984943
+    ],
+    "end_poi_id": "osm_128650998",
+    "end_name": "Czarnorzeki",
+    "end_coords": [
+      49.7460128,
+      21.8027168
+    ],
+    "points_forward": 3,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_5245675384",
+    "start_name": "Czarnówka",
+    "start_coords": [
+      49.820593,
+      21.6984943
+    ],
+    "end_poi_id": "osm_4070506862",
+    "end_name": "Sucha Góra - Zamek Kamieniec",
+    "end_coords": [
+      49.7423889,
+      21.7998315
+    ],
+    "points_forward": 2,
+    "points_backward": 1
+  },
+  {
+    "start_poi_id": "osm_5245675384",
+    "start_name": "Czarnówka",
+    "start_coords": [
+      49.820593,
+      21.6984943
+    ],
+    "end_poi_id": "osm_1859447082",
+    "end_name": "Odrzykoń",
+    "end_coords": [
+      49.740698,
+      21.7407968
+    ],
+    "points_forward": 9,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_634639070",
+    "start_name": "Przybówka",
+    "start_coords": [
+      49.7924272,
+      21.649021
+    ],
+    "end_poi_id": "osm_128650998",
+    "end_name": "Czarnorzeki",
+    "end_coords": [
+      49.7460128,
+      21.8027168
+    ],
+    "points_forward": 3,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_634639070",
+    "start_name": "Przybówka",
+    "start_coords": [
+      49.7924272,
+      21.649021
+    ],
+    "end_poi_id": "osm_31942946",
+    "end_name": "Wola Komborska",
+    "end_coords": [
+      49.7424342,
+      21.8854032
+    ],
+    "points_forward": 8,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_634639070",
+    "start_name": "Przybówka",
+    "start_coords": [
+      49.7924272,
+      21.649021
+    ],
+    "end_poi_id": "osm_1912006392",
+    "end_name": "Korczyna",
+    "end_coords": [
+      49.7170858,
+      21.2493985
+    ],
+    "points_forward": 6,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_634639070",
+    "start_name": "Przybówka",
+    "start_coords": [
+      49.7924272,
+      21.649021
+    ],
+    "end_poi_id": "osm_1859447082",
+    "end_name": "Odrzykoń",
+    "end_coords": [
+      49.740698,
+      21.7407968
+    ],
+    "points_forward": 9,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_1916614435",
+    "start_name": "Brzeżanka",
+    "start_coords": [
+      49.8433502,
+      21.772409
+    ],
+    "end_poi_id": "osm_31944185",
+    "end_name": "Węglówka",
+    "end_coords": [
+      49.7771746,
+      21.7766252
+    ],
+    "points_forward": 9,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_1916614435",
+    "start_name": "Brzeżanka",
+    "start_coords": [
+      49.8433502,
+      21.772409
+    ],
+    "end_poi_id": "osm_31938865",
+    "end_name": "Żyznów",
+    "end_coords": [
+      49.8121726,
+      21.8432249
+    ],
+    "points_forward": 6,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_1916614435",
+    "start_name": "Brzeżanka",
+    "start_coords": [
+      49.8433502,
+      21.772409
+    ],
+    "end_poi_id": "osm_31948552",
+    "end_name": "Strzyżów",
+    "end_coords": [
+      49.8702087,
+      21.7856291
+    ],
+    "points_forward": 10,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_1916614435",
+    "start_name": "Brzeżanka",
+    "start_coords": [
+      49.8433502,
+      21.772409
+    ],
+    "end_poi_id": "osm_562786669",
+    "end_name": "Godowa",
+    "end_coords": [
+      49.8446799,
+      21.8108874
+    ],
+    "points_forward": 7,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_562786669",
+    "start_name": "Godowa",
+    "start_coords": [
+      49.8446799,
+      21.8108874
+    ],
+    "end_poi_id": "osm_31948552",
+    "end_name": "Strzyżów",
+    "end_coords": [
+      49.8702087,
+      21.7856291
+    ],
+    "points_forward": 9,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_3911372241",
+    "start_name": "Rokita",
+    "start_coords": [
+      49.4722348,
+      20.5027433
+    ],
+    "end_poi_id": "osm_12241024538",
+    "end_name": "Góra Wilcza",
+    "end_coords": [
+      49.6583427,
+      20.5015748
+    ],
+    "points_forward": 6,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_5255772931",
+    "start_name": "Garbata",
+    "start_coords": [
+      49.5545773,
+      22.1675807
+    ],
+    "end_poi_id": "osm_2692382485",
+    "end_name": "Hłudno",
+    "end_coords": [
+      49.7801436,
+      22.1356782
+    ],
+    "points_forward": 5,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_5255772931",
+    "start_name": "Garbata",
+    "start_coords": [
+      49.5545773,
+      22.1675807
+    ],
+    "end_poi_id": "osm_506203648",
+    "end_name": "Dynów",
+    "end_coords": [
+      49.8134771,
+      22.2338151
+    ],
+    "points_forward": 11,
+    "points_backward": 9
+  },
+  {
+    "start_poi_id": "osm_562786162",
+    "start_name": "Domaradz",
+    "start_coords": [
+      49.7953178,
+      21.9473137
+    ],
+    "end_poi_id": "osm_128652735",
+    "end_name": "Lutcza",
+    "end_coords": [
+      49.8056167,
+      21.9013878
+    ],
+    "points_forward": 8,
+    "points_backward": 8
+  },
+  {
+    "start_poi_id": "osm_562786162",
+    "start_name": "Domaradz",
+    "start_coords": [
+      49.7953178,
+      21.9473137
+    ],
+    "end_poi_id": "osm_318599274",
+    "end_name": "Blizne",
+    "end_coords": [
+      49.7509402,
+      21.9703934
+    ],
+    "points_forward": 8,
+    "points_backward": 8
+  },
+  {
+    "start_poi_id": "osm_5244160962",
+    "start_name": "Grabówka",
+    "start_coords": [
+      49.4197594,
+      22.5046482
+    ],
+    "end_poi_id": "osm_5241145268",
+    "end_name": "Lichnówka",
+    "end_coords": [
+      49.5904139,
+      22.5835237
+    ],
+    "points_forward": 7,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_5244160962",
+    "start_name": "Grabówka",
+    "start_coords": [
+      49.4197594,
+      22.5046482
+    ],
+    "end_poi_id": "osm_1859447074",
+    "end_name": "Mrzygłód",
+    "end_coords": [
+      49.6200451,
+      22.2744911
+    ],
+    "points_forward": 11,
+    "points_backward": 8
+  },
+  {
+    "start_poi_id": "osm_5244160962",
+    "start_name": "Grabówka",
+    "start_coords": [
+      49.4197594,
+      22.5046482
+    ],
+    "end_poi_id": "osm_1859447057",
+    "end_name": "Liszna",
+    "end_coords": [
+      49.5890684,
+      22.2400178
+    ],
+    "points_forward": 10,
+    "points_backward": 8
+  },
+  {
+    "start_poi_id": "osm_5241145268",
+    "start_name": "Lichnówka",
+    "start_coords": [
+      49.5904139,
+      22.5835237
+    ],
+    "end_poi_id": "osm_31946407",
+    "end_name": "Temeszów",
+    "end_coords": [
+      49.691038,
+      22.21649
+    ],
+    "points_forward": 4,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_5241145268",
+    "start_name": "Lichnówka",
+    "start_coords": [
+      49.5904139,
+      22.5835237
+    ],
+    "end_poi_id": "osm_31943357",
+    "end_name": "Witryłów",
+    "end_coords": [
+      49.65756,
+      22.23341
+    ],
+    "points_forward": 5,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_2732671297",
+    "start_name": "Kopacz",
+    "start_coords": [
+      49.6190961,
+      22.1834693
+    ],
+    "end_poi_id": "osm_1859447057",
+    "end_name": "Liszna",
+    "end_coords": [
+      49.5890684,
+      22.2400178
+    ],
+    "points_forward": 7,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_2732671297",
+    "start_name": "Kopacz",
+    "start_coords": [
+      49.6190961,
+      22.1834693
+    ],
+    "end_poi_id": "osm_1859447074",
+    "end_name": "Mrzygłód",
+    "end_coords": [
+      49.6200451,
+      22.2744911
+    ],
+    "points_forward": 11,
+    "points_backward": 8
+  },
+  {
+    "start_poi_id": "osm_2732671297",
+    "start_name": "Kopacz",
+    "start_coords": [
+      49.6190961,
+      22.1834693
+    ],
+    "end_poi_id": "osm_1859447069",
+    "end_name": "Międzybrodzie",
+    "end_coords": [
+      49.6037409,
+      22.1990633
+    ],
+    "points_forward": 5,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_2732671297",
+    "start_name": "Kopacz",
+    "start_coords": [
+      49.6190961,
+      22.1834693
+    ],
+    "end_poi_id": "osm_39392569",
+    "end_name": "Sanok",
+    "end_coords": [
+      49.5609053,
+      22.207028
+    ],
+    "points_forward": 10,
+    "points_backward": 8
+  },
+  {
+    "start_poi_id": "osm_2728556869",
+    "start_name": "Wroczeń",
+    "start_coords": [
+      49.6248861,
+      22.1368783
+    ],
+    "end_poi_id": "osm_2732671297",
+    "end_name": "Kopacz",
+    "end_coords": [
+      49.6190961,
+      22.1834693
+    ],
+    "points_forward": 6,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_2728556869",
+    "start_name": "Wroczeń",
+    "start_coords": [
+      49.6248861,
+      22.1368783
+    ],
+    "end_poi_id": "osm_562774122",
+    "end_name": "Grabownica Starzeńska",
+    "end_coords": [
+      49.6583537,
+      22.0775822
+    ],
+    "points_forward": 11,
+    "points_backward": 9
+  },
+  {
+    "start_poi_id": "osm_2728556869",
+    "start_name": "Wroczeń",
+    "start_coords": [
+      49.6248861,
+      22.1368783
+    ],
+    "end_poi_id": "osm_562774410",
+    "end_name": "Pakoszówka",
+    "end_coords": [
+      49.621243,
+      22.1068973
+    ],
+    "points_forward": 5,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_2728556869",
+    "start_name": "Wroczeń",
+    "start_coords": [
+      49.6248861,
+      22.1368783
+    ],
+    "end_poi_id": "osm_692614004",
+    "end_name": "Nowosielce",
+    "end_coords": [
+      49.5651209,
+      22.0758947
+    ],
+    "points_forward": 13,
+    "points_backward": 11
+  },
+  {
+    "start_poi_id": "osm_2728556869",
+    "start_name": "Wroczeń",
+    "start_coords": [
+      49.6248861,
+      22.1368783
+    ],
+    "end_poi_id": "osm_39392569",
+    "end_name": "Sanok",
+    "end_coords": [
+      49.5609053,
+      22.207028
+    ],
+    "points_forward": 12,
+    "points_backward": 11
+  },
+  {
+    "start_poi_id": "osm_31939109",
+    "start_name": "Żurawica",
+    "start_coords": [
+      49.8237231,
+      22.7998479
+    ],
+    "end_poi_id": "osm_560409124",
+    "end_name": "Bolestraszyce",
+    "end_coords": [
+      49.8113997,
+      22.8416704
+    ],
+    "points_forward": 4,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_31939109",
+    "start_name": "Żurawica",
+    "start_coords": [
+      49.8237231,
+      22.7998479
+    ],
+    "end_poi_id": "osm_5244357223",
+    "end_name": "Bażantarnia",
+    "end_coords": [
+      49.838503,
+      22.7472293
+    ],
+    "points_forward": 11,
+    "points_backward": 10
+  },
+  {
+    "start_poi_id": "osm_3880850627",
+    "start_name": "Karczmarowa",
+    "start_coords": [
+      49.8250756,
+      22.6392356
+    ],
+    "end_poi_id": "osm_692614021",
+    "end_name": "Reczpol",
+    "end_coords": [
+      49.7844085,
+      22.5768809
+    ],
+    "points_forward": 7,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_366341106",
+    "start_name": "Pruchnik",
+    "start_coords": [
+      49.9061358,
+      22.5160585
+    ],
+    "end_poi_id": "osm_692614019",
+    "end_name": "Dubiecko",
+    "end_coords": [
+      49.8253187,
+      22.3916222
+    ],
+    "points_forward": 9,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_366341106",
+    "start_name": "Pruchnik",
+    "start_coords": [
+      49.9061358,
+      22.5160585
+    ],
+    "end_poi_id": "osm_5244357274",
+    "end_name": "Kopce",
+    "end_coords": [
+      49.8887492,
+      22.382077
+    ],
+    "points_forward": 11,
+    "points_backward": 11
+  },
+  {
+    "start_poi_id": "osm_692614743",
+    "start_name": "Nienadowa",
+    "start_coords": [
+      49.81926,
+      22.42192
+    ],
+    "end_poi_id": "osm_692614019",
+    "end_name": "Dubiecko",
+    "end_coords": [
+      49.8253187,
+      22.3916222
+    ],
+    "points_forward": 10,
+    "points_backward": 8
+  },
+  {
+    "start_poi_id": "osm_562820515",
+    "start_name": "Bachórz",
+    "start_coords": [
+      49.8362834,
+      22.2748711
+    ],
+    "end_poi_id": "osm_692614019",
+    "end_name": "Dubiecko",
+    "end_coords": [
+      49.8253187,
+      22.3916222
+    ],
+    "points_forward": 22,
+    "points_backward": 21
+  },
+  {
+    "start_poi_id": "osm_5245819769",
+    "start_name": "Bosaczka",
+    "start_coords": [
+      49.7339512,
+      22.3869084
+    ],
+    "end_poi_id": "osm_506203648",
+    "end_name": "Dynów",
+    "end_coords": [
+      49.8134771,
+      22.2338151
+    ],
+    "points_forward": 18,
+    "points_backward": 16
+  },
+  {
+    "start_poi_id": "osm_5245819769",
+    "start_name": "Bosaczka",
+    "start_coords": [
+      49.7339512,
+      22.3869084
+    ],
+    "end_poi_id": "osm_5255367759",
+    "end_name": "Zarzeczka",
+    "end_coords": [
+      49.6152768,
+      22.3027695
+    ],
+    "points_forward": 7,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_5245819769",
+    "start_name": "Bosaczka",
+    "start_coords": [
+      49.7339512,
+      22.3869084
+    ],
+    "end_poi_id": "osm_692615056",
+    "end_name": "Huta Brzuska",
+    "end_coords": [
+      49.72764,
+      22.51234
+    ],
+    "points_forward": 13,
+    "points_backward": 11
+  },
+  {
+    "start_poi_id": "osm_692614025",
+    "start_name": "Olszany",
+    "start_coords": [
+      49.73994,
+      22.64366
+    ],
+    "end_poi_id": "osm_692615056",
+    "end_name": "Huta Brzuska",
+    "end_coords": [
+      49.72764,
+      22.51234
+    ],
+    "points_forward": 13,
+    "points_backward": 12
+  },
+  {
+    "start_poi_id": "osm_692614025",
+    "start_name": "Olszany",
+    "start_coords": [
+      49.73994,
+      22.64366
+    ],
+    "end_poi_id": "osm_692614023",
+    "end_name": "Krasiczyn",
+    "end_coords": [
+      49.7762257,
+      22.6521706
+    ],
+    "points_forward": 5,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_10244916790",
+    "start_name": "Gródek (Głowa Cukru)",
+    "start_coords": [
+      49.8802057,
+      20.9332651
+    ],
+    "end_poi_id": "osm_11465840556",
+    "end_name": "Ostry Dział",
+    "end_coords": [
+      49.7829119,
+      20.8538373
+    ],
+    "points_forward": 4,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_11951738234",
+    "start_name": "Orli Kamień",
+    "start_coords": [
+      49.5770935,
+      22.2404085
+    ],
+    "end_poi_id": "osm_1859447057",
+    "end_name": "Liszna",
+    "end_coords": [
+      49.5890684,
+      22.2400178
+    ],
+    "points_forward": 6,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_11951738234",
+    "start_name": "Orli Kamień",
+    "start_coords": [
+      49.5770935,
+      22.2404085
+    ],
+    "end_poi_id": "osm_39392569",
+    "end_name": "Sanok",
+    "end_coords": [
+      49.5609053,
+      22.207028
+    ],
+    "points_forward": 8,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_11951738234",
+    "start_name": "Orli Kamień",
+    "start_coords": [
+      49.5770935,
+      22.2404085
+    ],
+    "end_poi_id": "osm_1859447069",
+    "end_name": "Międzybrodzie",
+    "end_coords": [
+      49.6037409,
+      22.1990633
+    ],
+    "points_forward": 7,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_513454885",
+    "start_name": "Młynów Wierch",
+    "start_coords": [
+      49.12107,
+      22.51777
+    ],
+    "end_poi_id": "osm_5580374912",
+    "end_name": "Przystanek Balnica",
+    "end_coords": [
+      49.1854281,
+      22.2165875
+    ],
+    "points_forward": 13,
+    "points_backward": 9
+  },
+  {
+    "start_poi_id": "osm_39393534",
+    "start_name": "Lesko",
+    "start_coords": [
+      49.4689014,
+      22.3303816
+    ],
+    "end_poi_id": "osm_692614051",
+    "end_name": "Hoczew",
+    "end_coords": [
+      49.42651,
+      22.3227
+    ],
+    "points_forward": 7,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_5242604394",
+    "start_name": "Roztoki",
+    "start_coords": [
+      49.2105383,
+      22.5998719
+    ],
+    "end_poi_id": "osm_5252075249",
+    "end_name": "Wysoki Horb",
+    "end_coords": [
+      49.3794682,
+      22.3563269
+    ],
+    "points_forward": 2,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_3877277632",
+    "start_name": "Wapielnica",
+    "start_coords": [
+      49.7573176,
+      22.7294282
+    ],
+    "end_poi_id": "osm_692614132",
+    "end_name": "Fredropol",
+    "end_coords": [
+      49.6956071,
+      22.7456024
+    ],
+    "points_forward": 7,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_3877277632",
+    "start_name": "Wapielnica",
+    "start_coords": [
+      49.7573176,
+      22.7294282
+    ],
+    "end_poi_id": "osm_692614788",
+    "end_name": "Huwniki",
+    "end_coords": [
+      49.65584,
+      22.7031
+    ],
+    "points_forward": 8,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_3877277632",
+    "start_name": "Wapielnica",
+    "start_coords": [
+      49.7573176,
+      22.7294282
+    ],
+    "end_poi_id": "osm_692615071",
+    "end_name": "Brylińce",
+    "end_coords": [
+      49.7095303,
+      22.6514371
+    ],
+    "points_forward": 6,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_3877277632",
+    "start_name": "Wapielnica",
+    "start_coords": [
+      49.7573176,
+      22.7294282
+    ],
+    "end_poi_id": "osm_692614793",
+    "end_name": "Kalwaria Pacławska",
+    "end_coords": [
+      49.63087,
+      22.70653
+    ],
+    "points_forward": 5,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_692615071",
+    "start_name": "Brylińce",
+    "start_coords": [
+      49.7095303,
+      22.6514371
+    ],
+    "end_poi_id": "osm_5241140711",
+    "end_name": "Mordownia",
+    "end_coords": [
+      49.7160077,
+      22.5810718
+    ],
+    "points_forward": 9,
+    "points_backward": 8
+  },
+  {
+    "start_poi_id": "osm_692615071",
+    "start_name": "Brylińce",
+    "start_coords": [
+      49.7095303,
+      22.6514371
+    ],
+    "end_poi_id": "osm_692614815",
+    "end_name": "Rybotycze",
+    "end_coords": [
+      49.6556185,
+      22.6448956
+    ],
+    "points_forward": 7,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_692614815",
+    "start_name": "Rybotycze",
+    "start_coords": [
+      49.6556185,
+      22.6448956
+    ],
+    "end_poi_id": "osm_692614793",
+    "end_name": "Kalwaria Pacławska",
+    "end_coords": [
+      49.63087,
+      22.70653
+    ],
+    "points_forward": 13,
+    "points_backward": 10
+  },
+  {
+    "start_poi_id": "osm_692614815",
+    "start_name": "Rybotycze",
+    "start_coords": [
+      49.6556185,
+      22.6448956
+    ],
+    "end_poi_id": "osm_5241145266",
+    "end_name": "Na Opalonym",
+    "end_coords": [
+      49.5618263,
+      22.5885123
+    ],
+    "points_forward": 9,
+    "points_backward": 8
+  },
+  {
+    "start_poi_id": "osm_5241145266",
+    "start_name": "Na Opalonym",
+    "start_coords": [
+      49.5618263,
+      22.5885123
+    ],
+    "end_poi_id": "osm_31943203",
+    "end_name": "Wojtkówka",
+    "end_coords": [
+      49.5585243,
+      22.5598108
+    ],
+    "points_forward": 6,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_5241145321",
+    "start_name": "Gruszowska",
+    "start_coords": [
+      49.6793279,
+      22.687125
+    ],
+    "end_poi_id": "osm_31943203",
+    "end_name": "Wojtkówka",
+    "end_coords": [
+      49.5585243,
+      22.5598108
+    ],
+    "points_forward": 5,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_5241145321",
+    "start_name": "Gruszowska",
+    "start_coords": [
+      49.6793279,
+      22.687125
+    ],
+    "end_poi_id": "osm_645138479",
+    "end_name": "Jureczkowa",
+    "end_coords": [
+      49.5409407,
+      22.5906765
+    ],
+    "points_forward": 7,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_5241145321",
+    "start_name": "Gruszowska",
+    "start_coords": [
+      49.6793279,
+      22.687125
+    ],
+    "end_poi_id": "osm_692614189",
+    "end_name": "Ropienka",
+    "end_coords": [
+      49.5293571,
+      22.4923136
+    ],
+    "points_forward": 6,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_5241145238",
+    "start_name": "Brańcowa",
+    "start_coords": [
+      49.511934,
+      22.5816416
+    ],
+    "end_poi_id": "osm_5241145321",
+    "end_name": "Gruszowska",
+    "end_coords": [
+      49.6793279,
+      22.687125
+    ],
+    "points_forward": 5,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_5241145238",
+    "start_name": "Brańcowa",
+    "start_coords": [
+      49.511934,
+      22.5816416
+    ],
+    "end_poi_id": "osm_692614007",
+    "end_name": "Krościenko",
+    "end_coords": [
+      49.4783429,
+      22.6682494
+    ],
+    "points_forward": 10,
+    "points_backward": 9
+  },
+  {
+    "start_poi_id": "osm_9874454357",
+    "start_name": "Kamienna Laworta",
+    "start_coords": [
+      49.4495156,
+      22.5682518
+    ],
+    "end_poi_id": "osm_5241145238",
+    "end_name": "Brańcowa",
+    "end_coords": [
+      49.511934,
+      22.5816416
+    ],
+    "points_forward": 10,
+    "points_backward": 9
+  },
+  {
+    "start_poi_id": "osm_9874454357",
+    "start_name": "Kamienna Laworta",
+    "start_coords": [
+      49.4495156,
+      22.5682518
+    ],
+    "end_poi_id": "osm_692614050",
+    "end_name": "Ustjanowa Górna",
+    "end_coords": [
+      49.425939,
+      22.5468905
+    ],
+    "points_forward": 10,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_9874454357",
+    "start_name": "Kamienna Laworta",
+    "start_coords": [
+      49.4495156,
+      22.5682518
+    ],
+    "end_poi_id": "osm_12165020178",
+    "end_name": "Mały Król",
+    "end_coords": [
+      49.4364942,
+      22.552413
+    ],
+    "points_forward": 4,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_9874454357",
+    "start_name": "Kamienna Laworta",
+    "start_coords": [
+      49.4495156,
+      22.5682518
+    ],
+    "end_poi_id": "osm_2498740002",
+    "end_name": "Ustrzyki Dolne",
+    "end_coords": [
+      49.4301874,
+      22.5877003
+    ],
+    "points_forward": 7,
+    "points_backward": 4
+  }
+]

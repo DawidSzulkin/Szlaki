@@ -11,7 +11,9 @@
   },
   "dependencies": {
     "geojson-path-finder": "^2.1.0",
-    "leaflet": "^1.9.4"
+    "leaflet": "^1.9.4",
+    "leaflet.markercluster": "^1.5.3",
+    "osm-read": "^0.7.0"
   },
   "devDependencies": {
     "@tmcw/togeojson": "^7.1.2",

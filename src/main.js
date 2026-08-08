@@ -1,16 +1,26 @@
-import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
+window.L = L;
+import 'leaflet.markercluster';
 import * as turf from '@turf/turf';
 import PathFinder from 'geojson-path-finder';
 import { DataLoader } from './DataLoader.js';
 import { RouteController } from './RouteController.js';
+import { map, layers, getMainPoiIcon, ACCESS_TRACK_COLORS } from './MapConfig.js';
+import { calculateHikingTime, calculateElevationStats } from './GeoUtils.js';
 
-const map = L.map('map').setView([49.75, 19.5], 10);
+import { MapModules } from './MapModules.js';
 
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  maxZoom: 19,
-  attribution: '© OpenStreetMap contributors'
-}).addTo(map);
+// === STAN GLOBALNY (Zgrupowany dla wygody przekazywania do modułów) ===
+export const appCtx = {
+  vitalLogisticsOnRoute: [],
+  customNights: [],
+  osmClusterGroup: null,
+  osmLayerGroups: {},
+  globalMainLine: null,
+  originalMainLine: null,
+  customStartPoi: null,
+  rabkaAccessLengthKm: 0
+};
 
 let rawPoisData = [];
 let activeProfilePois = [];
@@ -18,394 +28,431 @@ let fullTrackGeoJson = null;
 let pathFinder = null;
 let currentProfile = 'standard';
 let currentDays = 5;
+let currentDirection = 'WEST_TO_EAST'; 
+let globalLineStart = null;
+let startPoiGlobal = null;
+let endPoiGlobal = null;
 
-// Grupy warstw
-const stageLayersGroup = L.layerGroup().addTo(map);
-const mainPoisLayer = L.layerGroup().addTo(map);
-const waterPoisLayer = L.layerGroup().addTo(map);
-const shelterPoisLayer = L.layerGroup().addTo(map);
+window.toggleDirection = function() {
+  if (!appCtx.originalMainLine) return;
+  currentDirection = currentDirection === 'WEST_TO_EAST' ? 'EAST_TO_WEST' : 'WEST_TO_EAST';
+  
+  if (currentDirection === 'EAST_TO_WEST') {
+    appCtx.globalMainLine = turf.lineReverse(appCtx.originalMainLine);
+  } else {
+    appCtx.globalMainLine = appCtx.originalMainLine;
+  }
+  
+  recalculateRouteMetadata();
+  renderMainPois();
+  renderVariant(currentDays);
+};
+
+window.setCustomStart = function(type) {
+  if (type === 'rabka') {
+    appCtx.customStartPoi = { name: "Rabka-Zdrój (Dojście szlakiem)", lat: 49.609, lon: 19.965, km: 0 };
+  } else {
+    appCtx.customStartPoi = null; 
+  }
+  recalculateRouteMetadata();
+  renderMainPois();
+  renderVariant(currentDays);
+};
+
+window.toggleCustomNight = function(id, name, lat, lon) {
+    if(!appCtx.globalMainLine) return;
+    
+    const idx = appCtx.customNights.findIndex(n => n.id === id);
+    if (idx > -1) {
+        appCtx.customNights.splice(idx, 1);
+    } else {
+        const pt = turf.point([lon, lat]);
+        const snapped = turf.nearestPointOnLine(appCtx.globalMainLine, pt, {units: 'kilometers'});
+        
+        // Zastąpiono powolne cięcie natywnym indeksem!
+        const accessOffset = appCtx.customStartPoi ? appCtx.rabkaAccessLengthKm : 0;
+        const km = Math.round((accessOffset + snapped.properties.location) * 10) / 10;
+        
+        appCtx.customNights.push({
+            id, name: name || 'Wybrany punkt noclegu',
+            lat: snapped.geometry.coordinates[1],
+            lon: snapped.geometry.coordinates[0], km
+        });
+    }
+    map.closePopup();
+    renderVariant(currentDays);
+    renderMainPois();
+};
+
+window.clearCustomPlan = function() {
+    appCtx.customNights = [];
+    renderVariant(currentDays);
+    renderMainPois();
+};
+
+export function getPreciseLineSlice(startCoords, endCoords, lineFeature) {
+  try {
+    if (startCoords[0] === endCoords[0] && startCoords[1] === endCoords[1]) return null;
+
+    let startPt = turf.point(startCoords);
+    let endPt = turf.point(endCoords);
+    let startSnapped = turf.nearestPointOnLine(lineFeature, startPt);
+    let endSnapped = turf.nearestPointOnLine(lineFeature, endPt);
+    
+    if (startSnapped.properties.location > endSnapped.properties.location) {
+        const temp = startSnapped;
+        startSnapped = endSnapped;
+        endSnapped = temp;
+    }
+    return turf.lineSlice(startSnapped, endSnapped, lineFeature);
+  } catch(e) { return null; }
+}
+
+function recalculateRouteMetadata() {
+  if (!appCtx.globalMainLine) return;
+  
+  const gpxCoords = appCtx.globalMainLine.geometry.coordinates;
+  const gpxStart = appCtx.customStartPoi ? [appCtx.customStartPoi.lon, appCtx.customStartPoi.lat] : gpxCoords[0];
+  const gpxEnd = gpxCoords[gpxCoords.length - 1];
+  
+  globalLineStart = turf.point(gpxStart);
+  
+  const baseMainKm = Math.round(turf.length(appCtx.globalMainLine, {units: 'kilometers'})*10)/10;
+  const accessOffset = appCtx.customStartPoi ? appCtx.rabkaAccessLengthKm : 0;
+  const totalKm = Math.round((baseMainKm + accessOffset)*10)/10;
+  
+  if (currentDirection === 'WEST_TO_EAST') {
+    startPoiGlobal = { name: appCtx.customStartPoi ? appCtx.customStartPoi.name : "Początek MSB (Straconka)", lat: gpxStart[1], lon: gpxStart[0], km: 0 };
+    endPoiGlobal = { name: "Koniec MSB (Luboń Wielki)", lat: gpxEnd[1], lon: gpxEnd[0], km: totalKm };
+  } else {
+    startPoiGlobal = { name: "Początek MSB (Luboń Wielki)", lat: gpxStart[1], lon: gpxStart[0], km: 0 };
+    endPoiGlobal = { name: "Koniec MSB (Straconka)", lat: gpxEnd[1], lon: gpxEnd[0], km: totalKm };
+  }
+
+  // Wczytywanie w locie na gładko
+  rawPoisData.forEach((poi) => {
+    const pt = turf.point([parseFloat(poi.originalLon || poi.lon), parseFloat(poi.originalLat || poi.lat)]);
+    const snapped = turf.nearestPointOnLine(appCtx.globalMainLine, pt, {units: 'kilometers'});
+    poi.lon = snapped.geometry.coordinates[0];
+    poi.lat = snapped.geometry.coordinates[1];
+    poi.km = Math.round((accessOffset + snapped.properties.location) * 10) / 10;
+  });
+  
+  rawPoisData.sort((a, b) => a.km - b.km);
+
+  appCtx.vitalLogisticsOnRoute.forEach(logPoi => {
+    const pt = turf.point([logPoi.originalLon, logPoi.originalLat]);
+    const snapped = turf.nearestPointOnLine(appCtx.globalMainLine, pt, {units: 'kilometers'});
+    logPoi.km = Math.round((accessOffset + snapped.properties.location) * 10) / 10;
+  });
+}
 
 async function initApp() {
   try {
+    MapModules.setupGPS(map);
+    loadPolygons();
+    MapModules.injectDirectionControlsUI();
+
     fullTrackGeoJson = await DataLoader.loadGpxTrack();
-    rawPoisData = await DataLoader.loadPois();
-    const osmData = await DataLoader.loadOsmPois();
     const networkGeoJson = await DataLoader.loadConnectorNetwork();
 
-    if (networkGeoJson) {
-      pathFinder = new PathFinder(networkGeoJson, { tolerance: 0.0005 });
-    }
+    if (networkGeoJson) pathFinder = new PathFinder(networkGeoJson, { tolerance: 0.0005 });
 
-    const mainLine = fullTrackGeoJson.features[0];
+    const mainLineRaw = fullTrackGeoJson.features.find(f => f.geometry && (f.geometry.type === 'LineString' || f.geometry.type === 'MultiLineString'));
+    if (!mainLineRaw) return;
+    
+    // Upewniamy się, że szlak to zawsze jednolity LineString
+    let flatCoords = [];
+    turf.coordEach(mainLineRaw, c => flatCoords.push(c));
+    const mainLine = turf.lineString(flatCoords);
+
+    appCtx.originalMainLine = mainLine;
+    appCtx.globalMainLine = mainLine;
+
     const gpxCoords = mainLine.geometry.coordinates;
     const gpxStart = gpxCoords[0];
     const gpxEnd = gpxCoords[gpxCoords.length - 1];
 
-    // Dociąganie i przeliczanie skrajnych punktów
-    rawPoisData = rawPoisData.map((poi, index) => {
-      let trueLon = poi.lon;
-      let trueLat = poi.lat;
+    const originalPois = await DataLoader.loadPois();
+    const response = await fetch(`${DataLoader.baseUrl}data/msb_pois.json`);
+    let osmPois = [];
+    if (response.ok) osmPois = await response.json();
+
+    const normalizeName = (name) => {
+      if(!name) return "";
+      return name.toLowerCase().replace(/schronisko/g, '').replace(/pttk/g, '').replace(/przełęcz/g, '')
+                 .replace(/szczyt/g, '').replace(/góra/g, '').replace(/pod/g, '').replace(/na/g, '').replace(/\s+/g, '').trim();
+    };
+
+    rawPoisData = originalPois.map((poi, index) => {
+      let finalLon = poi.lon;
+      let finalLat = poi.lat;
 
       if (index === 0) {
-        trueLon = gpxStart[0];
-        trueLat = gpxStart[1];
-      } else if (index === rawPoisData.length - 1) {
-        trueLon = gpxEnd[0];
-        trueLat = gpxEnd[1];
+        finalLon = gpxStart[0];
+        finalLat = gpxStart[1];
+      } else if (index === originalPois.length - 1) {
+        finalLon = gpxEnd[0];
+        finalLat = gpxEnd[1];
+      } else {
+        const nName = normalizeName(poi.name);
+        let match = null;
+        if (nName.length > 2) match = osmPois.find(op => op.name && normalizeName(op.name).includes(nName));
+        
+        let targetPt = match ? turf.point([parseFloat(match.lon), parseFloat(match.lat)]) : turf.point([parseFloat(poi.lon), parseFloat(poi.lat)]);
+        const snapped = turf.nearestPointOnLine(mainLine, targetPt);
+        finalLon = snapped.geometry.coordinates[0];
+        finalLat = snapped.geometry.coordinates[1];
       }
 
-      const poiPoint = turf.point([trueLon, trueLat]);
-      const snapped = turf.nearestPointOnLine(mainLine, poiPoint);
-      const distMeters = Math.round(turf.distance(poiPoint, snapped, { units: 'meters' }));
-
       return {
-        ...poi,
-        lat: trueLat,
-        lon: trueLon,
-        snappedLon: snapped.geometry.coordinates[0],
-        snappedLat: snapped.geometry.coordinates[1],
-        offTrackMeters: distMeters
+        ...poi, originalLon: poi.lon, originalLat: poi.lat, km: parseFloat(poi.km) || 0, lon: finalLon, lat: finalLat
       };
     });
+    
+    await loadRabkaAccessTracks();
+    
+    // Zrzucenie ciężaru na moduł MapModules!
+    await MapModules.initMassiveOsmPois(osmPois, mainLine, appCtx);
+    await MapModules.initMsbGotSystem(mainLine, osmPois, getPreciseLineSlice);
 
-    if (osmData && osmData.features) {
-      processOsmPois(osmData, mainLine);
-    }
+    recalculateRouteMetadata();
 
-    const fullTrackLayer = L.geoJSON(fullTrackGeoJson);
+    const fullTrackLayer = L.geoJSON(fullTrackGeoJson, {
+      filter: (feature) => feature.geometry && ['LineString', 'MultiLineString'].includes(feature.geometry.type)
+    });
     map.fitBounds(fullTrackLayer.getBounds());
 
     setupEvents();
     updateProfile(currentProfile);
 
-  } catch (error) {
-    console.error('Błąd podczas ładowania danych trasy:', error);
-  }
+  } catch (error) { console.error('Błąd podczas ładowania danych trasy:', error); }
+}
+
+async function loadPolygons() {
+  try {
+    const reserves = await fetch(`${DataLoader.baseUrl}data/rezerwaty.geojson`).then(r => r.ok ? r.json() : null);
+    if (reserves) L.geoJSON(reserves, { style: { fillColor: '#2a9d8f', fillOpacity: 0.3, color: '#1f7a6f', weight: 2 } }).bindPopup("🌳 Rezerwat Przyrody").addTo(layers.naturePolygonsLayer);
+    
+    const wildCamps = await fetch(`${DataLoader.baseUrl}data/zanocuj.geojson`).then(r => r.ok ? r.json() : null);
+    if (wildCamps) L.geoJSON(wildCamps, { style: { fillColor: '#f4a261', fillOpacity: 0.2, color: '#e76f51', weight: 2, dashArray: '5,5' } }).bindPopup("⛺ Strefa 'Zanocuj w Lesie'").addTo(layers.wildCampPolygonsLayer);
+  } catch(e) {}
+}
+
+async function loadRabkaAccessTracks() {
+  try {
+    const greenGeoJson = await DataLoader.loadRabkaGreenTrack();
+    if (greenGeoJson) {
+      appCtx.rabkaAccessLengthKm = Math.round(turf.length(greenGeoJson, {units: 'kilometers'}) * 10) / 10;
+      L.geoJSON(greenGeoJson, {
+        style: { color: ACCESS_TRACK_COLORS.rabkaGreen, weight: 5, dashArray: '6, 6', opacity: 0.9 },
+        filter: (f) => f.geometry && ['LineString', 'MultiLineString'].includes(f.geometry.type)
+      }).bindPopup(`<strong>Dojście z Rabki (Szlak Zielony)</strong><br/>Dystans dojściowy: ${appCtx.rabkaAccessLengthKm} km`).addTo(layers.rabkaGreenLayer);
+    }
+  } catch (e) {}
+
+  try {
+    const blueGeoJson = await DataLoader.loadRabkaBlueTrack();
+    if (blueGeoJson) {
+      L.geoJSON(blueGeoJson, {
+        style: { color: ACCESS_TRACK_COLORS.rabkaBlue, weight: 5, dashArray: '6, 6', opacity: 0.9 },
+        filter: (f) => f.geometry && ['LineString', 'MultiLineString'].includes(f.geometry.type)
+      }).bindPopup('<strong>Dojście na szlak z Rabki (Niebieski)</strong>').addTo(layers.rabkaBlueLayer);
+    }
+  } catch (e) {}
 }
 
 function updateProfile(profileKey) {
   currentProfile = profileKey;
   activeProfilePois = RouteController.getPoisForProfile(rawPoisData, currentProfile);
-
-  if (currentProfile === 'fast_light') {
-    currentDays = 3;
-  } else if (currentDays < 4) {
-    currentDays = 5;
-  }
-
   updateDaysButtonsUI();
   renderMainPois();
   renderVariant(currentDays);
 }
 
 function renderMainPois() {
-  mainPoisLayer.clearLayers();
+  layers.mainPoisLayer.clearLayers();
 
-  activeProfilePois.forEach(poi => {
-    if (poi.offTrackMeters > 15) {
-      drawConnectorPath(poi);
-    }
+  if (rawPoisData.length > 0) {
+    rawPoisData.forEach((poi, index) => {
+      const isStart = index === 0;
+      const isEnd = index === rawPoisData.length - 1;
+      const iconType = poi.type || 'waypoint';
 
-    const marker = L.circleMarker([poi.lat, poi.lon], {
-      radius: 6,
-      fillColor: '#ffffff',
-      color: '#1d3557',
-      weight: 2,
-      opacity: 1,
-      fillOpacity: 1,
-      className: 'poi-main'
-    }).addTo(mainPoisLayer);
+      if(isStart || isEnd || iconType.includes('sleep')) {
+        const marker = L.marker([poi.lat, poi.lon], { icon: getMainPoiIcon(iconType, true) }).addTo(layers.mainPoisLayer);
 
-    const offTrackInfo = poi.offTrackMeters > 15 ? `<br/><em>Zejście ze szlaku: ~${poi.offTrackMeters} m</em>` : '';
-    const desc = poi.description ? `<br/><small style="color:#555;">${poi.description}</small>` : '';
+        const isWildAllowed = currentProfile === 'wild' && poi.profiles && poi.profiles.includes('wild');
+        const tentNote = (iconType === 'sleep_indoor' && isWildAllowed) ? `<br/><span style="color:#d62828;">⛺ Możliwość rozbicia namiotu</span>` : '';
 
-    marker.bindPopup(`<strong>${poi.name}</strong><br/>KM szlaku: ${poi.km}${offTrackInfo}${desc}`);
-  });
-}
+        const isSelected = appCtx.customNights.find(n => n.id === poi.id);
+        const btnText = isSelected ? '➖ Usuń z planu' : '⛺ Zaplanuj nocleg tutaj';
+        const btnColor = isSelected ? '#e63946' : '#2a9d8f';
+        let actionBtn = `<br/><button onclick="window.toggleCustomNight('${poi.id || `main_${index}`}', '${poi.name.replace(/'/g, "\\'")}', ${poi.lat}, ${poi.lon})" style="margin-top:10px; width:100%; padding:6px 10px; cursor:pointer; background:${btnColor}; color:#fff; border:none; border-radius:4px; font-weight:bold;">${btnText}</button>`;
+        if (isStart || isEnd) actionBtn = ''; 
 
-function drawConnectorPath(poi) {
-  const startCoords = [poi.snappedLon, poi.snappedLat];
-  const endCoords = [poi.lon, poi.lat];
-
-  drawRoutedPath(startCoords, endCoords, mainPoisLayer, {
-    color: '#495057',
-    weight: 3,
-    dashArray: '4, 6',
-    opacity: 0.9
-  });
-}
-
-function processOsmPois(osmGeoJson, mainLine) {
-  osmGeoJson.features.forEach(feature => {
-    let coords = null;
-    if (feature.geometry.type === 'Point') {
-      coords = feature.geometry.coordinates;
-    } else if (feature.geometry.type === 'Polygon' || feature.geometry.type === 'LineString') {
-      coords = turf.center(feature).geometry.coordinates;
-    }
-    if (!coords) return;
-
-    const osmPoint = turf.point([coords[0], coords[1]]);
-    const snappedToMain = turf.nearestPointOnLine(mainLine, osmPoint);
-    const distanceToTrail = Math.round(turf.distance(osmPoint, snappedToMain, { units: 'meters' }));
-
-    // Odrzucamy punkty dalej niż 300m od szlaku
-    if (distanceToTrail > 300) return;
-
-    // Ignorujemy punkty OSM leżące w promieniu 150m od głównych węzłów
-    const isMainPoiNearby = rawPoisData.some(mainPoi => {
-      const mainPoint = turf.point([mainPoi.lon, mainPoi.lat]);
-      return turf.distance(osmPoint, mainPoint, { units: 'meters' }) < 150;
+        if (isStart) marker.bindPopup(`<strong>${poi.name}</strong><br/>▶ Początek trasy<br/>KM: ${poi.km}${actionBtn}`);
+        else if (isEnd) marker.bindPopup(`<strong>${poi.name}</strong><br/>🏁 Koniec trasy<br/>KM: ${poi.km}${actionBtn}`);
+        else marker.bindPopup(`<strong>${poi.name}</strong><br/>Baza Noclegowa<br/>KM: ${poi.km}${tentNote}${actionBtn}`);
+      }
     });
-
-    if (isMainPoiNearby) return;
-
-    const props = feature.properties || {};
-    const snappedCoords = snappedToMain.geometry.coordinates;
-
-    if (props.natural === 'spring' || props.amenity === 'drinking_water') {
-      if (distanceToTrail > 10) {
-        drawRoutedPath(snappedCoords, coords, waterPoisLayer, {
-          color: '#00b4d8',
-          weight: 2,
-          dashArray: '3, 4',
-          opacity: 0.9
-        });
-      }
-
-      const marker = L.circleMarker([coords[1], coords[0]], {
-        radius: 4,
-        fillColor: '#00b4d8',
-        color: '#03045e',
-        weight: 1,
-        opacity: 0.9,
-        fillOpacity: 0.9
-      }).addTo(waterPoisLayer);
-
-      const name = props.name ? `<strong>${props.name}</strong><br/>` : '';
-      marker.bindPopup(`${name}Typ: Źródło wody<br/><em>Zejście ze szlaku: ~${distanceToTrail} m</em>`);
-
-    } else if (props.amenity === 'shelter') {
-      if (distanceToTrail > 10) {
-        drawRoutedPath(snappedCoords, coords, shelterPoisLayer, {
-          color: '#f77f00',
-          weight: 2,
-          dashArray: '3, 4',
-          opacity: 0.9
-        });
-      }
-
-      const marker = L.circleMarker([coords[1], coords[0]], {
-        radius: 5,
-        fillColor: '#f77f00',
-        color: '#d62828',
-        weight: 1.5,
-        opacity: 1,
-        fillOpacity: 0.9
-      }).addTo(shelterPoisLayer);
-
-      const name = props.name ? `<strong>${props.name}</strong><br/>` : '';
-      marker.bindPopup(`${name}Typ: Wiata / Schron<br/><em>Zejście ze szlaku: ~${distanceToTrail} m</em>`);
-    }
-  });
-}
-
-function drawRoutedPath(startCoords, endCoords, layerGroup, style) {
-  const startPoint = turf.point(startCoords);
-  const endPoint = turf.point(endCoords);
-  let pathFound = false;
-
-  if (pathFinder) {
-    const pathResult = pathFinder.findPath(startPoint, endPoint);
-    if (pathResult && pathResult.path && pathResult.path.length > 0) {
-      const leafletCoords = pathResult.path.map(coord => [coord[1], coord[0]]);
-      L.polyline(leafletCoords, style).addTo(layerGroup);
-      pathFound = true;
-    }
   }
-
-  // Fallback: linia prosta, jeśli sieć ścieżek jest niedostępna lub nieaktywna
-  if (!pathFound) {
-    L.polyline([
-      [startCoords[1], startCoords[0]],
-      [endCoords[1], endCoords[0]]
-    ], style).addTo(layerGroup);
-  }
-}
-
-function calculateHikingTime(distanceKm, ascentMeters) {
-  const totalHours = (distanceKm / 4.0) + (ascentMeters / 400.0);
-  const hours = Math.floor(totalHours);
-  const minutes = Math.round((totalHours - hours) * 60);
-  return `${hours}h ${minutes === 60 ? 0 : minutes}m`;
-}
-
-function calculateElevationStats(geojsonLine) {
-  let ascent = 0;
-  let descent = 0;
-  const coords = geojsonLine.geometry.coordinates;
-
-  for (let i = 1; i < coords.length; i++) {
-    const prevEle = coords[i - 1][2];
-    const currEle = coords[i][2];
-    if (prevEle !== undefined && currEle !== undefined) {
-      const diff = currEle - prevEle;
-      if (diff > 0) ascent += diff;
-      else descent += Math.abs(diff);
-    }
-  }
-  return { ascent: Math.round(ascent), descent: Math.round(descent) };
 }
 
 function renderVariant(daysCount) {
-  if (!fullTrackGeoJson || !activeProfilePois.length) return;
+  if (!appCtx.globalMainLine || (!activeProfilePois.length && appCtx.customNights.length === 0)) return;
 
-  stageLayersGroup.clearLayers();
-  const stages = RouteController.getVariantStages(daysCount, activeProfilePois);
+  layers.stageLayersGroup.clearLayers();
   const container = document.getElementById('stages-summary');
-  container.innerHTML = '';
+  if(container) container.innerHTML = '';
 
-  const mainLine = fullTrackGeoJson.features[0];
+  let normalizedStages = [];
+  const stageColors = ['#e63946', '#457b9d', '#8a2be2', '#f77f00', '#2a9d8f', '#d62828', '#1d3557', '#6a4c93'];
 
-  stages.forEach(stage => {
-    const startPoint = turf.point([stage.startPoi.snappedLon, stage.startPoi.snappedLat]);
-    const endPoint = turf.point([stage.endPoi.snappedLon, stage.endPoi.snappedLat]);
+  if (appCtx.customNights.length > 0) {
+      if(container) {
+          container.innerHTML = `
+              <div style="padding: 12px; background: #d4edda; color: #155724; border-radius: 8px; margin-bottom: 15px; border: 1px solid #c3e6cb; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                  <strong>⛺ Smart Insertion (Własne noclegi)</strong><br/>
+                  <div style="font-size:12px; margin-top:4px; margin-bottom:8px;">Wstrzyknięto ${appCtx.customNights.length} własne punkty noclegowe</div>
+                  <button onclick="window.clearCustomPlan()" style="width: 100%; padding: 6px; background: #dc3545; color: white; border: none; border-radius: 4px; cursor: pointer; font-weight:bold;">Wróć do automatu</button>
+              </div>
+          `;
+          document.querySelectorAll('.day-btn').forEach(b => b.classList.remove('active'));
+      }
 
+      const baseStages = RouteController.getVariantStages(currentDays, activeProfilePois);
+      let autoNights = [];
+      for (let i = 0; i < baseStages.length - 1; i++) {
+          autoNights.push({
+              name: baseStages[i].endPoi.name, lat: baseStages[i].endPoi.lat, lon: baseStages[i].endPoi.lon, km: baseStages[i].endPoi.km
+          });
+      }
+
+      let combinedNights = [...autoNights];
+      appCtx.customNights.forEach(cn => {
+          const exists = combinedNights.some(an => Math.abs(an.km - cn.km) < 0.5);
+          if (!exists) combinedNights.push({ name: cn.name, lat: cn.lat, lon: cn.lon, km: cn.km });
+      });
+
+      combinedNights.sort((a,b) => a.km - b.km);
+      const waypoints = [startPoiGlobal, ...combinedNights, endPoiGlobal];
+      
+      for(let i=0; i<waypoints.length-1; i++) {
+          const dist = Math.abs(waypoints[i+1].km - waypoints[i].km);
+          normalizedStages.push({
+              day: i+1, startName: waypoints[i].name, endName: waypoints[i+1].name, startLat: waypoints[i].lat, startLon: waypoints[i].lon,
+              endLat: waypoints[i+1].lat, endLon: waypoints[i+1].lon, startKm: waypoints[i].km, endKm: waypoints[i+1].km,
+              distanceKm: Math.round(dist * 10) / 10, color: stageColors[i % stageColors.length]
+          });
+      }
+  } else {
+      updateDaysButtonsUI();
+      const rawStages = RouteController.getVariantStages(daysCount, activeProfilePois);
+      normalizedStages = rawStages.map((s) => ({
+          day: s.day, startName: s.startName, endName: s.endName, startLat: s.startPoi.lat, startLon: s.startPoi.lon,
+          endLat: s.endPoi.lat, endLon: s.endPoi.lon, startKm: s.startPoi.km, endKm: s.endPoi.km,
+          distanceKm: Math.round(Math.abs(s.distanceKm) * 10) / 10, color: s.color
+      }));
+  }
+
+  normalizedStages.forEach(stage => {
     let eleStats = { ascent: 0, descent: 0 };
     let hikingTime = '0h 0m';
 
+    const stageLogistics = appCtx.vitalLogisticsOnRoute.filter(p => p.km > Math.min(stage.startKm, stage.endKm) && p.km < Math.max(stage.startKm, stage.endKm));
+    const shopsCount = stageLogistics.filter(p => p.catKey === 'supply' || p.catKey === 'food').length;
+    const waterCount = stageLogistics.filter(p => p.catKey === 'water').length;
+
     try {
-      const slicedSegment = turf.lineSlice(startPoint, endPoint, mainLine);
-      eleStats = calculateElevationStats(slicedSegment);
-      hikingTime = calculateHikingTime(stage.distanceKm, eleStats.ascent);
+      const slicedSegment = getPreciseLineSlice([stage.startLon, stage.startLat], [stage.endLon, stage.endLat], appCtx.globalMainLine);
+      
+      if (slicedSegment && slicedSegment.geometry) {
+        eleStats = calculateElevationStats(slicedSegment);
+        hikingTime = calculateHikingTime(stage.distanceKm, eleStats.ascent);
 
-      L.geoJSON(slicedSegment, {
-        style: { color: stage.color, weight: 6, opacity: 0.9 }
-      }).bindPopup(`
-        <strong>Dzień ${stage.day}</strong><br/>
-        ${stage.startName} → ${stage.endName}<br/>
-        Dystans: ${stage.distanceKm} km<br/>
-        Podejścia: +${eleStats.ascent} m | Zejścia: -${eleStats.descent} m<br/>
-        ⏱ Czas: ~${hikingTime}
-      `).addTo(stageLayersGroup);
+        L.geoJSON(slicedSegment, {
+          style: { color: stage.color, weight: 6, opacity: 0.9 },
+          filter: (feature) => feature.geometry && ['LineString', 'MultiLineString'].includes(feature.geometry.type)
+        }).bindPopup(`
+          <strong>Dzień ${stage.day}</strong><br/>
+          ${stage.startName} → ${stage.endName}<br/>
+          Dystans: ${stage.distanceKm} km<br/>
+          Podejścia: +${eleStats.ascent} m | Zejścia: -${eleStats.descent} m<br/>
+          ⏱ Czas: ~${hikingTime}
+        `).addTo(layers.stageLayersGroup);
+      }
+    } catch (err) {}
 
-    } catch (err) {
-      console.warn(`Błąd wycinania odcinka:`, err);
+    if(container) {
+      const el = document.createElement('div');
+      el.className = 'stage-item';
+      el.style.borderColor = stage.color;
+      
+      let badgesHtml = '';
+      if (shopsCount > 0) badgesHtml += `<span style="background: #8338ec; color: white; padding: 3px 6px; border-radius: 4px; font-weight: 500;">🛒 Sklepy i Bary: ${shopsCount}</span>`;
+      if (waterCount > 0) badgesHtml += `<span style="background: #00b4d8; color: white; padding: 3px 6px; border-radius: 4px; font-weight: 500;">💧 Ujęcia wody: ${waterCount}</span>`;
+
+      el.innerHTML = `
+        <header style="color: ${stage.color}; font-weight:bold;">Etap ${stage.day}: ${stage.distanceKm} km</header>
+        <div class="details" style="font-size: 14px; margin-top:5px;">${stage.startName} <br/>⬇<br/> ${stage.endName}</div>
+        <div class="details" style="font-weight: 600; color: #444; margin-top: 8px; font-size: 13px; background: #f8f9fa; padding: 6px; border-radius: 4px;">
+          ▲ +${eleStats.ascent}m &nbsp; ▼ -${eleStats.descent}m &nbsp;|&nbsp; ⏱ ~${hikingTime}
+        </div>
+        <div style="margin-top: 8px; display: flex; gap: 6px; font-size: 11px;">${badgesHtml}</div>
+      `;
+      container.appendChild(el);
     }
-
-    const el = document.createElement('div');
-    el.className = 'stage-item';
-    el.style.borderColor = stage.color;
-    el.innerHTML = `
-      <header style="color: ${stage.color}">Dzień ${stage.day}: ${stage.distanceKm} km</header>
-      <div class="details">${stage.startName} → ${stage.endName}</div>
-      <div class="details" style="font-weight: 600; color: #333; margin-top: 4px;">
-        ▲ +${eleStats.ascent} m &nbsp; ▼ -${eleStats.descent} m &nbsp;|&nbsp; ⏱ ~${hikingTime}
-      </div>
-    `;
-    container.appendChild(el);
   });
 }
 
 function updateDaysButtonsUI() {
-  const dayButtons = document.querySelectorAll('.day-btn');
-  dayButtons.forEach(btn => {
+  if (appCtx.customNights.length > 0) return; 
+  document.querySelectorAll('.day-btn').forEach(btn => {
     const days = parseInt(btn.dataset.days);
-    if (currentProfile === 'fast_light' && days > 4) {
-      btn.style.display = 'none';
-    } else {
-      btn.style.display = 'inline-block';
-    }
-
     if (days === currentDays) btn.classList.add('active');
     else btn.classList.remove('active');
   });
 }
 
 function setupEvents() {
-  // Wysuwanie/zwijanie dolnego panelu na mobilce
   const sidebar = document.getElementById('sidebar');
   const sidebarToggle = document.getElementById('sidebar-toggle');
 
   if (sidebarToggle && sidebar) {
     sidebarToggle.addEventListener('click', () => {
-      // Tylko na mobilkach togglujemy klasę
       if (window.innerWidth < 768) {
         sidebar.classList.toggle('collapsed');
-        setTimeout(() => {
-          map.invalidateSize(); // Przelicz przerysowanie mapy Leaflet
-        }, 300);
+        setTimeout(() => map.invalidateSize(), 300);
       }
     });
   }
 
-  const profileButtons = document.querySelectorAll('.profile-btn');
-  profileButtons.forEach(btn => {
+  document.querySelectorAll('.profile-btn').forEach(btn => {
     btn.addEventListener('click', (e) => {
-      profileButtons.forEach(b => b.classList.remove('active'));
-      e.target.classList.add('active');
-      updateProfile(e.target.dataset.profile);
+      const targetBtn = e.target.closest('.profile-btn');
+      if (!targetBtn) return;
+      document.querySelectorAll('.profile-btn').forEach(b => b.classList.remove('active'));
+      targetBtn.classList.add('active');
+      updateProfile(targetBtn.dataset.profile);
     });
   });
 
-  const dayButtons = document.querySelectorAll('.day-btn');
-  dayButtons.forEach(btn => {
+  document.querySelectorAll('.day-btn').forEach(btn => {
     btn.addEventListener('click', (e) => {
-      dayButtons.forEach(b => b.classList.remove('active'));
-      e.target.classList.add('active');
-      currentDays = parseInt(e.target.dataset.days);
-      renderVariant(currentDays);
+      const targetBtn = e.target.closest('.day-btn');
+      if (!targetBtn) return;
+      
+      const newDays = parseInt(targetBtn.dataset.days);
+      if (!isNaN(newDays)) {
+        window.clearCustomPlan();
+        document.querySelectorAll('.day-btn').forEach(b => b.classList.remove('active'));
+        targetBtn.classList.add('active');
+        currentDays = newDays;
+        renderVariant(currentDays);
+      }
     });
   });
-
-  const toggleMain = document.getElementById('toggle-main-pois');
-  if (toggleMain) {
-    toggleMain.addEventListener('change', (e) => {
-      if (e.target.checked) map.addLayer(mainPoisLayer);
-      else map.removeLayer(mainPoisLayer);
-    });
-  }
-
-  const toggleWater = document.getElementById('toggle-water');
-  if (toggleWater) {
-    toggleWater.addEventListener('change', (e) => {
-      if (e.target.checked) map.addLayer(waterPoisLayer);
-      else map.removeLayer(waterPoisLayer);
-    });
-  }
-
-  const toggleShelters = document.getElementById('toggle-shelters');
-  if (toggleShelters) {
-    toggleShelters.addEventListener('change', (e) => {
-      if (e.target.checked) map.addLayer(shelterPoisLayer);
-      else map.removeLayer(shelterPoisLayer);
-    });
-  }
-}
-
-  const toggleMain = document.getElementById('toggle-main-pois');
-  if (toggleMain) {
-    toggleMain.addEventListener('change', (e) => {
-      if (e.target.checked) map.addLayer(mainPoisLayer);
-      else map.removeLayer(mainPoisLayer);
-    });
-  }
-
-  const toggleWater = document.getElementById('toggle-water');
-  if (toggleWater) {
-    toggleWater.addEventListener('change', (e) => {
-      if (e.target.checked) map.addLayer(waterPoisLayer);
-      else map.removeLayer(waterPoisLayer);
-    });
-  }
-
-  const toggleShelters = document.getElementById('toggle-shelters');
-  if (toggleShelters) {
-    toggleShelters.addEventListener('change', (e) => {
-      if (e.target.checked) map.addLayer(shelterPoisLayer);
-      else map.removeLayer(shelterPoisLayer);
-    });
-  }
 }
 
 initApp();

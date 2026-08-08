@@ -1,0 +1,298 @@
+[
+  {
+    "id": "seg_001",
+    "from_node": "node_001",
+    "to_node": "node_002",
+    "name": "Bielsko-Biała Straconka – Gaiki",
+    "points_forward": 7,
+    "points_backward": 5
+  },
+  {
+    "id": "seg_002",
+    "from_node": "node_002",
+    "to_node": "node_003",
+    "name": "Gaiki – Hrobacza Łąka",
+    "points_forward": 4,
+    "points_backward": 4
+  },
+  {
+    "id": "seg_003",
+    "from_node": "node_003",
+    "to_node": "node_004",
+    "name": "Hrobacza Łąka – Bujakowski Groń",
+    "points_forward": 2,
+    "points_backward": 3
+  },
+  {
+    "id": "seg_004",
+    "from_node": "node_004",
+    "to_node": "node_005",
+    "name": "Bujakowski Groń – Porąbka",
+    "points_forward": 4,
+    "points_backward": 7
+  },
+  {
+    "id": "seg_005",
+    "from_node": "node_005",
+    "to_node": "node_006",
+    "name": "Porąbka – Żar",
+    "points_forward": 7,
+    "points_backward": 3
+  },
+  {
+    "id": "seg_006",
+    "from_node": "node_006",
+    "to_node": "node_007",
+    "name": "Żar – Kiczora",
+    "points_forward": 3,
+    "points_backward": 2
+  },
+  {
+    "id": "seg_007",
+    "from_node": "node_007",
+    "to_node": "node_008",
+    "name": "Kiczora – Przysłop Cisowy",
+    "points_forward": 4,
+    "points_backward": 3
+  },
+  {
+    "id": "seg_008",
+    "from_node": "node_008",
+    "to_node": "node_009",
+    "name": "Przysłop Cisowy – Przełęcz Kocierska",
+    "points_forward": 6,
+    "points_backward": 7
+  },
+  {
+    "id": "seg_009",
+    "from_node": "node_009",
+    "to_node": "node_010",
+    "name": "Przełęcz Kocierska – Potrójna",
+    "points_forward": 6,
+    "points_backward": 4
+  },
+  {
+    "id": "seg_010",
+    "from_node": "node_010",
+    "to_node": "node_011",
+    "name": "Potrójna – Łamana Skała",
+    "points_forward": 4,
+    "points_backward": 3
+  },
+  {
+    "id": "seg_011",
+    "from_node": "node_011",
+    "to_node": "node_012",
+    "name": "Łamana Skała – Leskowiec",
+    "points_forward": 7,
+    "points_backward": 7
+  },
+  {
+    "id": "seg_012",
+    "from_node": "node_012",
+    "to_node": "node_013",
+    "name": "Leskowiec – Groń Jana Pawła II",
+    "points_forward": 1,
+    "points_backward": 1
+  },
+  {
+    "id": "seg_013",
+    "from_node": "node_013",
+    "to_node": "node_014",
+    "name": "Groń Jana Pawła II – Krzeszów Górny",
+    "points_forward": 7,
+    "points_backward": 10
+  },
+  {
+    "id": "seg_014",
+    "from_node": "node_014",
+    "to_node": "node_015",
+    "name": "Krzeszów Górny – Żurawnica",
+    "points_forward": 4,
+    "points_backward": 3
+  },
+  {
+    "id": "seg_015",
+    "from_node": "node_015",
+    "to_node": "node_016",
+    "name": "Żurawnica – Zembrzyce",
+    "points_forward": 7,
+    "points_backward": 11
+  },
+  {
+    "id": "seg_016",
+    "from_node": "node_016",
+    "to_node": "node_017",
+    "name": "Zembrzyce – Chełm",
+    "points_forward": 10,
+    "points_backward": 7
+  },
+  {
+    "id": "seg_017",
+    "from_node": "node_017",
+    "to_node": "node_018",
+    "name": "Chełm – Chełm Wschodni",
+    "points_forward": 3,
+    "points_backward": 3
+  },
+  {
+    "id": "seg_018",
+    "from_node": "node_018",
+    "to_node": "node_019",
+    "name": "Chełm Wschodni – Palcza",
+    "points_forward": 4,
+    "points_backward": 6
+  },
+  {
+    "id": "seg_019",
+    "from_node": "node_019",
+    "to_node": "node_020",
+    "name": "Palcza – Babica Zachodnia",
+    "points_forward": 5,
+    "points_backward": 4
+  },
+  {
+    "id": "seg_020",
+    "from_node": "node_020",
+    "to_node": "node_021",
+    "name": "Babica Zachodnia – Babica",
+    "points_forward": 2,
+    "points_backward": 2
+  },
+  {
+    "id": "seg_021",
+    "from_node": "node_021",
+    "to_node": "node_022",
+    "name": "Babica – Sularzówka",
+    "points_forward": 7,
+    "points_backward": 8
+  },
+  {
+    "id": "seg_022",
+    "from_node": "node_022",
+    "to_node": "node_023",
+    "name": "Sularzówka – Myślenice",
+    "points_forward": 7,
+    "points_backward": 9
+  },
+  {
+    "id": "seg_023",
+    "from_node": "node_023",
+    "to_node": "node_024",
+    "name": "Myślenice – Myślenice Zarabie",
+    "points_forward": 2,
+    "points_backward": 2
+  },
+  {
+    "id": "seg_024",
+    "from_node": "node_024",
+    "to_node": "node_025",
+    "name": "Myślenice Zarabie – Uklejna",
+    "points_forward": 9,
+    "points_backward": 5
+  },
+  {
+    "id": "seg_025",
+    "from_node": "node_025",
+    "to_node": "node_026",
+    "name": "Uklejna – Śliwnik",
+    "points_forward": 1,
+    "points_backward": 1
+  },
+  {
+    "id": "seg_026",
+    "from_node": "node_026",
+    "to_node": "node_027",
+    "name": "Śliwnik – Działek",
+    "points_forward": 4,
+    "points_backward": 2
+  },
+  {
+    "id": "seg_027",
+    "from_node": "node_027",
+    "to_node": "node_028",
+    "name": "Działek – Kudłacze",
+    "points_forward": 4,
+    "points_backward": 2
+  },
+  {
+    "id": "seg_028",
+    "from_node": "node_028",
+    "to_node": "node_029",
+    "name": "Kudłacze – Łysina",
+    "points_forward": 2,
+    "points_backward": 2
+  },
+  {
+    "id": "seg_029",
+    "from_node": "node_029",
+    "to_node": "node_030",
+    "name": "Łysina – Lubomir",
+    "points_forward": 3,
+    "points_backward": 6
+  },
+  {
+    "id": "seg_030",
+    "from_node": "node_030",
+    "to_node": "node_031",
+    "name": "Lubomir – Jaworzyce",
+    "points_forward": 6,
+    "points_backward": 3
+  },
+  {
+    "id": "seg_031",
+    "from_node": "node_031",
+    "to_node": "node_032",
+    "name": "Jaworzyce – Wierzbanowska Góra",
+    "points_forward": 5,
+    "points_backward": 7
+  },
+  {
+    "id": "seg_032",
+    "from_node": "node_032",
+    "to_node": "node_033",
+    "name": "Wierzbanowska Góra – Kasina Wielka",
+    "points_forward": 10,
+    "points_backward": 5
+  },
+  {
+    "id": "seg_033",
+    "from_node": "node_033",
+    "to_node": "node_034",
+    "name": "Kasina Wielka – Lubogoszcz",
+    "points_forward": 3,
+    "points_backward": 6
+  },
+  {
+    "id": "seg_034",
+    "from_node": "node_034",
+    "to_node": "node_035",
+    "name": "Lubogoszcz – Zapadliska",
+    "points_forward": 4,
+    "points_backward": 7
+  },
+  {
+    "id": "seg_035",
+    "from_node": "node_035",
+    "to_node": "node_036",
+    "name": "Zapadliska – Mszana Dolna",
+    "points_forward": 8,
+    "points_backward": 6
+  },
+  {
+    "id": "seg_036",
+    "from_node": "node_036",
+    "to_node": "node_037",
+    "name": "Mszana Dolna – Przełęcz Glisne",
+    "points_forward": 6,
+    "points_backward": 2
+  },
+  {
+    "id": "seg_037",
+    "from_node": "node_037",
+    "to_node": "node_038",
+    "name": "Przełęcz Glisne – Luboń Wielki",
+    "points_forward": 6,
+    "points_backward": 2
+  }
+]

@@ -183,6 +183,12 @@ hr {
   border-top: 1px solid #eee;
 }
 
+/* STYLOWANIE IKONEK SVG NA MAPIE */
+.custom-map-icon {
+  background: transparent;
+  border: none;
+}
+
 /* DESKTOP (Szerokość 768px i więcej) */
 @media (min-width: 768px) {
   #app {
