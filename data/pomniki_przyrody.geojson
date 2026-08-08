@@ -1,0 +1,2729 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-08-08T08:21:30Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1238491019",
+        "circumference": "4.86",
+        "denotation": "natural_monument",
+        "diameter_crown": "38",
+        "height": "21",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "species": "Platanus acerifolia",
+        "species:pl": "Platan klonolistny"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1426976,
+          49.845876
+        ]
+      },
+      "id": "node/1238491019"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3133792164",
+        "circumference": "4.72",
+        "denotation": "natural_monument",
+        "height": "23",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "name": "Platan - pomnik przyrody",
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.3427185,
+          49.8538902
+        ]
+      },
+      "id": "node/3133792164"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4163971878",
+        "circumference": "3.1",
+        "denotation": "natural_monument",
+        "height": "25",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "name": "lipa - pomnik przyrody",
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.34534,
+          49.8515487
+        ]
+      },
+      "id": "node/4163971878"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4163974878",
+        "circumference": "6",
+        "denotation": "natural_monument",
+        "height": "30",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "name": "lipa - pomnik przyrody",
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.3468537,
+          49.8629313
+        ]
+      },
+      "id": "node/4163974878"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4381059723",
+        "denotation": "natural_monument",
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.6781777,
+          49.8809609
+        ]
+      },
+      "id": "node/4381059723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4907032900",
+        "denotation": "natural_monument",
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.5137471,
+          49.8696215
+        ]
+      },
+      "id": "node/4907032900"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5036489449",
+        "denotation": "natural_monument",
+        "historic": "tree_shrine",
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.5699258,
+          49.8061598
+        ]
+      },
+      "id": "node/5036489449"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5791980182",
+        "denotation": "natural_monument",
+        "genus": "Lipa",
+        "height": "20",
+        "leaf_type": "broadleaved",
+        "name": "Chránený strom",
+        "natural": "tree",
+        "source": "survey, GPS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.3801484,
+          49.5210784
+        ]
+      },
+      "id": "node/5791980182"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6460154193",
+        "denotation": "natural_monument",
+        "inscription": "wiek ok. 370 lat Najstarsze drzewo na Żywiecczyźnie. Imię nadano w 2013 roku dla uczczenia pamięci Franciszka Wielkopolskiego.",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "name": "Dąb Franciszek",
+        "name:wikidata": "Q5484338",
+        "name:wikipedia": "pl:Franciszek Wielopolski (1658–1732)",
+        "natural": "tree",
+        "wikidata": "Q123247672"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.2029527,
+          49.6863213
+        ]
+      },
+      "id": "node/6460154193"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6784376980",
+        "denotation": "natural_monument",
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.2622568,
+          49.7512065
+        ]
+      },
+      "id": "node/6784376980"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7025169011",
+        "circumference": "3.3",
+        "denotation": "natural_monument",
+        "height": "20",
+        "heritage": "no",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "species": "Acer pseudoplatanus",
+        "species:pl": "Klon jawor",
+        "website": "https://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.2403042.1705"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.900658,
+          49.6658482
+        ]
+      },
+      "id": "node/7025169011"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7153523142",
+        "denotation": "natural_monument",
+        "diameter": "180",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "name": "Jawor",
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.1166325,
+          49.5401198
+        ]
+      },
+      "id": "node/7153523142"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7554728697",
+        "denotation": "natural_monument",
+        "leaf_cycle": "evergreen",
+        "leaf_type": "needleleaved",
+        "name": "Daglezja",
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1696861,
+          49.8367404
+        ]
+      },
+      "id": "node/7554728697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7574855362",
+        "denotation": "natural_monument",
+        "genus": "Platanus",
+        "genus:pl": "platan",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "species": "Platanus acerifolia",
+        "species:pl": "Platan klonolistny"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0404651,
+          49.8229472
+        ]
+      },
+      "id": "node/7574855362"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7574855363",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0404136,
+          49.8230572
+        ]
+      },
+      "id": "node/7574855363"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7602063087",
+        "denotation": "natural_monument",
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.9092166,
+          49.7674266
+        ]
+      },
+      "id": "node/7602063087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7714586544",
+        "denotation": "natural_monument",
+        "inscription": "DĄB WOLNOŚCI ZASADZONY W 1923 R. PRZEZ WETERANÓW I WOJNY ŚWIATOWEJ W 5 ROCZNICĘ ODZYSKANIA PRZEZ POLSKĘ NIEPODLEGŁOŚCI TMZZ O/W PORĄBCE 11.11.1999 R.P.",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "name": "Dąb Wolności 1923 r.",
+        "natural": "tree",
+        "species": "Quercus robur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.2182853,
+          49.8210119
+        ]
+      },
+      "id": "node/7714586544"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7749873428",
+        "circumference": "6m",
+        "denotation": "natural_monument",
+        "diameter": "2m",
+        "ele": "790",
+        "height": "25",
+        "image": "https://photos.app.goo.gl/kUVR4BMgEEYZX9Z19",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "name": "Stary buk",
+        "natural": "tree",
+        "note": "Piękny rozłożysty buk zwyczajny nisko nad ziemią rozwidlony na dwa główne pnie. imponujące drzewo. Jedno z najstarszych i najobszerniejszych w Gorcach. Jego lokalizacja i dobre warunki świetlne pozwoliły na ukształtowanie równomiernej korony.Niestety nie",
+        "species": "Buk zwyczajny"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.1482991,
+          49.5012726
+        ]
+      },
+      "id": "node/7749873428"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8081322923",
+        "denotation": "natural_monument",
+        "diameter": "150 cm",
+        "height": "25",
+        "leaf_cycle": "evergreen",
+        "leaf_type": "broadleaved",
+        "name": "Wiąz",
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.101947,
+          49.5141369
+        ]
+      },
+      "id": "node/8081322923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8432512068",
+        "circumference": "5.21",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:rpdz": "188",
+        "source:website": "https://www.rpdp.hostingasp.pl",
+        "species": "Acer platanoides",
+        "species:en": "Norway maple",
+        "species:pl": "Klon zwyczajny",
+        "start_date": "~1610",
+        "website": "https://www.rpdp.hostingasp.pl/Trees/UI/TreeFormRO.aspx?tID=188"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.3782059,
+          49.722134
+        ]
+      },
+      "id": "node/8432512068"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8432515633",
+        "circumference": "6.74",
+        "denotation": "natural_monument",
+        "height": "32.00",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "name": "Lipa Katarzyna",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:rpdz": "189",
+        "source:website": "https://www.rpdp.hostingasp.pl",
+        "species": "Tilia platyphyllos",
+        "species:en": "Large-leaved lime",
+        "species:pl": "Lipa szerokolistna",
+        "start_date": "~1610",
+        "website": "https://www.rpdp.hostingasp.pl/Trees/UI/TreeFormRO.aspx?tID=189"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.3781677,
+          49.7228338
+        ]
+      },
+      "id": "node/8432515633"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9142768634",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "name": "Klon Jawor - Acer Pseudoplatanus",
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.9433177,
+          49.7541015
+        ]
+      },
+      "id": "node/9142768634"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9566570511",
+        "denotation": "natural_monument",
+        "description": "jesion wyniosły – pomnik przyrody",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "source": "survey",
+        "wikimedia_commons": "File:Rajcza Fraxinus excelsior.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1026808,
+          49.5046222
+        ]
+      },
+      "id": "node/9566570511"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9587953461",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "taxon:pl": "Dąb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.1778084,
+          49.7554036
+        ]
+      },
+      "id": "node/9587953461"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9587953462",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "taxon:pl": "Dąb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.1780064,
+          49.7552808
+        ]
+      },
+      "id": "node/9587953462"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9710812017",
+        "circumference": "5.02",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "species": "Acer platanoides",
+        "species:en": "Norway maple",
+        "species:pl": "Klon zwyczajny",
+        "start_date": "~1610"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.3776066,
+          49.7223591
+        ]
+      },
+      "id": "node/9710812017"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9981404057",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "name": "Dąb Bartek",
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0011742,
+          49.8914988
+        ]
+      },
+      "id": "node/9981404057"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060561802",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "71019",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1215063.2044",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1215063.2044"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.6881963,
+          49.726704
+        ]
+      },
+      "id": "node/10060561802"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060561803",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "71018",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1215063.2044",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1215063.2044"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.6881511,
+          49.7266281
+        ]
+      },
+      "id": "node/10060561803"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060561804",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "71017",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1215063.2044",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1215063.2044"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.6883305,
+          49.7265853
+        ]
+      },
+      "id": "node/10060561804"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576218",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187641",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1929469,
+          49.8744888
+        ]
+      },
+      "id": "node/10060576218"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576219",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187672",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1929028,
+          49.8729002
+        ]
+      },
+      "id": "node/10060576219"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576220",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187636",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1926626,
+          49.8749389
+        ]
+      },
+      "id": "node/10060576220"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576221",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187667",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1931743,
+          49.8731
+        ]
+      },
+      "id": "node/10060576221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576222",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187649",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1930829,
+          49.874134
+        ]
+      },
+      "id": "node/10060576222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576223",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187680",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1924738,
+          49.872729
+        ]
+      },
+      "id": "node/10060576223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576224",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187659",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1930688,
+          49.8736644
+        ]
+      },
+      "id": "node/10060576224"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576225",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187631",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1913634,
+          49.8752342
+        ]
+      },
+      "id": "node/10060576225"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576226",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187644",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1930066,
+          49.8743535
+        ]
+      },
+      "id": "node/10060576226"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576227",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187675",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1926495,
+          49.8728091
+        ]
+      },
+      "id": "node/10060576227"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576228",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187654",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1930573,
+          49.87389
+        ]
+      },
+      "id": "node/10060576228"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576229",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187639",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1927616,
+          49.8748168
+        ]
+      },
+      "id": "node/10060576229"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576230",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187670",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1930591,
+          49.8729616
+        ]
+      },
+      "id": "node/10060576230"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576231",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187652",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1930523,
+          49.8739401
+        ]
+      },
+      "id": "node/10060576231"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576232",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187683",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1918237,
+          49.8726207
+        ]
+      },
+      "id": "node/10060576232"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576233",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187662",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1931752,
+          49.8734145
+        ]
+      },
+      "id": "node/10060576233"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576234",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187634",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1924687,
+          49.8750261
+        ]
+      },
+      "id": "node/10060576234"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576235",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187665",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1931949,
+          49.8732044
+        ]
+      },
+      "id": "node/10060576235"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576236",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187647",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1929789,
+          49.8742402
+        ]
+      },
+      "id": "node/10060576236"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576237",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187678",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.192575,
+          49.8728249
+        ]
+      },
+      "id": "node/10060576237"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576238",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187657",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1930755,
+          49.8737511
+        ]
+      },
+      "id": "node/10060576238"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576239",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187642",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1929865,
+          49.8744105
+        ]
+      },
+      "id": "node/10060576239"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576240",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187673",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1928582,
+          49.8728764
+        ]
+      },
+      "id": "node/10060576240"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576241",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187637",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1926251,
+          49.8749031
+        ]
+      },
+      "id": "node/10060576241"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576242",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187668",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.193159,
+          49.8730448
+        ]
+      },
+      "id": "node/10060576242"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576243",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187650",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.192996,
+          49.8740936
+        ]
+      },
+      "id": "node/10060576243"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576244",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187681",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1923906,
+          49.8727468
+        ]
+      },
+      "id": "node/10060576244"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576245",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187660",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1931555,
+          49.8736283
+        ]
+      },
+      "id": "node/10060576245"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576246",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187632",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1913882,
+          49.8751792
+        ]
+      },
+      "id": "node/10060576246"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576247",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187645",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1929475,
+          49.8743178
+        ]
+      },
+      "id": "node/10060576247"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576248",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187676",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1926133,
+          49.8728392
+        ]
+      },
+      "id": "node/10060576248"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576249",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187655",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1930644,
+          49.8738329
+        ]
+      },
+      "id": "node/10060576249"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576250",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187640",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1929205,
+          49.8745481
+        ]
+      },
+      "id": "node/10060576250"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576251",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187671",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1929922,
+          49.8729258
+        ]
+      },
+      "id": "node/10060576251"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576252",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187653",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1931127,
+          49.8739247
+        ]
+      },
+      "id": "node/10060576252"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576253",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187684",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1917295,
+          49.8726116
+        ]
+      },
+      "id": "node/10060576253"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576254",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187663",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1931965,
+          49.8732762
+        ]
+      },
+      "id": "node/10060576254"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576255",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187635",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1925461,
+          49.8750385
+        ]
+      },
+      "id": "node/10060576255"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576256",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187666",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1931901,
+          49.8731546
+        ]
+      },
+      "id": "node/10060576256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576257",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187648",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1929918,
+          49.8741694
+        ]
+      },
+      "id": "node/10060576257"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576258",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187679",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1925465,
+          49.8727743
+        ]
+      },
+      "id": "node/10060576258"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576259",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187658",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1931387,
+          49.8736815
+        ]
+      },
+      "id": "node/10060576259"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576260",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187630",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1912843,
+          49.8752347
+        ]
+      },
+      "id": "node/10060576260"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576261",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187643",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1929247,
+          49.8743757
+        ]
+      },
+      "id": "node/10060576261"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576262",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187674",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1927558,
+          49.8728458
+        ]
+      },
+      "id": "node/10060576262"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576263",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187638",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1926507,
+          49.8748639
+        ]
+      },
+      "id": "node/10060576263"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576264",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187669",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1931087,
+          49.8729963
+        ]
+      },
+      "id": "node/10060576264"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576265",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187651",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1930264,
+          49.8740144
+        ]
+      },
+      "id": "node/10060576265"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576266",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187682",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1921472,
+          49.87268
+        ]
+      },
+      "id": "node/10060576266"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576267",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187661",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1930964,
+          49.8734161
+        ]
+      },
+      "id": "node/10060576267"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576268",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187633",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1915223,
+          49.875213
+        ]
+      },
+      "id": "node/10060576268"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576269",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187664",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1931942,
+          49.8732408
+        ]
+      },
+      "id": "node/10060576269"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576270",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187646",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1930403,
+          49.8742747
+        ]
+      },
+      "id": "node/10060576270"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576271",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187677",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1926113,
+          49.8727933
+        ]
+      },
+      "id": "node/10060576271"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060576272",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "187656",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1213043.1946",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1213043.1946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1930673,
+          49.8737906
+        ]
+      },
+      "id": "node/10060576272"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060594034",
+        "denotation": "natural_monument",
+        "genus": "Tilia",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "70365",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1211112.1569",
+        "species:pl": "Lipa",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1211112.1569"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9125881,
+          49.5391363
+        ]
+      },
+      "id": "node/10060594034"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060594035",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "70374",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1211112.1571",
+        "species": "Acer pseudoplatanus",
+        "species:pl": "Klon jawor",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1211112.1571"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9128954,
+          49.5391948
+        ]
+      },
+      "id": "node/10060594035"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060594036",
+        "denotation": "natural_monument",
+        "genus": "Tilia",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "70364",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1211112.1569",
+        "species:pl": "Lipa",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1211112.1569"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9125198,
+          49.5392401
+        ]
+      },
+      "id": "node/10060594036"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060594037",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "70380",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1211112.1571",
+        "species": "Acer pseudoplatanus",
+        "species:pl": "Klon jawor",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1211112.1571"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.912863,
+          49.5394365
+        ]
+      },
+      "id": "node/10060594037"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060594038",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "70379",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1211112.1571",
+        "species": "Acer pseudoplatanus",
+        "species:pl": "Klon jawor",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1211112.1571"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9128547,
+          49.5393713
+        ]
+      },
+      "id": "node/10060594038"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060594039",
+        "denotation": "natural_monument",
+        "genus": "Tilia",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "70370",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1211112.1569",
+        "species:pl": "Lipa",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1211112.1569"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9123279,
+          49.5392432
+        ]
+      },
+      "id": "node/10060594039"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060594040",
+        "denotation": "natural_monument",
+        "genus": "Tilia",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "70369",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1211112.1569",
+        "species:pl": "Lipa",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1211112.1569"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9122568,
+          49.5392025
+        ]
+      },
+      "id": "node/10060594040"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060594041",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "70378",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1211112.1571",
+        "species": "Acer pseudoplatanus",
+        "species:pl": "Klon jawor",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1211112.1571"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9128412,
+          49.539349
+        ]
+      },
+      "id": "node/10060594041"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060594042",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "70377",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1211112.1571",
+        "species": "Acer pseudoplatanus",
+        "species:pl": "Klon jawor",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1211112.1571"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9127822,
+          49.539344
+        ]
+      },
+      "id": "node/10060594042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060594043",
+        "denotation": "natural_monument",
+        "genus": "Tilia",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "70368",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1211112.1569",
+        "species:pl": "Lipa",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1211112.1569"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9122163,
+          49.5391151
+        ]
+      },
+      "id": "node/10060594043"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060594044",
+        "denotation": "natural_monument",
+        "genus": "Tilia",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "70367",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1211112.1569",
+        "species:pl": "Lipa",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1211112.1569"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9123366,
+          49.5390165
+        ]
+      },
+      "id": "node/10060594044"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060594045",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "70376",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1211112.1571",
+        "species": "Acer pseudoplatanus",
+        "species:pl": "Klon jawor",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1211112.1571"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9127772,
+          49.5392993
+        ]
+      },
+      "id": "node/10060594045"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060594046",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "70375",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1211112.1571",
+        "species": "Acer pseudoplatanus",
+        "species:pl": "Klon jawor",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1211112.1571"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9127745,
+          49.5392712
+        ]
+      },
+      "id": "node/10060594046"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060594047",
+        "denotation": "natural_monument",
+        "genus": "Tilia",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "70366",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1211112.1569",
+        "species:pl": "Lipa",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1211112.1569"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9125282,
+          49.5390592
+        ]
+      },
+      "id": "node/10060594047"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060606964",
+        "denotation": "natural_monument",
+        "genus": "Tilia",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "70986",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1215042.2068",
+        "species:pl": "Lipa",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1215042.2068"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.7285292,
+          49.6120213
+        ]
+      },
+      "id": "node/10060606964"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060606965",
+        "denotation": "natural_monument",
+        "genus": "Tilia",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "70985",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1215042.2068",
+        "species:pl": "Lipa",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1215042.2068"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.7281919,
+          49.6119129
+        ]
+      },
+      "id": "node/10060606965"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060606966",
+        "denotation": "natural_monument",
+        "genus": "Tilia",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "70984",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1215042.2068",
+        "species:pl": "Lipa",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1215042.2068"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.7278094,
+          49.6121204
+        ]
+      },
+      "id": "node/10060606966"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060606967",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "70982",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1215042.2068",
+        "species": "Acer pseudoplatanus",
+        "species:pl": "Klon jawor",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1215042.2068"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.7279078,
+          49.6122968
+        ]
+      },
+      "id": "node/10060606967"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060606977",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "name": "Abraham",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "70990",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1215042.2092",
+        "species": "Quercus robur",
+        "species:pl": "Dąb szypułkowy",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1215042.2092"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.7288951,
+          49.6124313
+        ]
+      },
+      "id": "node/10060606977"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060627871",
+        "denotation": "natural_monument",
+        "genus": "Tilia",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "71052",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1215082.2075",
+        "species:pl": "Lipa",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1215082.2075"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.574254,
+          49.6635254
+        ]
+      },
+      "id": "node/10060627871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10060627872",
+        "denotation": "natural_monument",
+        "genus": "Tilia",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "protected": "yes",
+        "ref:gid": "71053",
+        "ref:inspire": "PL.ZIPOP.1393.PP.1215082.2075",
+        "species:pl": "Lipa",
+        "url:crfop": "http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.1215082.2075"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.5742445,
+          49.6635534
+        ]
+      },
+      "id": "node/10060627872"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10884365793",
+        "denotation": "natural_monument",
+        "description": "XVII-wieczny dąb rosnący przy kościelnym cmentarzu.",
+        "image": "http://parafiakrzeczow.pl/wp-content/uploads/2017/07/krzeczow-otoczenie-044-e1499351139152-768x1024.jpg",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "species": "Quercus robur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9095005,
+          49.6854988
+        ]
+      },
+      "id": "node/10884365793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11495440414",
+        "denotation": "natural_monument",
+        "description": "Dar węgierskiej gminy Jaszboldoghaza",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "species": "Klon pospolity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.954916,
+          49.7930153
+        ]
+      },
+      "id": "node/11495440414"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12086905484",
+        "circumference": "106 cm",
+        "denotation": "natural_monument",
+        "description": "Wiek starszego drzewa wynosi 686 lat. Jest to okaz żeński, o pierśnicy 320 cm, wysokości 10,5 m i rozpiętości korony 8 na 9 metrów. Jego pień jest w środku pusty, lecz niegdyś wypełniony był betonową plombą.",
+        "height": "12",
+        "leaf_cycle": "evergreen",
+        "leaf_type": "needleleaved",
+        "natural": "tree",
+        "species": "Taxus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.7723597,
+          49.7942943
+        ]
+      },
+      "id": "node/12086905484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12086905485",
+        "circumference": "60 cm",
+        "denotation": "natural_monument",
+        "description": "Młodszy cis jest okazem męskim o wysokości 10,5 m i 163 cm w obwodzie pnia.",
+        "height": "12",
+        "leaf_cycle": "evergreen",
+        "leaf_type": "needleleaved",
+        "natural": "tree",
+        "species": "Taxus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.7723503,
+          49.7941825
+        ]
+      },
+      "id": "node/12086905485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12147236260",
+        "denotation": "natural_monument",
+        "information": "route_marker",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "species": "Quercus robur",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.4838558,
+          49.7565865
+        ]
+      },
+      "id": "node/12147236260"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12456840248",
+        "circumference": "67 cm",
+        "denotation": "natural_monument",
+        "height": "12",
+        "leaf_cycle": "evergreen",
+        "leaf_type": "needleleaved",
+        "natural": "tree",
+        "species": "Taxus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.7604141,
+          49.7921029
+        ]
+      },
+      "id": "node/12456840248"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12456840249",
+        "circumference": "52 cm",
+        "denotation": "natural_monument",
+        "height": "8",
+        "leaf_cycle": "evergreen",
+        "leaf_type": "needleleaved",
+        "natural": "tree",
+        "species": "Taxus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.7660873,
+          49.7914095
+        ]
+      },
+      "id": "node/12456840249"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12456840250",
+        "circumference": "45 cm",
+        "denotation": "natural_monument",
+        "height": "8",
+        "leaf_cycle": "evergreen",
+        "leaf_type": "needleleaved",
+        "natural": "tree",
+        "species": "Taxus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.7661528,
+          49.7914059
+        ]
+      },
+      "id": "node/12456840250"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12456840251",
+        "circumference": "52 cm",
+        "denotation": "natural_monument",
+        "height": "7",
+        "leaf_cycle": "evergreen",
+        "leaf_type": "needleleaved",
+        "natural": "tree",
+        "species": "Taxus baccata"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.7648526,
+          49.7946742
+        ]
+      },
+      "id": "node/12456840251"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12708273765",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.8908139,
+          49.6478582
+        ]
+      },
+      "id": "node/12708273765"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12959244808",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree_stump",
+        "species:pl": "lipa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9396717,
+          49.5761046
+        ]
+      },
+      "id": "node/12959244808"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12959244809",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree_stump",
+        "species:pl": "lipa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9397876,
+          49.5762097
+        ]
+      },
+      "id": "node/12959244809"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13721602280",
+        "denotation": "natural_monument",
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "natural": "tree",
+        "species": "Wiąz Górski"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.190037,
+          49.8427896
+        ]
+      },
+      "id": "node/13721602280"
+    }
+  ]
+}

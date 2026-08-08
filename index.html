@@ -4,8 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <title>MSB Planner - Mały Szlak Beskidzki</title>
-  <script type="module" crossorigin src="/Szlaki/assets/index-Do8RJBB7.js"></script>
-  <link rel="stylesheet" crossorigin href="/Szlaki/assets/index-B7Oq-n0l.css">
+  <link rel="icon" type="image/svg+xml" href="/Szlaki/favicon.svg" />
+  <link rel="apple-touch-icon" href="/Szlaki/favicon.svg" />
+  <script type="module" crossorigin src="/Szlaki/assets/index-DHFCY3fj.js"></script>
+  <link rel="stylesheet" crossorigin href="/Szlaki/assets/index-CN0YCCRX.css">
 </head>
 <body>
   <div id="app">
@@ -24,9 +26,8 @@
         <div class="control-section">
           <label class="section-title">Profil trasy:</label>
           <div class="profile-selector">
-            <button class="profile-btn active" data-profile="standard">Standard</button>
-            <button class="profile-btn" data-profile="fast_light">Fast & Light</button>
-            <button class="profile-btn" data-profile="wild">Namiot / Na dziko</button>
+            <button class="profile-btn active" data-profile="standard">Schroniska (Standard)</button>
+            <button class="profile-btn" data-profile="wild">Namiot / Dziki biwak</button>
           </div>
         </div>
 
@@ -54,6 +55,18 @@
             <label class="toggle-item">
               <input type="checkbox" id="toggle-shelters" checked />
               Wiaty i schrony (OSM)
+            </label>
+            <label class="toggle-item">
+              <input type="checkbox" id="toggle-rabka-green" checked />
+              Dojście z Rabki (Szlak zielony)
+            </label>
+            <label class="toggle-item">
+              <input type="checkbox" id="toggle-rabka-blue" checked />
+              Dojście z Rabki (Szlak niebieski)
+            </label>
+            <label class="toggle-item">
+              <input type="checkbox" id="toggle-got" checked />
+              Punkty GOT (MSB)
             </label>
           </div>
         </div>

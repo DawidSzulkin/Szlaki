@@ -1,30 +1,43 @@
 [
   {
     "id": "straconka",
-    "name": "Bielsko-Biała Straconka (Początek)",
+    "name": "Bielsko-Biała Straconka",
     "km": 0.0,
     "lat": 49.80214,
     "lon": 19.08842,
     "profiles": ["standard", "fast_light", "wild"],
-    "description": "Oficjalny punkt startowy Małego Szlaku Beskidzkiego."
+    "type": "transport",
+    "description": "Start szlaku. Dojazd komunikacją z Bielska-Białej."
   },
   {
-    "id": "hrobacza",
-    "name": "Schronisko na Hrobaczej Łące",
-    "km": 11.5,
-    "lat": 49.82193,
-    "lon": 19.16382,
-    "profiles": ["standard", "wild"],
-    "description": "Klasyczny przystanek na wolniejsze tempo (wariant 6-dniowy) lub pierwszy biwak."
+    "id": "maryjne",
+    "name": "Źródło Maryjne",
+    "km": 5.0,
+    "lat": 49.82410,
+    "lon": 19.14320,
+    "profiles": ["standard", "fast_light", "wild"],
+    "type": "water",
+    "description": "Okresowe ujęcie wody. Wymaga zejścia ok. 2 minut za znakami."
   },
   {
     "id": "porabka",
     "name": "Porąbka (Zapora)",
-    "km": 17.5,
+    "km": 12.0,
     "lat": 49.81831,
     "lon": 19.22485,
-    "profiles": ["standard"],
-    "description": "Węzeł w dolinie z możliwością uzupełnienia zapasów w sklepie."
+    "profiles": ["standard", "fast_light", "wild"],
+    "type": "supply",
+    "description": "Zejście do doliny Soły na 315 m n.p.m. Możliwość zakupu wody i zapasów."
+  },
+  {
+    "id": "kiczera",
+    "name": "Wiata na Kiczerze",
+    "km": 17.0,
+    "lat": 49.80231,
+    "lon": 19.25555,
+    "profiles": ["wild"],
+    "type": "sleep_outdoor",
+    "description": "Wysokość 827 m n.p.m. Miejsce na namiot i ognisko, brak bieżącej wody (deszczówka z wanny jest odradzana)."
   },
   {
     "id": "potrojna",
@@ -33,69 +46,127 @@
     "lat": 49.77182,
     "lon": 19.37351,
     "profiles": ["standard", "wild"],
-    "description": "Kultowa studencka chatka – najczęstszy pierwszy nocleg wariantu 5-dniowego."
+    "type": "sleep_indoor",
+    "description": "Klimat studencki. Możliwość biwaku przy obiektach po dogadaniu z gospodarzami."
   },
   {
     "id": "leskowiec",
-    "name": "Schronisko PTTK pod Leskowcem",
+    "name": "Schronisko PTTK Leskowiec",
     "km": 39.5,
     "lat": 49.79524,
     "lon": 19.44740,
+    "profiles": ["standard", "fast_light"],
+    "type": "sleep_indoor",
+    "description": "Wysokość 890 m n.p.m. Pełna infrastruktura, ciepłe posiłki."
+  },
+  {
+    "id": "krzeszow",
+    "name": "Krzeszów",
+    "km": 51.5,
+    "lat": 49.79155,
+    "lon": 19.48911,
     "profiles": ["standard", "fast_light", "wild"],
-    "description": "Cel pierwszego dnia dla biegaczy i wariantu Fast & Light (39.5 km)."
+    "type": "supply",
+    "description": "Małe sklepy. Kluczowe uzupełnienie kalorii i wody przed Żurawnicą."
+  },
+  {
+    "id": "zembrzyce",
+    "name": "Zembrzyce (Dolina Skawy)",
+    "km": 62.5,
+    "lat": 49.77583,
+    "lon": 19.57861,
+    "profiles": ["standard", "fast_light", "wild"],
+    "type": "supply",
+    "description": "Dostęp do rzeki, PKP oraz pełne zaopatrzenie w sklepach spożywczych."
   },
   {
     "id": "zakrzow",
-    "name": "Ośrodek Caritas Zakrzów / Zembrzyce",
-    "km": 58.0,
+    "name": "Ośrodek Caritas Zakrzów",
+    "km": 65.0,
     "lat": 49.76120,
     "lon": 19.58910,
     "profiles": ["standard"],
-    "description": "Wybierany zamiast rynku w Zembrzycach ze względu na położenie przy szlaku."
+    "type": "sleep_indoor",
+    "description": "Ciepłe łóżka ratujące przed morderczym pasmem Babicy."
   },
   {
     "id": "babica",
-    "name": "Wiata na Babicy (Nocleg na dziko)",
+    "name": "Wiata pod Bieńkowską Górą",
     "km": 75.0,
     "lat": 49.79565,
     "lon": 19.82289,
     "profiles": ["wild"],
-    "description": "Osłonięta wiata z miejscem na biwak i dostępem do wody na szlaku."
+    "type": "sleep_outdoor",
+    "description": "Solidna drewniana wiata chroniąca przed wiatrem (646 m n.p.m.)."
   },
   {
-    "id": "chelm",
+    "id": "palcza",
+    "name": "Sklep w Palczy",
+    "km": 80.0,
+    "lat": 49.80521,
+    "lon": 19.86611,
+    "profiles": ["standard", "fast_light", "wild"],
+    "type": "supply",
+    "description": "Wymaga zejścia z osi MSB ok. 1 km szosą 956. Asortyment podstawowy."
+  },
+  {
+    "id": "myslenice",
     "name": "Myślenice Zarabie",
-    "km": 87.0,
+    "km": 94.5,
     "lat": 49.80382,
     "lon": 19.93854,
-    "profiles": ["standard"],
-    "description": "Strefa rekreacyjna nad Rabą – turyści śpią tutaj, unikając centrum miasta."
+    "profiles": ["standard", "fast_light", "wild"],
+    "type": "supply",
+    "description": "Rzeka Raba, supermarkety, hotele. Na cmentarzu św. Jakuba krany z wodą."
   },
   {
     "id": "kudlacze",
-    "name": "Schronisko PTTK na Kudłaczach",
-    "km": 97.0,
+    "name": "Schronisko PTTK Kudłacze",
+    "km": 103.0,
     "lat": 49.80541,
     "lon": 19.99812,
-    "profiles": ["standard", "fast_light", "wild"],
-    "description": "Główne schronisko w Pasmie Lubomira i Łysiny przed wejściem w Beskid Wyspowy."
+    "profiles": ["standard", "fast_light"],
+    "type": "sleep_indoor",
+    "description": "Wysoki standard schroniskowy na wys. 727 m n.p.m."
+  },
+  {
+    "id": "wierzbanowska",
+    "name": "Wierzbanowska Chatka",
+    "km": 116.5,
+    "lat": 49.74940,
+    "lon": 20.11547,
+    "profiles": ["wild"],
+    "type": "sleep_outdoor",
+    "description": "Szałas (771 m n.p.m.) z piecem kozą, duży krąg na ognisko. Poniżej chatki bije źródło."
   },
   {
     "id": "kasina",
-    "name": "Kasina Wielka (Przełęcz Gruszowiec)",
+    "name": "Kasina Wielka",
     "km": 121.0,
     "lat": 49.68723,
     "lon": 20.14441,
-    "profiles": ["standard", "wild"],
-    "description": "Punkt regeneracyjny przy szosie i sklepie przed wejściem na Lubogoszcz."
+    "profiles": ["standard", "fast_light", "wild"],
+    "type": "supply",
+    "description": "Stacja narciarska, kwatery i sklepy przed atakiem na Lubogoszcz."
+  },
+  {
+    "id": "mszana",
+    "name": "Mszana Dolna",
+    "km": 135.5,
+    "lat": 49.67389,
+    "lon": 20.07639,
+    "profiles": ["standard", "fast_light", "wild"],
+    "type": "supply",
+    "description": "Rzeka Mszanka, supermarkety i restauracje do regeneracji."
   },
   {
     "id": "lubon",
-    "name": "Schronisko PTTK na Luboniu Wielkim (Koniec)",
+    "name": "Luboń Wielki (Meta)",
     "km": 137.0,
     "lat": 49.65862,
     "lon": 19.99124,
     "profiles": ["standard", "fast_light", "wild"],
-    "description": "Finał Małego Szlaku Beskidzkiego przy unikalnym schronisku na szczycie."
+    "type": "sleep_indoor",
+    "description": "Schronisko PTTK w formie domku na wysokości 1022 m n.p.m."
   }
 ]

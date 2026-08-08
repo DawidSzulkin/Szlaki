@@ -1,0 +1,230 @@
+[
+  {
+    "id": "node_001",
+    "name": "Bielsko-Biała Straconka",
+    "lat": 49.796956,
+    "lon": 19.094857
+  },
+  {
+    "id": "node_002",
+    "name": "Gaiki",
+    "lat": 49.80601,
+    "lon": 19.112719
+  },
+  {
+    "id": "node_003",
+    "name": "Hrobacza Łąka",
+    "lat": 49.816765,
+    "lon": 19.148116
+  },
+  {
+    "id": "node_004",
+    "name": "Bujakowski Groń",
+    "lat": 49.820633,
+    "lon": 19.195671
+  },
+  {
+    "id": "node_005",
+    "name": "Porąbka",
+    "lat": 49.795785,
+    "lon": 19.209705
+  },
+  {
+    "id": "node_006",
+    "name": "Żar",
+    "lat": 49.787952,
+    "lon": 19.255919
+  },
+  {
+    "id": "node_007",
+    "name": "Kiczora",
+    "lat": 49.779496,
+    "lon": 19.298577
+  },
+  {
+    "id": "node_008",
+    "name": "Przysłop Cisowy",
+    "lat": 49.773908,
+    "lon": 19.341806
+  },
+  {
+    "id": "node_009",
+    "name": "Przełęcz Kocierska",
+    "lat": 49.769777,
+    "lon": 19.375589
+  },
+  {
+    "id": "node_010",
+    "name": "Potrójna",
+    "lat": 49.765832,
+    "lon": 19.409599
+  },
+  {
+    "id": "node_011",
+    "name": "Łamana Skała",
+    "lat": 49.786846,
+    "lon": 19.437281
+  },
+  {
+    "id": "node_012",
+    "name": "Leskowiec",
+    "lat": 49.776946,
+    "lon": 19.464352
+  },
+  {
+    "id": "node_013",
+    "name": "Groń Jana Pawła II",
+    "lat": 49.758455,
+    "lon": 19.47604
+  },
+  {
+    "id": "node_014",
+    "name": "Krzeszów Górny",
+    "lat": 49.765438,
+    "lon": 19.535667
+  },
+  {
+    "id": "node_015",
+    "name": "Żurawnica",
+    "lat": 49.763006,
+    "lon": 19.576039
+  },
+  {
+    "id": "node_016",
+    "name": "Zembrzyce",
+    "lat": 49.776758,
+    "lon": 19.590429
+  },
+  {
+    "id": "node_017",
+    "name": "Chełm",
+    "lat": 49.785949,
+    "lon": 19.610971
+  },
+  {
+    "id": "node_018",
+    "name": "Chełm Wschodni",
+    "lat": 49.79982,
+    "lon": 19.634483
+  },
+  {
+    "id": "node_019",
+    "name": "Palcza",
+    "lat": 49.810381,
+    "lon": 19.689004
+  },
+  {
+    "id": "node_020",
+    "name": "Babica Zachodnia",
+    "lat": 49.805604,
+    "lon": 19.729855
+  },
+  {
+    "id": "node_021",
+    "name": "Babica",
+    "lat": 49.786684,
+    "lon": 19.756438
+  },
+  {
+    "id": "node_022",
+    "name": "Sularzówka",
+    "lat": 49.787384,
+    "lon": 19.800827
+  },
+  {
+    "id": "node_023",
+    "name": "Myślenice",
+    "lat": 49.806817,
+    "lon": 19.831368
+  },
+  {
+    "id": "node_024",
+    "name": "Myślenice Zarabie",
+    "lat": 49.808648,
+    "lon": 19.871242
+  },
+  {
+    "id": "node_025",
+    "name": "Uklejna",
+    "lat": 49.822393,
+    "lon": 19.917899
+  },
+  {
+    "id": "node_026",
+    "name": "Śliwnik",
+    "lat": 49.832778,
+    "lon": 19.942881
+  },
+  {
+    "id": "node_027",
+    "name": "Działek",
+    "lat": 49.814984,
+    "lon": 19.953744
+  },
+  {
+    "id": "node_028",
+    "name": "Kudłacze",
+    "lat": 49.804061,
+    "lon": 19.984888
+  },
+  {
+    "id": "node_029",
+    "name": "Łysina",
+    "lat": 49.781933,
+    "lon": 20.016218
+  },
+  {
+    "id": "node_030",
+    "name": "Lubomir",
+    "lat": 49.76889,
+    "lon": 20.053898
+  },
+  {
+    "id": "node_031",
+    "name": "Jaworzyce",
+    "lat": 49.759126,
+    "lon": 20.068822
+  },
+  {
+    "id": "node_032",
+    "name": "Wierzbanowska Góra",
+    "lat": 49.750312,
+    "lon": 20.113397
+  },
+  {
+    "id": "node_033",
+    "name": "Kasina Wielka",
+    "lat": 49.734122,
+    "lon": 20.146992
+  },
+  {
+    "id": "node_034",
+    "name": "Lubogoszcz",
+    "lat": 49.717567,
+    "lon": 20.13592
+  },
+  {
+    "id": "node_035",
+    "name": "Zapadliska",
+    "lat": 49.711606,
+    "lon": 20.094946
+  },
+  {
+    "id": "node_036",
+    "name": "Mszana Dolna",
+    "lat": 49.689526,
+    "lon": 20.067944
+  },
+  {
+    "id": "node_037",
+    "name": "Przełęcz Glisne",
+    "lat": 49.675176,
+    "lon": 20.063837
+  },
+  {
+    "id": "node_038",
+    "name": "Luboń Wielki",
+    "lat": 49.662337,
+    "lon": 20.027717
+  }
+]

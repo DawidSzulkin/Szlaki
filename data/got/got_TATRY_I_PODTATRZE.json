@@ -1,0 +1,1682 @@
+[
+  {
+    "start_poi_id": "osm_4576961235",
+    "start_name": "Liečebný dom Solisko",
+    "start_coords": [
+      49.1195983,
+      20.056957
+    ],
+    "end_poi_id": "osm_13749716182",
+    "end_name": "Wierch Poroniec",
+    "end_coords": [
+      49.2934001,
+      20.0950493
+    ],
+    "points_forward": 6,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_4576961235",
+    "start_name": "Liečebný dom Solisko",
+    "start_coords": [
+      49.1195983,
+      20.056957
+    ],
+    "end_poi_id": "osm_3508598896",
+    "end_name": "Wyżnia Białczańska Przełęcz",
+    "end_coords": [
+      49.1891072,
+      20.0865162
+    ],
+    "points_forward": 4,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_7442000311",
+    "start_name": "Łysa",
+    "start_coords": [
+      49.4243949,
+      20.2505335
+    ],
+    "end_poi_id": "osm_13749716182",
+    "end_name": "Wierch Poroniec",
+    "end_coords": [
+      49.2934001,
+      20.0950493
+    ],
+    "points_forward": 3,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_7442000311",
+    "start_name": "Łysa",
+    "start_coords": [
+      49.4243949,
+      20.2505335
+    ],
+    "end_poi_id": "osm_3508598896",
+    "end_name": "Wyżnia Białczańska Przełęcz",
+    "end_coords": [
+      49.1891072,
+      20.0865162
+    ],
+    "points_forward": 1,
+    "points_backward": 1
+  },
+  {
+    "start_poi_id": "osm_2445052185",
+    "start_name": "Polana Rusinowa",
+    "start_coords": [
+      49.2628462,
+      20.0902088
+    ],
+    "end_poi_id": "osm_9510342429",
+    "end_name": "Waksmundzka Rówień",
+    "end_coords": [
+      49.2553908,
+      20.0671799
+    ],
+    "points_forward": 2,
+    "points_backward": 1
+  },
+  {
+    "start_poi_id": "osm_9510342432",
+    "start_name": "Psia Trawka",
+    "start_coords": [
+      49.2697187,
+      20.0366296
+    ],
+    "end_poi_id": "osm_2103272996",
+    "end_name": "Pośredni Wołoszyn",
+    "end_coords": [
+      49.2305556,
+      20.0555556
+    ],
+    "points_forward": 4,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_9510342432",
+    "start_name": "Psia Trawka",
+    "start_coords": [
+      49.2697187,
+      20.0366296
+    ],
+    "end_poi_id": "osm_5810136957",
+    "end_name": "Hala Gąsienicowa",
+    "end_coords": [
+      49.2448916,
+      20.0063625
+    ],
+    "points_forward": 7,
+    "points_backward": 8
+  },
+  {
+    "start_poi_id": "osm_5810136957",
+    "start_name": "Hala Gąsienicowa",
+    "start_coords": [
+      49.2448916,
+      20.0063625
+    ],
+    "end_poi_id": "osm_13073673913",
+    "end_name": "Brezovica",
+    "end_coords": [
+      49.3413424,
+      19.6510702
+    ],
+    "points_forward": 5,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_3508598896",
+    "start_name": "Wyżnia Białczańska Przełęcz",
+    "start_coords": [
+      49.1891072,
+      20.0865162
+    ],
+    "end_poi_id": "osm_2103272996",
+    "end_name": "Pośredni Wołoszyn",
+    "end_coords": [
+      49.2305556,
+      20.0555556
+    ],
+    "points_forward": 2,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_3508598896",
+    "start_name": "Wyżnia Białczańska Przełęcz",
+    "start_coords": [
+      49.1891072,
+      20.0865162
+    ],
+    "end_poi_id": "osm_9021008781",
+    "end_name": "Roztocka Turniczka",
+    "end_coords": [
+      49.2312712,
+      20.0790516
+    ],
+    "points_forward": 2,
+    "points_backward": 1
+  },
+  {
+    "start_poi_id": "osm_452477062",
+    "start_name": "Hrubý štít / Szpiglasowy Wierch",
+    "start_coords": [
+      49.1972908,
+      20.0401058
+    ],
+    "end_poi_id": "osm_692609472",
+    "end_name": "Gliczarów Dolny",
+    "end_coords": [
+      49.3710263,
+      20.0372889
+    ],
+    "points_forward": 4,
+    "points_backward": 1
+  },
+  {
+    "start_poi_id": "osm_11592361023",
+    "start_name": "Szara Przełączka",
+    "start_coords": [
+      49.2518047,
+      19.9283144
+    ],
+    "end_poi_id": "osm_9973083718",
+    "end_name": "Świnicki Przechód",
+    "end_coords": [
+      49.2184591,
+      20.0089209
+    ],
+    "points_forward": 4,
+    "points_backward": 1
+  },
+  {
+    "start_poi_id": "osm_9957754030",
+    "start_name": "Gąsienicowa Przełączka",
+    "start_coords": [
+      49.2193641,
+      20.0110536
+    ],
+    "end_poi_id": "osm_1111786080",
+    "end_name": "Czarny Staw Gąsienicowy",
+    "end_coords": [
+      49.232573,
+      20.0147367
+    ],
+    "points_forward": 5,
+    "points_backward": 1
+  },
+  {
+    "start_poi_id": "osm_355985949",
+    "start_name": "Kościelec",
+    "start_coords": [
+      49.2251794,
+      20.0145834
+    ],
+    "end_poi_id": "osm_1111786080",
+    "end_name": "Czarny Staw Gąsienicowy",
+    "end_coords": [
+      49.232573,
+      20.0147367
+    ],
+    "points_forward": 3,
+    "points_backward": 1
+  },
+  {
+    "start_poi_id": "osm_9957754030",
+    "start_name": "Gąsienicowa Przełączka",
+    "start_coords": [
+      49.2193641,
+      20.0110536
+    ],
+    "end_poi_id": "osm_5810136957",
+    "end_name": "Hala Gąsienicowa",
+    "end_coords": [
+      49.2448916,
+      20.0063625
+    ],
+    "points_forward": 2,
+    "points_backward": 1
+  },
+  {
+    "start_poi_id": "osm_507009303",
+    "start_name": "Chochołów",
+    "start_coords": [
+      49.3717987,
+      19.8163026
+    ],
+    "end_poi_id": "osm_692609269",
+    "end_name": "Witów",
+    "end_coords": [
+      49.3259865,
+      19.8243731
+    ],
+    "points_forward": 10,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_507009303",
+    "start_name": "Chochołów",
+    "start_coords": [
+      49.3717987,
+      19.8163026
+    ],
+    "end_poi_id": "osm_1295379310",
+    "end_name": "Mnichy Chochołowskie",
+    "end_coords": [
+      49.2449675,
+      19.7933349
+    ],
+    "points_forward": 9,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_6055511601",
+    "start_name": "Palenica Kościeliska",
+    "start_coords": [
+      49.3033625,
+      19.8866271
+    ],
+    "end_poi_id": "osm_3751210922",
+    "end_name": "Kiernia",
+    "end_coords": [
+      49.2656473,
+      19.9230682
+    ],
+    "points_forward": 7,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_6055511601",
+    "start_name": "Palenica Kościeliska",
+    "start_coords": [
+      49.3033625,
+      19.8866271
+    ],
+    "end_poi_id": "osm_7192519752",
+    "end_name": "Gronik",
+    "end_coords": [
+      49.2851052,
+      19.9319879
+    ],
+    "points_forward": 8,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_6055511601",
+    "start_name": "Palenica Kościeliska",
+    "start_coords": [
+      49.3033625,
+      19.8866271
+    ],
+    "end_poi_id": "osm_692609341",
+    "end_name": "Koniówka",
+    "end_coords": [
+      49.3944683,
+      19.8209236
+    ],
+    "points_forward": 9,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_3751210922",
+    "start_name": "Kiernia",
+    "start_coords": [
+      49.2656473,
+      19.9230682
+    ],
+    "end_poi_id": "osm_6055511601",
+    "end_name": "Palenica Kościeliska",
+    "end_coords": [
+      49.3033625,
+      19.8866271
+    ],
+    "points_forward": 2,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_3751210922",
+    "start_name": "Kiernia",
+    "start_coords": [
+      49.2656473,
+      19.9230682
+    ],
+    "end_poi_id": "osm_692609503",
+    "end_name": "Dzianisz",
+    "end_coords": [
+      49.3312989,
+      19.8676419
+    ],
+    "points_forward": 6,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_3751210922",
+    "start_name": "Kiernia",
+    "start_coords": [
+      49.2656473,
+      19.9230682
+    ],
+    "end_poi_id": "osm_7192519752",
+    "end_name": "Gronik",
+    "end_coords": [
+      49.2851052,
+      19.9319879
+    ],
+    "points_forward": 6,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_3751210922",
+    "start_name": "Kiernia",
+    "start_coords": [
+      49.2656473,
+      19.9230682
+    ],
+    "end_poi_id": "osm_507009303",
+    "end_name": "Chochołów",
+    "end_coords": [
+      49.3717987,
+      19.8163026
+    ],
+    "points_forward": 15,
+    "points_backward": 12
+  },
+  {
+    "start_poi_id": "osm_3751210922",
+    "start_name": "Kiernia",
+    "start_coords": [
+      49.2656473,
+      19.9230682
+    ],
+    "end_poi_id": "osm_692609341",
+    "end_name": "Koniówka",
+    "end_coords": [
+      49.3944683,
+      19.8209236
+    ],
+    "points_forward": 7,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_2479896772",
+    "start_name": "Butorowy Wierch",
+    "start_coords": [
+      49.3017986,
+      19.906383
+    ],
+    "end_poi_id": "osm_692609474",
+    "end_name": "Nowe Bystre",
+    "end_coords": [
+      49.3421121,
+      19.9209554
+    ],
+    "points_forward": 6,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_2479896772",
+    "start_name": "Butorowy Wierch",
+    "start_coords": [
+      49.3017986,
+      19.906383
+    ],
+    "end_poi_id": "osm_692609493",
+    "end_name": "Rogoźnik",
+    "end_coords": [
+      49.4442097,
+      19.9425781
+    ],
+    "points_forward": 19,
+    "points_backward": 24
+  },
+  {
+    "start_poi_id": "osm_2479896772",
+    "start_name": "Butorowy Wierch",
+    "start_coords": [
+      49.3017986,
+      19.906383
+    ],
+    "end_poi_id": "osm_6681545713",
+    "end_name": "Glizówka",
+    "end_coords": [
+      49.3938474,
+      20.2565133
+    ],
+    "points_forward": 3,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_2582794301",
+    "start_name": "Cisowa Skałka",
+    "start_coords": [
+      49.4363814,
+      20.1037877
+    ],
+    "end_poi_id": "osm_692609491",
+    "end_name": "Ludźmierz",
+    "end_coords": [
+      49.4695429,
+      19.9760457
+    ],
+    "points_forward": 7,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_6681545713",
+    "start_name": "Glizówka",
+    "start_coords": [
+      49.3938474,
+      20.2565133
+    ],
+    "end_poi_id": "osm_5397007407",
+    "end_name": "Havran",
+    "end_coords": [
+      49.2484692,
+      20.1976871
+    ],
+    "points_forward": 3,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_6681545713",
+    "start_name": "Glizówka",
+    "start_coords": [
+      49.3938474,
+      20.2565133
+    ],
+    "end_poi_id": "osm_356724078",
+    "end_name": "Poronin",
+    "end_coords": [
+      49.3396497,
+      20.0055635
+    ],
+    "points_forward": 5,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_356724078",
+    "start_name": "Poronin",
+    "start_coords": [
+      49.3396497,
+      20.0055635
+    ],
+    "end_poi_id": "osm_291276729",
+    "end_name": "Murzasichle",
+    "end_coords": [
+      49.3116951,
+      20.0435854
+    ],
+    "points_forward": 4,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_356724078",
+    "start_name": "Poronin",
+    "start_coords": [
+      49.3396497,
+      20.0055635
+    ],
+    "end_poi_id": "osm_291276731",
+    "end_name": "Małe Ciche",
+    "end_coords": [
+      49.3031478,
+      20.0728636
+    ],
+    "points_forward": 8,
+    "points_backward": 9
+  },
+  {
+    "start_poi_id": "osm_356724078",
+    "start_name": "Poronin",
+    "start_coords": [
+      49.3396497,
+      20.0055635
+    ],
+    "end_poi_id": "osm_507043959",
+    "end_name": "Bukowina Tatrzańska",
+    "end_coords": [
+      49.3423002,
+      20.1072586
+    ],
+    "points_forward": 6,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_507043959",
+    "start_name": "Bukowina Tatrzańska",
+    "start_coords": [
+      49.3423002,
+      20.1072586
+    ],
+    "end_poi_id": "osm_692609268",
+    "end_name": "Jurgów",
+    "end_coords": [
+      49.3405194,
+      20.1386224
+    ],
+    "points_forward": 7,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_507043959",
+    "start_name": "Bukowina Tatrzańska",
+    "start_coords": [
+      49.3423002,
+      20.1072586
+    ],
+    "end_poi_id": "osm_6144666711",
+    "end_name": "Słowik",
+    "end_coords": [
+      49.4823145,
+      20.1726015
+    ],
+    "points_forward": 4,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_507043959",
+    "start_name": "Bukowina Tatrzańska",
+    "start_coords": [
+      49.3423002,
+      20.1072586
+    ],
+    "end_poi_id": "osm_8809479339",
+    "end_name": "Kazalnica",
+    "end_coords": [
+      49.2467981,
+      19.860404
+    ],
+    "points_forward": 8,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_507043959",
+    "start_name": "Bukowina Tatrzańska",
+    "start_coords": [
+      49.3423002,
+      20.1072586
+    ],
+    "end_poi_id": "osm_2107808030",
+    "end_name": "Zadnia Kopka",
+    "end_coords": [
+      49.2601116,
+      19.858905
+    ],
+    "points_forward": 1,
+    "points_backward": 1
+  },
+  {
+    "start_poi_id": "osm_6144666711",
+    "start_name": "Słowik",
+    "start_coords": [
+      49.4823145,
+      20.1726015
+    ],
+    "end_poi_id": "osm_13749716182",
+    "end_name": "Wierch Poroniec",
+    "end_coords": [
+      49.2934001,
+      20.0950493
+    ],
+    "points_forward": 2,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_6144666711",
+    "start_name": "Słowik",
+    "start_coords": [
+      49.4823145,
+      20.1726015
+    ],
+    "end_poi_id": "osm_692609268",
+    "end_name": "Jurgów",
+    "end_coords": [
+      49.3405194,
+      20.1386224
+    ],
+    "points_forward": 10,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_507043959",
+    "start_name": "Bukowina Tatrzańska",
+    "start_coords": [
+      49.3423002,
+      20.1072586
+    ],
+    "end_poi_id": "osm_8457144019",
+    "end_name": "Przełęcz Białego",
+    "end_coords": [
+      49.2626883,
+      19.964156
+    ],
+    "points_forward": 4,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_4330069865",
+    "start_name": "Sivý vrch",
+    "start_coords": [
+      49.2111302,
+      19.642154
+    ],
+    "end_poi_id": "osm_3874918057",
+    "end_name": "Horáreň pod Bielou skalou",
+    "end_coords": [
+      49.2230478,
+      19.5991621
+    ],
+    "points_forward": 13,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_4330069865",
+    "start_name": "Sivý vrch",
+    "start_coords": [
+      49.2111302,
+      19.642154
+    ],
+    "end_poi_id": "osm_3560903500",
+    "end_name": "Banista Przełączka",
+    "end_coords": [
+      49.196307,
+      19.8369454
+    ],
+    "points_forward": 4,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_4330069865",
+    "start_name": "Sivý vrch",
+    "start_coords": [
+      49.2111302,
+      19.642154
+    ],
+    "end_poi_id": "osm_1859066671",
+    "end_name": "Sedlo Predúvratie",
+    "end_coords": [
+      49.1937643,
+      19.6380455
+    ],
+    "points_forward": 5,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_7788029608",
+    "start_name": "Bobrovecká vápenica",
+    "start_coords": [
+      49.1562647,
+      19.6323921
+    ],
+    "end_poi_id": "osm_13022583267",
+    "end_name": "Jalovec",
+    "end_coords": [
+      49.1358604,
+      19.6260146
+    ],
+    "points_forward": 2,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_7788029608",
+    "start_name": "Bobrovecká vápenica",
+    "start_coords": [
+      49.1562647,
+      19.6323921
+    ],
+    "end_poi_id": "osm_2569948269",
+    "end_name": "Czerwony Gronik",
+    "end_coords": [
+      49.2651262,
+      19.882324
+    ],
+    "points_forward": 11,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_7788029608",
+    "start_name": "Bobrovecká vápenica",
+    "start_coords": [
+      49.1562647,
+      19.6323921
+    ],
+    "end_poi_id": "osm_11453832111",
+    "end_name": "Predúvratie",
+    "end_coords": [
+      49.1941254,
+      19.6379891
+    ],
+    "points_forward": 3,
+    "points_backward": 1
+  },
+  {
+    "start_poi_id": "osm_11780159607",
+    "start_name": "Pustá Lávka",
+    "start_coords": [
+      49.1789259,
+      20.1041172
+    ],
+    "end_poi_id": "osm_4362093871",
+    "end_name": "Tatranská Polianka",
+    "end_coords": [
+      49.1232799,
+      20.1852463
+    ],
+    "points_forward": 1,
+    "points_backward": 1
+  },
+  {
+    "start_poi_id": "osm_4330070133",
+    "start_name": "Parichvost",
+    "start_coords": [
+      49.2197213,
+      19.6814785
+    ],
+    "end_poi_id": "osm_5378545379",
+    "end_name": "Jalovecká kopa",
+    "end_coords": [
+      49.1851005,
+      19.6983617
+    ],
+    "points_forward": 2,
+    "points_backward": 1
+  },
+  {
+    "start_poi_id": "osm_4330070133",
+    "start_name": "Parichvost",
+    "start_coords": [
+      49.2197213,
+      19.6814785
+    ],
+    "end_poi_id": "osm_3264150963",
+    "end_name": "Salatín",
+    "end_coords": [
+      49.2136376,
+      19.6861653
+    ],
+    "points_forward": 13,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_4330070133",
+    "start_name": "Parichvost",
+    "start_coords": [
+      49.2197213,
+      19.6814785
+    ],
+    "end_poi_id": "osm_3560903500",
+    "end_name": "Banista Przełączka",
+    "end_coords": [
+      49.196307,
+      19.8369454
+    ],
+    "points_forward": 12,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_4015272013",
+    "start_name": "Brestová",
+    "start_coords": [
+      49.2226602,
+      19.6821012
+    ],
+    "end_poi_id": "osm_3560903500",
+    "end_name": "Banista Przełączka",
+    "end_coords": [
+      49.196307,
+      19.8369454
+    ],
+    "points_forward": 6,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_4015272013",
+    "start_name": "Brestová",
+    "start_coords": [
+      49.2226602,
+      19.6821012
+    ],
+    "end_poi_id": "osm_3264150963",
+    "end_name": "Salatín",
+    "end_coords": [
+      49.2136376,
+      19.6861653
+    ],
+    "points_forward": 1,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_4015272013",
+    "start_name": "Brestová",
+    "start_coords": [
+      49.2226602,
+      19.6821012
+    ],
+    "end_poi_id": "osm_244881275",
+    "end_name": "Rázcestie Zverovka",
+    "end_coords": [
+      49.2445591,
+      19.7110347
+    ],
+    "points_forward": 15,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_2639402825",
+    "start_name": "Baníkovské sedlo",
+    "start_coords": [
+      49.1994831,
+      19.7057164
+    ],
+    "end_poi_id": "osm_3264150963",
+    "end_name": "Salatín",
+    "end_coords": [
+      49.2136376,
+      19.6861653
+    ],
+    "points_forward": 6,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_2639402825",
+    "start_name": "Baníkovské sedlo",
+    "start_coords": [
+      49.1994831,
+      19.7057164
+    ],
+    "end_poi_id": "osm_7842304817",
+    "end_name": "Baníkov",
+    "end_coords": [
+      49.1978104,
+      19.7099658
+    ],
+    "points_forward": 1,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_7842304817",
+    "start_name": "Baníkov",
+    "start_coords": [
+      49.1978104,
+      19.7099658
+    ],
+    "end_poi_id": "osm_244490284",
+    "end_name": "Rázcestie Smutná dolina",
+    "end_coords": [
+      49.2047012,
+      19.751312
+    ],
+    "points_forward": 4,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_7842304817",
+    "start_name": "Baníkov",
+    "start_coords": [
+      49.1978104,
+      19.7099658
+    ],
+    "end_poi_id": "osm_385087773",
+    "end_name": "Štrbské Solisko",
+    "end_coords": [
+      49.1552021,
+      20.0356308
+    ],
+    "points_forward": 13,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_7842304817",
+    "start_name": "Baníkov",
+    "start_coords": [
+      49.1978104,
+      19.7099658
+    ],
+    "end_poi_id": "osm_1718512357",
+    "end_name": "Zverovka",
+    "end_coords": [
+      49.2483757,
+      19.7113397
+    ],
+    "points_forward": 6,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_244882220",
+    "start_name": "Rázcestie pod Troma kopami",
+    "start_coords": [
+      49.2069686,
+      19.7286938
+    ],
+    "end_poi_id": "osm_2107834138",
+    "end_name": "Spalona Czuba",
+    "end_coords": [
+      49.2537961,
+      19.8244776
+    ],
+    "points_forward": 3,
+    "points_backward": 1
+  },
+  {
+    "start_poi_id": "osm_244882220",
+    "start_name": "Rázcestie pod Troma kopami",
+    "start_coords": [
+      49.2069686,
+      19.7286938
+    ],
+    "end_poi_id": "osm_244490284",
+    "end_name": "Rázcestie Smutná dolina",
+    "end_coords": [
+      49.2047012,
+      19.751312
+    ],
+    "points_forward": 4,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_1426314606",
+    "start_name": "Smutné sedlo",
+    "start_coords": [
+      49.1975345,
+      19.7342697
+    ],
+    "end_poi_id": "osm_244490284",
+    "end_name": "Rázcestie Smutná dolina",
+    "end_coords": [
+      49.2047012,
+      19.751312
+    ],
+    "points_forward": 6,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_1426314606",
+    "start_name": "Smutné sedlo",
+    "start_coords": [
+      49.1975345,
+      19.7342697
+    ],
+    "end_poi_id": "osm_1735156627",
+    "end_name": "Plačlivé",
+    "end_coords": [
+      49.1971207,
+      19.748123
+    ],
+    "points_forward": 1,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_1426314606",
+    "start_name": "Smutné sedlo",
+    "start_coords": [
+      49.1975345,
+      19.7342697
+    ],
+    "end_poi_id": "osm_12705908518",
+    "end_name": "Ústie Žiarskej doliny",
+    "end_coords": [
+      49.144068,
+      19.6950037
+    ],
+    "points_forward": 5,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_5389916796",
+    "start_name": "Žiarske sedlo",
+    "start_coords": [
+      49.1933296,
+      19.7508169
+    ],
+    "end_poi_id": "osm_604540309",
+    "end_name": "Malý Závrat",
+    "end_coords": [
+      49.1872868,
+      20.1607339
+    ],
+    "points_forward": 3,
+    "points_backward": 1
+  },
+  {
+    "start_poi_id": "osm_5389916796",
+    "start_name": "Žiarske sedlo",
+    "start_coords": [
+      49.1933296,
+      19.7508169
+    ],
+    "end_poi_id": "osm_430956966",
+    "end_name": "Rázcestie Jamníckej a Račkovej",
+    "end_coords": [
+      49.148603,
+      19.7938242
+    ],
+    "points_forward": 8,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_5389916796",
+    "start_name": "Žiarske sedlo",
+    "start_coords": [
+      49.1933296,
+      19.7508169
+    ],
+    "end_poi_id": "osm_1735156627",
+    "end_name": "Plačlivé",
+    "end_coords": [
+      49.1971207,
+      19.748123
+    ],
+    "points_forward": 1,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_5389916796",
+    "start_name": "Žiarske sedlo",
+    "start_coords": [
+      49.1933296,
+      19.7508169
+    ],
+    "end_poi_id": "osm_5170699668",
+    "end_name": "Baranec",
+    "end_coords": [
+      49.173513,
+      19.7408263
+    ],
+    "points_forward": 8,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_5170699668",
+    "start_name": "Baranec",
+    "start_coords": [
+      49.173513,
+      19.7408263
+    ],
+    "end_poi_id": "osm_1856181334",
+    "end_name": "Rázcestie pod Holým vrchom",
+    "end_coords": [
+      49.1347592,
+      19.7423291
+    ],
+    "points_forward": 19,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_5170699668",
+    "start_name": "Baranec",
+    "start_coords": [
+      49.173513,
+      19.7408263
+    ],
+    "end_poi_id": "osm_3560913840",
+    "end_name": "Starobociańska Przełęcz / Račkovo sedlo",
+    "end_coords": [
+      49.2042173,
+      19.8108156
+    ],
+    "points_forward": 7,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_430956966",
+    "start_name": "Rázcestie Jamníckej a Račkovej",
+    "start_coords": [
+      49.148603,
+      19.7938242
+    ],
+    "end_poi_id": "osm_1946333029",
+    "end_name": "Hrádková",
+    "end_coords": [
+      49.1804919,
+      19.5296104
+    ],
+    "points_forward": 3,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_430956966",
+    "start_name": "Rázcestie Jamníckej a Račkovej",
+    "start_coords": [
+      49.148603,
+      19.7938242
+    ],
+    "end_poi_id": "osm_9164138171",
+    "end_name": "Rázcestie pod Hrubým vrchom",
+    "end_coords": [
+      49.1941749,
+      19.7794401
+    ],
+    "points_forward": 19,
+    "points_backward": 8
+  },
+  {
+    "start_poi_id": "osm_430956966",
+    "start_name": "Rázcestie Jamníckej a Račkovej",
+    "start_coords": [
+      49.148603,
+      19.7938242
+    ],
+    "end_poi_id": "osm_2467954536",
+    "end_name": "Rázcestie pod Klinom",
+    "end_coords": [
+      49.1860987,
+      19.8166383
+    ],
+    "points_forward": 11,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_430956966",
+    "start_name": "Rázcestie Jamníckej a Račkovej",
+    "start_coords": [
+      49.148603,
+      19.7938242
+    ],
+    "end_poi_id": "osm_2650756844",
+    "end_name": "Pribylina, skanzen",
+    "end_coords": [
+      49.1053292,
+      19.8079714
+    ],
+    "points_forward": 4,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_2702008154",
+    "start_name": "Jamnícke sedlo",
+    "start_coords": [
+      49.2035897,
+      19.7593403
+    ],
+    "end_poi_id": "osm_452478281",
+    "end_name": "Volovec",
+    "end_coords": [
+      49.2075144,
+      19.7631085
+    ],
+    "points_forward": 1,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_2702008154",
+    "start_name": "Jamnícke sedlo",
+    "start_coords": [
+      49.2035897,
+      19.7593403
+    ],
+    "end_poi_id": "osm_430956966",
+    "end_name": "Rázcestie Jamníckej a Račkovej",
+    "end_coords": [
+      49.148603,
+      19.7938242
+    ],
+    "points_forward": 7,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_5427567970",
+    "start_name": "Hrubý vrch",
+    "start_coords": [
+      49.2553132,
+      19.7635255
+    ],
+    "end_poi_id": "osm_430956966",
+    "end_name": "Rázcestie Jamníckej a Račkovej",
+    "end_coords": [
+      49.148603,
+      19.7938242
+    ],
+    "points_forward": 9,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_5427567970",
+    "start_name": "Hrubý vrch",
+    "start_coords": [
+      49.2553132,
+      19.7635255
+    ],
+    "end_poi_id": "osm_452478281",
+    "end_name": "Volovec",
+    "end_coords": [
+      49.2075144,
+      19.7631085
+    ],
+    "points_forward": 9,
+    "points_backward": 8
+  },
+  {
+    "start_poi_id": "osm_5427567970",
+    "start_name": "Hrubý vrch",
+    "start_coords": [
+      49.2553132,
+      19.7635255
+    ],
+    "end_poi_id": "osm_385118677",
+    "end_name": "Končistá",
+    "end_coords": [
+      49.1573111,
+      20.1140729
+    ],
+    "points_forward": 2,
+    "points_backward": 1
+  },
+  {
+    "start_poi_id": "osm_5427567970",
+    "start_name": "Hrubý vrch",
+    "start_coords": [
+      49.2553132,
+      19.7635255
+    ],
+    "end_poi_id": "osm_494763254",
+    "end_name": "Račkova dolina, chata",
+    "end_coords": [
+      49.1344408,
+      19.8001118
+    ],
+    "points_forward": 1,
+    "points_backward": 1
+  },
+  {
+    "start_poi_id": "osm_12952330789",
+    "start_name": "Gáborovo sedlo",
+    "start_coords": [
+      49.2009413,
+      19.8299419
+    ],
+    "end_poi_id": "osm_3560903500",
+    "end_name": "Banista Przełączka",
+    "end_coords": [
+      49.196307,
+      19.8369454
+    ],
+    "points_forward": 1,
+    "points_backward": 1
+  },
+  {
+    "start_poi_id": "osm_12952330789",
+    "start_name": "Gáborovo sedlo",
+    "start_coords": [
+      49.2009413,
+      19.8299419
+    ],
+    "end_poi_id": "osm_3056531430",
+    "end_name": "Rázcestie pod Bystrou",
+    "end_coords": [
+      49.1358141,
+      19.8517185
+    ],
+    "points_forward": 4,
+    "points_backward": 1
+  },
+  {
+    "start_poi_id": "osm_12952330789",
+    "start_name": "Gáborovo sedlo",
+    "start_coords": [
+      49.2009413,
+      19.8299419
+    ],
+    "end_poi_id": "osm_2467954536",
+    "end_name": "Rázcestie pod Klinom",
+    "end_coords": [
+      49.1860987,
+      19.8166383
+    ],
+    "points_forward": 9,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_3939268154",
+    "start_name": "Bystré sedlo",
+    "start_coords": [
+      49.1681547,
+      20.0273827
+    ],
+    "end_poi_id": "osm_3056531430",
+    "end_name": "Rázcestie pod Bystrou",
+    "end_coords": [
+      49.1358141,
+      19.8517185
+    ],
+    "points_forward": 4,
+    "points_backward": 1
+  },
+  {
+    "start_poi_id": "osm_3939268154",
+    "start_name": "Bystré sedlo",
+    "start_coords": [
+      49.1681547,
+      20.0273827
+    ],
+    "end_poi_id": "osm_12952330791",
+    "end_name": "Bystrá",
+    "end_coords": [
+      49.1886365,
+      19.8425955
+    ],
+    "points_forward": 1,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_3939268154",
+    "start_name": "Bystré sedlo",
+    "start_coords": [
+      49.1681547,
+      20.0273827
+    ],
+    "end_poi_id": "osm_692609474",
+    "end_name": "Nowe Bystre",
+    "end_coords": [
+      49.3421121,
+      19.9209554
+    ],
+    "points_forward": 5,
+    "points_backward": 1
+  },
+  {
+    "start_poi_id": "osm_3939268154",
+    "start_name": "Bystré sedlo",
+    "start_coords": [
+      49.1681547,
+      20.0273827
+    ],
+    "end_poi_id": "osm_692609494",
+    "end_name": "Stare Bystre",
+    "end_coords": [
+      49.4263556,
+      19.9173061
+    ],
+    "points_forward": 1,
+    "points_backward": 3
+  },
+  {
+    "start_poi_id": "osm_3056531430",
+    "start_name": "Rázcestie pod Bystrou",
+    "start_coords": [
+      49.1358141,
+      19.8517185
+    ],
+    "end_poi_id": "osm_1946333029",
+    "end_name": "Hrádková",
+    "end_coords": [
+      49.1804919,
+      19.5296104
+    ],
+    "points_forward": 6,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_3056531430",
+    "start_name": "Rázcestie pod Bystrou",
+    "start_coords": [
+      49.1358141,
+      19.8517185
+    ],
+    "end_poi_id": "osm_13019514890",
+    "end_name": "Podbanské",
+    "end_coords": [
+      49.1438289,
+      19.9073725
+    ],
+    "points_forward": 4,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_3056531430",
+    "start_name": "Rázcestie pod Bystrou",
+    "start_coords": [
+      49.1358141,
+      19.8517185
+    ],
+    "end_poi_id": "osm_943087325",
+    "end_name": "Ľadová štrbina",
+    "end_coords": [
+      49.196755,
+      20.1825888
+    ],
+    "points_forward": 3,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_3056531430",
+    "start_name": "Rázcestie pod Bystrou",
+    "start_coords": [
+      49.1358141,
+      19.8517185
+    ],
+    "end_poi_id": "osm_12952330791",
+    "end_name": "Bystrá",
+    "end_coords": [
+      49.1886365,
+      19.8425955
+    ],
+    "points_forward": 8,
+    "points_backward": 21
+  },
+  {
+    "start_poi_id": "osm_1856181334",
+    "start_name": "Rázcestie pod Holým vrchom",
+    "start_coords": [
+      49.1347592,
+      19.7423291
+    ],
+    "end_poi_id": "osm_13019514891",
+    "end_name": "Tichá a Kôprová dolina",
+    "end_coords": [
+      49.1441742,
+      19.9066537
+    ],
+    "points_forward": 13,
+    "points_backward": 10
+  },
+  {
+    "start_poi_id": "osm_1856181334",
+    "start_name": "Rázcestie pod Holým vrchom",
+    "start_coords": [
+      49.1347592,
+      19.7423291
+    ],
+    "end_poi_id": "osm_3634545832",
+    "end_name": "Kasprowy Wierch",
+    "end_coords": [
+      49.2323564,
+      19.9816601
+    ],
+    "points_forward": 4,
+    "points_backward": 11
+  },
+  {
+    "start_poi_id": "osm_1856181334",
+    "start_name": "Rázcestie pod Holým vrchom",
+    "start_coords": [
+      49.1347592,
+      19.7423291
+    ],
+    "end_poi_id": "osm_5071146482",
+    "end_name": "Závory",
+    "end_coords": [
+      49.2046658,
+      20.0075975
+    ],
+    "points_forward": 11,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_1856181334",
+    "start_name": "Rázcestie pod Holým vrchom",
+    "start_coords": [
+      49.1347592,
+      19.7423291
+    ],
+    "end_poi_id": "osm_3552158247",
+    "end_name": "Kasprov vrch / Kasprowy Wierch",
+    "end_coords": [
+      49.2318014,
+      19.9815609
+    ],
+    "points_forward": 2,
+    "points_backward": 2
+  },
+  {
+    "start_poi_id": "osm_244881275",
+    "start_name": "Rázcestie Zverovka",
+    "start_coords": [
+      49.2445591,
+      19.7110347
+    ],
+    "end_poi_id": "osm_2431479867",
+    "end_name": "Sedlo Pod Osobitou",
+    "end_coords": [
+      49.2585042,
+      19.7217403
+    ],
+    "points_forward": 3,
+    "points_backward": 8
+  },
+  {
+    "start_poi_id": "osm_244881275",
+    "start_name": "Rázcestie Zverovka",
+    "start_coords": [
+      49.2445591,
+      19.7110347
+    ],
+    "end_poi_id": "osm_2301827963",
+    "end_name": "Zadná Látaná",
+    "end_coords": [
+      49.2304169,
+      19.7538364
+    ],
+    "points_forward": 5,
+    "points_backward": 7
+  },
+  {
+    "start_poi_id": "osm_244881275",
+    "start_name": "Rázcestie Zverovka",
+    "start_coords": [
+      49.2445591,
+      19.7110347
+    ],
+    "end_poi_id": "osm_9871160892",
+    "end_name": "Partizánsky bunker 1.min.",
+    "end_coords": [
+      49.1487343,
+      19.969399
+    ],
+    "points_forward": 3,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_244881275",
+    "start_name": "Rázcestie Zverovka",
+    "start_coords": [
+      49.2445591,
+      19.7110347
+    ],
+    "end_poi_id": "osm_2447670197",
+    "end_name": "Brestová nad skanzenom",
+    "end_coords": [
+      49.2623356,
+      19.6636923
+    ],
+    "points_forward": 5,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_244881275",
+    "start_name": "Rázcestie Zverovka",
+    "start_coords": [
+      49.2445591,
+      19.7110347
+    ],
+    "end_poi_id": "osm_5427412439",
+    "end_name": "Pod Osobitou",
+    "end_coords": [
+      49.2584716,
+      19.7218966
+    ],
+    "points_forward": 7,
+    "points_backward": 6
+  },
+  {
+    "start_poi_id": "osm_12165889939",
+    "start_name": "Oravice",
+    "start_coords": [
+      49.2982601,
+      19.7466782
+    ],
+    "end_poi_id": "osm_2447670197",
+    "end_name": "Brestová nad skanzenom",
+    "end_coords": [
+      49.2623356,
+      19.6636923
+    ],
+    "points_forward": 9,
+    "points_backward": 10
+  },
+  {
+    "start_poi_id": "osm_12165889939",
+    "start_name": "Oravice",
+    "start_coords": [
+      49.2982601,
+      19.7466782
+    ],
+    "end_poi_id": "osm_5736009561",
+    "end_name": "Bobrovecké sedlo",
+    "end_coords": [
+      49.2421718,
+      19.7761368
+    ],
+    "points_forward": 3,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_12165889939",
+    "start_name": "Oravice",
+    "start_coords": [
+      49.2982601,
+      19.7466782
+    ],
+    "end_poi_id": "osm_5736009763",
+    "end_name": "Juráňova dolina, ústie",
+    "end_coords": [
+      49.2810352,
+      19.7711517
+    ],
+    "points_forward": 3,
+    "points_backward": 4
+  },
+  {
+    "start_poi_id": "osm_12165889939",
+    "start_name": "Oravice",
+    "start_coords": [
+      49.2982601,
+      19.7466782
+    ],
+    "end_poi_id": "osm_3560969656",
+    "end_name": "Bobrowiecka Przełęcz / Bobrovecké sedlo",
+    "end_coords": [
+      49.2421488,
+      19.7762179
+    ],
+    "points_forward": 10,
+    "points_backward": 5
+  },
+  {
+    "start_poi_id": "osm_1885960286",
+    "start_name": "Rázcestie pri Bielom Váhu",
+    "start_coords": [
+      49.121177,
+      20.0149832
+    ],
+    "end_poi_id": "osm_12165889939",
+    "end_name": "Oravice",
+    "end_coords": [
+      49.2982601,
+      19.7466782
+    ],
+    "points_forward": 6,
+    "points_backward": 3
+  }
+]
