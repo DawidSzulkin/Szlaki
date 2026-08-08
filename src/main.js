@@ -5,12 +5,10 @@ import * as turf from '@turf/turf';
 import PathFinder from 'geojson-path-finder';
 import { DataLoader } from './DataLoader.js';
 import { RouteController } from './RouteController.js';
-import { map, layers, getMainPoiIcon, ACCESS_TRACK_COLORS } from './MapConfig.js';
+import { map, layers, getUniversalIcon, ACCESS_TRACK_COLORS } from './MapConfig.js';
 import { calculateHikingTime, calculateElevationStats } from './GeoUtils.js';
-
 import { MapModules } from './MapModules.js';
 
-// === STAN GLOBALNY (Zgrupowany dla wygody przekazywania do modułów) ===
 export const appCtx = {
   vitalLogisticsOnRoute: [],
   customNights: [],
@@ -69,7 +67,6 @@ window.toggleCustomNight = function(id, name, lat, lon) {
         const pt = turf.point([lon, lat]);
         const snapped = turf.nearestPointOnLine(appCtx.globalMainLine, pt, {units: 'kilometers'});
         
-        // Zastąpiono powolne cięcie natywnym indeksem!
         const accessOffset = appCtx.customStartPoi ? appCtx.rabkaAccessLengthKm : 0;
         const km = Math.round((accessOffset + snapped.properties.location) * 10) / 10;
         
@@ -129,7 +126,6 @@ function recalculateRouteMetadata() {
     endPoiGlobal = { name: "Koniec MSB (Straconka)", lat: gpxEnd[1], lon: gpxEnd[0], km: totalKm };
   }
 
-  // Wczytywanie w locie na gładko
   rawPoisData.forEach((poi) => {
     const pt = turf.point([parseFloat(poi.originalLon || poi.lon), parseFloat(poi.originalLat || poi.lat)]);
     const snapped = turf.nearestPointOnLine(appCtx.globalMainLine, pt, {units: 'kilometers'});
@@ -149,8 +145,7 @@ function recalculateRouteMetadata() {
 
 async function initApp() {
   try {
-    MapModules.setupGPS(map);
-    loadPolygons();
+    MapModules.setupGPS();
     MapModules.injectDirectionControlsUI();
 
     fullTrackGeoJson = await DataLoader.loadGpxTrack();
@@ -161,7 +156,6 @@ async function initApp() {
     const mainLineRaw = fullTrackGeoJson.features.find(f => f.geometry && (f.geometry.type === 'LineString' || f.geometry.type === 'MultiLineString'));
     if (!mainLineRaw) return;
     
-    // Upewniamy się, że szlak to zawsze jednolity LineString
     let flatCoords = [];
     turf.coordEach(mainLineRaw, c => flatCoords.push(c));
     const mainLine = turf.lineString(flatCoords);
@@ -211,8 +205,9 @@ async function initApp() {
     });
     
     await loadRabkaAccessTracks();
+    await loadPolygons(); // Zmieniona funkcja z inteligentnym buforem i importem ArcGIS!
+    await loadNatureMonuments(mainLine); // Pomniki filtrowane 2.5km
     
-    // Zrzucenie ciężaru na moduł MapModules!
     await MapModules.initMassiveOsmPois(osmPois, mainLine, appCtx);
     await MapModules.initMsbGotSystem(mainLine, osmPois, getPreciseLineSlice);
 
@@ -231,12 +226,96 @@ async function initApp() {
 
 async function loadPolygons() {
   try {
-    const reserves = await fetch(`${DataLoader.baseUrl}data/rezerwaty.geojson`).then(r => r.ok ? r.json() : null);
-    if (reserves) L.geoJSON(reserves, { style: { fillColor: '#2a9d8f', fillOpacity: 0.3, color: '#1f7a6f', weight: 2 } }).bindPopup("🌳 Rezerwat Przyrody").addTo(layers.naturePolygonsLayer);
+    let bufferedTrail = null;
+    let msbBounds = null;
     
-    const wildCamps = await fetch(`${DataLoader.baseUrl}data/zanocuj.geojson`).then(r => r.ok ? r.json() : null);
-    if (wildCamps) L.geoJSON(wildCamps, { style: { fillColor: '#f4a261', fillOpacity: 0.2, color: '#e76f51', weight: 2, dashArray: '5,5' } }).bindPopup("⛺ Strefa 'Zanocuj w Lesie'").addTo(layers.wildCampPolygonsLayer);
-  } catch(e) {}
+    if (appCtx.globalMainLine) {
+      try {
+        // Zmniejszona jakość zaokrągleń (steps:8) przyspiesza wczytywanie na wolnych urządzeniach
+        bufferedTrail = turf.buffer(appCtx.globalMainLine, 0.4, { units: 'kilometers', steps: 8 });
+        msbBounds = turf.bbox(appCtx.globalMainLine);
+      } catch (e) {
+        bufferedTrail = appCtx.globalMainLine; 
+      }
+    }
+
+    // 1. ŁADOWANIE REZERWATÓW
+    const reserves = await fetch(`${DataLoader.baseUrl}data/obszary_chronione.geojson`).then(r => r.ok ? r.json() : null);
+    if (reserves) {
+      L.geoJSON(reserves, { 
+        style: { fillColor: '#2a9d8f', fillOpacity: 0.3, color: '#1f7a6f', weight: 2 },
+        filter: (feature) => {
+          if (!bufferedTrail) return true;
+          try { return turf.booleanIntersects(bufferedTrail, feature); } catch (e) { return false; }
+        },
+        onEachFeature: (feature, layer) => {
+           let name = feature.properties.name || "Obszar chroniony";
+           let type = feature.properties.boundary === 'protected_area' ? "Park / Rezerwat" : "Rezerwat przyrody";
+           layer.bindPopup(`<strong>🌳 ${name}</strong><br/>Typ: ${type}`);
+        }
+      }).addTo(layers.naturePolygonsLayer);
+    }
+
+    // 2. ŁADOWANIE "ZANOCUJ W LESIE" W LOCIE Z SERWERA RZĄDOWEGO (Tylko poligony wokół szlaku)
+    if (msbBounds) {
+      const bboxStr = msbBounds.join(',');
+      
+      const fetchLayer = async (layerId) => {
+         const url = `https://mapserver.bdl.lasy.gov.pl/arcgis/rest/services/WMS_BDL_Mapa_turystyczna/MapServer/${layerId}/query?f=geojson&geometry=${bboxStr}&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=*&returnGeometry=true&outSR=4326`;
+         return fetch(url).then(r => r.ok ? r.json() : null);
+      };
+
+      // Pobieramy warstwy 17 i 22 z Lasów Państwowych
+      const [layer22, layer17] = await Promise.all([fetchLayer(22), fetchLayer(17)]);
+      const allFeatures = [];
+      if (layer22 && layer22.features) allFeatures.push(...layer22.features);
+      if (layer17 && layer17.features) allFeatures.push(...layer17.features);
+
+      if (allFeatures.length > 0) {
+        L.geoJSON({ type: 'FeatureCollection', features: allFeatures }, {
+          style: { fillColor: '#f4a261', fillOpacity: 0.3, color: '#e76f51', weight: 2, dashArray: '5,5' },
+          filter: (feature) => {
+            // Odrzucamy luźne ikonki - interesują nas tylko wielkie strefy leśne (Poligony)
+            if (feature.geometry.type !== 'Polygon' && feature.geometry.type !== 'MultiPolygon') return false;
+            if (!bufferedTrail) return true;
+            try { return turf.booleanIntersects(bufferedTrail, feature); } catch (e) { return false; }
+          },
+          onEachFeature: (feature, layer) => {
+             layer.bindPopup(`<strong>⛺ Strefa "Zanocuj w lesie"</strong><br/>Legalne biwakowanie (Lasy Państwowe)`);
+          }
+        }).addTo(layers.wildCampPolygonsLayer);
+      }
+    }
+  } catch(e) { console.warn("Błąd ładowania poligonów:", e); }
+}
+
+async function loadNatureMonuments(mainLine) {
+  try {
+    const response = await fetch(`${DataLoader.baseUrl}data/pomniki_przyrody.geojson`);
+    if (!response.ok) return;
+    const geojson = await response.json();
+
+    const leafIcon = MapModules.getOsmPoiIcon('nature_monument');
+
+    geojson.features.forEach(feature => {
+      if (!feature.geometry || feature.geometry.type !== 'Point') return;
+      
+      const lon = feature.geometry.coordinates[0];
+      const lat = feature.geometry.coordinates[1];
+      const pt = turf.point([lon, lat]);
+      
+      const snapped = turf.nearestPointOnLine(mainLine, pt, {units: 'kilometers'});
+      
+      if (snapped.properties.dist <= 2.5) { // Tylko 2.5km od szlaku!
+        const name = feature.properties.name || "Pomnik Przyrody";
+        const distanceStr = Math.round(snapped.properties.dist * 1000);
+        
+        L.marker([lat, lon], { icon: leafIcon })
+         .bindPopup(`<strong>🍃 ${name}</strong><br/>Odległość od szlaku: ~${distanceStr} m`)
+         .addTo(layers.naturePolygonsLayer); 
+      }
+    });
+  } catch (err) {}
 }
 
 async function loadRabkaAccessTracks() {
@@ -280,7 +359,7 @@ function renderMainPois() {
       const iconType = poi.type || 'waypoint';
 
       if(isStart || isEnd || iconType.includes('sleep')) {
-        const marker = L.marker([poi.lat, poi.lon], { icon: getMainPoiIcon(iconType, true) }).addTo(layers.mainPoisLayer);
+        const marker = L.marker([poi.lat, poi.lon], { icon: getUniversalIcon(iconType, true) }).addTo(layers.mainPoisLayer);
 
         const isWildAllowed = currentProfile === 'wild' && poi.profiles && poi.profiles.includes('wild');
         const tentNote = (iconType === 'sleep_indoor' && isWildAllowed) ? `<br/><span style="color:#d62828;">⛺ Możliwość rozbicia namiotu</span>` : '';
@@ -390,7 +469,7 @@ function renderVariant(daysCount) {
       el.style.borderColor = stage.color;
       
       let badgesHtml = '';
-      if (shopsCount > 0) badgesHtml += `<span style="background: #8338ec; color: white; padding: 3px 6px; border-radius: 4px; font-weight: 500;">🛒 Sklepy i Bary: ${shopsCount}</span>`;
+      if (shopsCount > 0) badgesHtml += `<span style="background: #8338ec; color: white; padding: 3px 6px; border-radius: 4px; font-weight: 500;">🛒 Sklepy: ${shopsCount}</span>`;
       if (waterCount > 0) badgesHtml += `<span style="background: #00b4d8; color: white; padding: 3px 6px; border-radius: 4px; font-weight: 500;">💧 Ujęcia wody: ${waterCount}</span>`;
 
       el.innerHTML = `
