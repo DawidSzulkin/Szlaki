@@ -6,7 +6,7 @@
   <title>MSB Planner - Mały Szlak Beskidzki</title>
   <link rel="icon" type="image/svg+xml" href="/Szlaki/favicon.svg" />
   <link rel="apple-touch-icon" href="/Szlaki/favicon.svg" />
-  <script type="module" crossorigin src="/Szlaki/assets/index-DHFCY3fj.js"></script>
+  <script type="module" crossorigin src="/Szlaki/assets/index-BhL44r-Z.js"></script>
   <link rel="stylesheet" crossorigin href="/Szlaki/assets/index-CN0YCCRX.css">
 </head>
 <body>
@@ -43,32 +43,8 @@
 
         <div class="control-section">
           <label class="section-title">Warstwy i punkty:</label>
-          <div class="layer-toggles">
-            <label class="toggle-item">
-              <input type="checkbox" id="toggle-main-pois" checked />
-              Główne punkty / Noclegi
-            </label>
-            <label class="toggle-item">
-              <input type="checkbox" id="toggle-water" checked />
-              Źródła wody (OSM)
-            </label>
-            <label class="toggle-item">
-              <input type="checkbox" id="toggle-shelters" checked />
-              Wiaty i schrony (OSM)
-            </label>
-            <label class="toggle-item">
-              <input type="checkbox" id="toggle-rabka-green" checked />
-              Dojście z Rabki (Szlak zielony)
-            </label>
-            <label class="toggle-item">
-              <input type="checkbox" id="toggle-rabka-blue" checked />
-              Dojście z Rabki (Szlak niebieski)
-            </label>
-            <label class="toggle-item">
-              <input type="checkbox" id="toggle-got" checked />
-              Punkty GOT (MSB)
-            </label>
-          </div>
+          <!-- Tu JS dynamicznie wstrzyknie checkboxy (brak dublowania DOM!) -->
+          <div class="layer-toggles"></div>
         </div>
 
         <hr />
