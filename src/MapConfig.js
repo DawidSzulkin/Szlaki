@@ -3,19 +3,28 @@ import L from 'leaflet';
 
 export const map = L.map('map').setView([49.75, 19.5], 10);
 
+// --- TWORZENIE WARSTW Z WŁASNYM Z-INDEX (PANES) ---
+map.createPane('polygonsPane');
+map.getPane('polygonsPane').style.zIndex = 400; // Najniżej: Lasy i rezerwaty
+
+map.createPane('linesPane');
+map.getPane('linesPane').style.zIndex = 450; // Środek: Linie GPX i ślady
+
+// Ikony (Markery) mają domyślnie z-index = 600, więc będą na samej górze.
+
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 19,
   attribution: '© OpenStreetMap contributors'
 }).addTo(map);
 
 export const layers = {
-  stageLayersGroup: L.layerGroup().addTo(map),
-  mainPoisLayer: L.layerGroup().addTo(map),
-  rabkaGreenLayer: L.layerGroup().addTo(map),
-  rabkaBlueLayer: L.layerGroup().addTo(map),
-  gotLayerGroup: L.layerGroup().addTo(map),
-  naturePolygonsLayer: L.layerGroup().addTo(map), 
-  wildCampPolygonsLayer: L.layerGroup().addTo(map) 
+  stageLayersGroup: L.layerGroup().addTo(map), // SZLAK (Zostawiamy włączony)
+  mainPoisLayer: L.layerGroup().addTo(map),    // GŁÓWNE BAZY (Zostawiamy włączone)
+  rabkaGreenLayer: L.layerGroup(),             // WYŁĄCZONE w tle
+  rabkaBlueLayer: L.layerGroup(),              // WYŁĄCZONE w tle
+  gotLayerGroup: L.layerGroup(),               // WYŁĄCZONE w tle
+  naturePolygonsLayer: L.layerGroup(),         // WYŁĄCZONE w tle
+  wildCampPolygonsLayer: L.layerGroup()        // WYŁĄCZONE w tle
 };
 
 function createUniversalIcon(svgSymbol, bgColor, borderColor = '#1d3557', isMain = false, dimmed = false) {

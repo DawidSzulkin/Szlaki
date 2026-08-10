@@ -7,6 +7,7 @@ export const OSM_CATEGORIES = {
   peak: { name: 'Szczyty i przełęcze', color: '#6a4c93', icon: '⛰️' },
   water: { name: 'Źródła wody', color: '#1982c4', icon: '💧' },
   shelter: { name: 'Wiaty i schrony', color: '#ffca3a', icon: '⛺' },
+  sleep_indoor: { name: 'Schroniska i pensjonaty', color: '#457b9d', icon: '🛏️' },
   bench: { name: 'Ławki i stoły piknikowe', color: '#8ac926', icon: '🪑' },
   viewpoint: { name: 'Punkty widokowe', color: '#ff924c', icon: '👁️' },
   food: { name: 'Gastronomia', color: '#ff595e', icon: '🍽️' },
@@ -16,6 +17,9 @@ export const OSM_CATEGORIES = {
   supply: { name: 'Sklepy i Zaopatrzenie', color: '#8338ec', icon: '🛒' },
   firepit: { name: 'Miejsca na ognisko', color: '#ff0054', icon: '🔥' },
   sleep_outdoor: { name: 'Pola namiotowe i biwaki', color: '#2a9d8f', icon: '⛺' },
+  pharmacy: { name: 'Apteki', color: '#d90429', icon: '⚕️' },
+  atm: { name: 'Bankomaty', color: '#0077b6', icon: '🏧' },
+  info: { name: 'Drogowskazy i Tablice', color: '#8d99ae', icon: 'ℹ️' },
   nature_monument: { name: 'Pomniki Przyrody', color: '#2a9d8f', icon: '🍃' }
 };
 
@@ -24,10 +28,18 @@ export class MapModules {
     if (poi.category === 'natural' && ['peak', 'saddle'].includes(poi.type)) return 'peak';
     if (poi.category === 'amenity' && poi.type === 'drinking_water') return 'water';
     if (poi.category === 'natural' && poi.type === 'spring') return 'water';
+    if (poi.category === 'man_made' && poi.type === 'water_well') return 'water';
     if (poi.category === 'amenity' && poi.type === 'shelter') return 'shelter';
     if (poi.category === 'leisure' && poi.type === 'firepit') return 'firepit'; 
     if (poi.category === 'historic' && poi.type === 'nature_monument') return 'nature_monument';
-    if (poi.category === 'tourism' && ['alpine_hut', 'wilderness_hut', 'camp_site', 'guest_house', 'hostel'].includes(poi.type)) return 'sleep_outdoor';
+    
+    if (poi.category === 'tourism' && ['alpine_hut', 'guest_house', 'hostel', 'hotel', 'chalet', 'bed_and_breakfast', 'apartment', 'motel'].includes(poi.type)) return 'sleep_indoor';
+    if (poi.category === 'tourism' && ['wilderness_hut', 'camp_site'].includes(poi.type)) return 'sleep_outdoor';
+    
+    if (poi.category === 'amenity' && poi.type === 'pharmacy') return 'pharmacy';
+    if (poi.category === 'amenity' && poi.type === 'atm') return 'atm';
+    if (poi.category === 'tourism' && poi.type === 'information') return 'info';
+
     if (poi.category === 'amenity' && poi.type === 'bench') return 'bench';
     if (poi.category === 'tourism' && poi.type === 'picnic_site') return 'bench';
     if (poi.category === 'leisure' && poi.type === 'picnic_table') return 'bench';
@@ -121,6 +133,11 @@ export class MapModules {
     };
 
     createToggle(`Główne Bazy / Start / Meta`, layers.mainPoisLayer);
+    
+    // Obsługa przełączników szlaków dojściowych w UX
+    if (layers.rabkaGreenLayer) createToggle(`Dojście z Rabki (Szlak Zielony)`, layers.rabkaGreenLayer);
+    if (layers.rabkaBlueLayer) createToggle(`Dojście z Rabki (Szlak Niebieski)`, layers.rabkaBlueLayer);
+
     createToggle(`Strefy 'Zanocuj w lesie'`, layers.wildCampPolygonsLayer);
     createToggle(`Rezerwaty Przyrody`, layers.naturePolygonsLayer);
 
@@ -139,42 +156,46 @@ export class MapModules {
 
       appCtx.vitalLogisticsOnRoute = [];
 
-      // 1. Zbieramy czystą siatkę linii dla genialnego filtra CPU
       let flatCoords = [];
       turf.coordEach(appCtx.originalMainLine, c => flatCoords.push(c));
 
       osmPois.forEach(poi => {
-        // Zmuszamy dziwne wpisy tekstowe do stania się czystymi liczbami!
         const lat = parseFloat(poi.lat);
         const lon = parseFloat(poi.lon);
         if (isNaN(lat) || isNaN(lon)) return;
 
-        // 2. BŁYSKAWICZNY PRE-FILTR MATEMATYCZNY (Zabezpiecza przed "mieleniem" przeglądarki)
+        let catKey = this.getOsmCatKey(poi);
+        if (!catKey) return;
+
+        let maxDist = 0.15; 
+        if (['supply', 'sleep_indoor', 'pharmacy', 'atm', 'bus', 'sleep_outdoor'].includes(catKey)) {
+            maxDist = 3.0; 
+        } else if (['water', 'food', 'toilets', 'shelter'].includes(catKey)) {
+            maxDist = 1.0; 
+        } else if (['historic', 'nature_monument', 'info'].includes(catKey)) {
+            maxDist = 0.5; 
+        }
+
         let isNear = false;
         for (let i = 0; i < flatCoords.length; i += 5) {
             const dLon = Math.abs(flatCoords[i][0] - lon);
             const dLat = Math.abs(flatCoords[i][1] - lat);
-            if (dLon < 0.003 && dLat < 0.0025) { // Tolerancja +/- 200m
+            if (dLon < 0.04 && dLat < 0.035) { 
                 isNear = true;
                 break;
             }
         }
-        if (!isNear) return; // Punkt jest na drugim końcu Polski? Odrzucamy w 0.001s!
+        if (!isNear) return;
 
-        // 3. Dopiero dla wyselekcjonowanej setki odpalamy ciężką geometrię
         const pt = turf.point([lon, lat]);
         const snapped = turf.nearestPointOnLine(appCtx.originalMainLine, pt, {units: 'kilometers'});
         
-        // Zasięg uściślony na Twoje wymarzone 150 metrów (0.15 km) od linii!
-        if (snapped.properties.dist > 0.15) return;
+        if (snapped.properties.dist > maxDist) return;
 
-        let catKey = this.getOsmCatKey(poi);
-        if (!catKey) return;
-        
         const cat = categoriesMap[catKey];
         if (cat) {
           let actionBtn = '';
-          if (['shelter', 'bench', 'peak', 'firepit', 'sleep_outdoor', 'supply'].includes(catKey)) {
+          if (['shelter', 'bench', 'peak', 'firepit', 'sleep_outdoor', 'sleep_indoor', 'supply'].includes(catKey)) {
               const isSelected = appCtx.customNights.find(n => n.id === poi.id);
               const btnText = isSelected ? '➖ Usuń z planu' : '⛺ Zaplanuj nocleg tutaj';
               const btnColor = isSelected ? '#e63946' : '#2a9d8f';
@@ -182,17 +203,19 @@ export class MapModules {
           }
 
           const marker = L.marker([lat, lon], { icon: this.getOsmPoiIcon(catKey) });
-          marker.bindPopup(`<strong>${poi.name || 'Punkt na trasie'}</strong><br/>Typ: ${cat.name}${actionBtn}`);
+          const distStr = snapped.properties.dist > 0.15 ? `<br/><small style="color:#666;">Zejście: ~${Math.round(snapped.properties.dist * 1000)} m</small>` : '';
+          
+          marker.bindPopup(`<strong>${poi.name || 'Punkt na trasie'}</strong><br/>Typ: ${cat.name}${distStr}${actionBtn}`);
           cat.layer.addLayer(marker);
         }
 
-        if (['supply', 'water', 'food'].includes(catKey)) {
+        if (['supply', 'water', 'food', 'pharmacy', 'atm'].includes(catKey)) {
           appCtx.vitalLogisticsOnRoute.push({
             name: poi.name || cat.name,
             catKey: catKey,
             originalLon: lon,
             originalLat: lat,
-            km: 0 // Rekalkulacja ułoży to idealnie w milisekundę na osi mapy!
+            km: 0
           });
         }
       });

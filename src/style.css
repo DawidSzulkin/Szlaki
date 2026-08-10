@@ -19,7 +19,7 @@ body, html, #app {
   height: 100%;
 }
 
-/* KONTENER MAPY (Mobile default) */
+/* KONTENER MAPY */
 #map-container {
   width: 100%;
   height: 100%;
@@ -34,7 +34,7 @@ body, html, #app {
   height: 100%;
 }
 
-/* PANEL STEROWANIA - Mobile Bottom Sheet */
+/* PANEL STEROWANIA */
 #sidebar {
   position: absolute;
   bottom: 0;
@@ -50,7 +50,6 @@ body, html, #app {
   transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Stan zwinięty na mobilce (widać tylko nagłówek) */
 #sidebar.collapsed {
   transform: translateY(calc(100% - 68px));
 }
@@ -95,7 +94,6 @@ body, html, #app {
   transform: rotate(180deg);
 }
 
-/* TREŚĆ PANELA */
 .sidebar-content {
   padding: 0 16px 20px 16px;
   overflow-y: auto;
@@ -146,18 +144,55 @@ h1 {
   border-color: #1d3557;
 }
 
+/* NOWOCZESNE FILTRY (CHIPS / PIGUŁKI) */
 .layer-toggles {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: 8px;
+  margin-top: 4px;
 }
 
+.layer-toggles label,
 .toggle-item {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: 8px;
-  font-size: 0.85rem;
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  padding: 7px 12px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 500;
   cursor: pointer;
+  user-select: none;
+  transition: all 0.2s ease;
+  color: #495057;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.toggle-item input[type="checkbox"],
+.layer-toggles input[type="checkbox"] {
+  display: none;
+}
+
+.toggle-item:has(input:checked),
+.layer-toggles label:has(input:checked) {
+  background: #e6f2ff;
+  border-color: #339af0;
+  color: #0b7285;
+  font-weight: 600;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.toggle-item:has(input:checked)::before,
+.layer-toggles label:has(input:checked)::before {
+  content: '';
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  background-color: #339af0;
+  border-radius: 50%;
+  margin-right: 6px;
 }
 
 .stage-item {
@@ -183,13 +218,11 @@ hr {
   border-top: 1px solid #eee;
 }
 
-/* STYLOWANIE IKONEK SVG NA MAPIE */
 .custom-map-icon {
   background: transparent;
   border: none;
 }
 
-/* DESKTOP (Szerokość 768px i więcej) */
 @media (min-width: 768px) {
   #app {
     display: flex;
